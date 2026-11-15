@@ -1,15 +1,14 @@
 // Home page: two collapsible sections, Dialogues (with a collapsible block per unit) and Grammar.
 
 (function () {
-  // Remember which sections were open; open the one named in the URL hash (e.g. #grammar).
-  function remember(details, key, fallback) {
-    var saved = store.get("open:" + key, null);
-    details.open = location.hash === "#" + key ? true : (saved === null ? fallback : saved);
-    details.addEventListener("toggle", function () { store.set("open:" + key, details.open); });
+  // Every section starts closed. The only exception: a link ending in #grammar
+  // (the "← Grammar" link on grammar pages) opens that section.
+  function remember(details, key) {
+    details.open = location.hash === "#" + key;
     return details;
   }
-  remember(document.getElementById("dialogues"), "dialogues", true);
-  remember(document.getElementById("grammar"), "grammar", false);
+  remember(document.getElementById("dialogues"), "dialogues");
+  remember(document.getElementById("grammar"), "grammar");
 
   function levels(lessons) {
     var lv = lessons.map(function (l) { return l.level; }).sort();
@@ -37,7 +36,7 @@
                 h("span", { class: "muted" }, l.titleEn),
                 h("span", { class: "muted small" }, "Focus: " + l.focus)));
           })));
-        return remember(d, key, i === 0);
+        return remember(d, key);
       }));
     })
     .catch(function () { box.replaceChildren(h("p", null, "Could not load the lesson list.")); });

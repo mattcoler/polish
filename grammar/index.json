@@ -11,6 +11,19 @@
       }
     },
     {
+      "id": "conditional",
+      "status": "ready",
+      "title": "The conditional",
+      "titlePl": "Tryb przypuszczający",
+      "summary": "Polite requests, hypotheticals and if-clauses: how by and the person markers work, and when to use gdyby or jeśli.",
+      "match": {
+        "tags": "\\bconditional\\b",
+        "patterns": [
+          "conditional"
+        ]
+      }
+    },
+    {
       "id": "genitive",
       "status": "planned",
       "title": "The genitive",
@@ -51,12 +64,6 @@
       "status": "planned",
       "title": "Aspect and the future",
       "titlePl": "Aspekt i czas przyszły"
-    },
-    {
-      "id": "conditional",
-      "status": "planned",
-      "title": "The conditional",
-      "titlePl": "Tryb przypuszczający"
     },
     {
       "id": "numerals",

@@ -1,0 +1,66 @@
+{
+  "id": "conditional",
+  "title": "The conditional",
+  "titlePl": "Tryb przypuszczający",
+  "blocks": [
+    { "type": "p", "text": "The Polish conditional covers English “would”, “could” and “if I were.” It does three jobs: it makes requests polite (*Czy mógłbyś…?*), it presents something as hypothetical (*Poszłabym, ale…*), and, with *gdyby*, it builds unreal conditions (*Gdybyś chciała, poszlibyśmy*)." },
+
+    { "type": "h", "text": "How it’s built" },
+    { "type": "p", "text": "Start from the past form without its person marker, the l-participle, then add the particle *by* and the person marker. Ania’s *poszłabym*, “I would go”:" },
+    { "type": "breakdown", "parts": [["po", "perfective prefix"], ["sz", "root of iść"], ["ł", "past suffix -ł-"], ["a", "agreement: feminine"], ["by", "conditional particle"], ["m", "person marker: I"]] },
+    { "type": "p", "text": "So the conditional shares everything with the past tense: the same stems, the same gender and number agreement, the same virile *-li* and non-virile *-ły*. One difference: the masculine has no inserted *e*, because *by* now stands between *ł* and the marker: *byłem* in the past, but *byłbym* in the conditional." },
+
+    { "type": "h", "text": "The full paradigm" },
+    { "type": "table", "caption": "Singular", "head": ["", "masculine", "feminine", "neuter"], "rows": [
+      ["*ja*", "*byłbym*", "*byłabym*", "—"],
+      ["*ty*", "*byłbyś*", "*byłabyś*", "—"],
+      ["*on / ona / ono*", "*byłby*", "*byłaby*", "*byłoby*"]
+    ] },
+    { "type": "table", "caption": "Plural", "head": ["", "virile", "non-virile"], "rows": [
+      ["*my*", "*bylibyśmy*", "*byłybyśmy*"],
+      ["*wy*", "*bylibyście*", "*byłybyście*"],
+      ["*oni / one*", "*byliby*", "*byłyby*"]
+    ] },
+    { "type": "p", "text": "Any verb works the same way once you know its past stem: *chciałbym*, *mogłabyś*, *pojechalibyśmy*, *zrobiłoby*. The third person has no marker: *byłoby*, “it would be.”" },
+
+    { "type": "h", "text": "A particle that moves" },
+    { "type": "p", "text": "*By* and its person marker can leave the verb and attach to an earlier word in the clause, usually the first one. This is fully standard, not just colloquial:" },
+    { "type": "examples", "items": [
+      { "pl": "Chętnie bym poszła. = Poszłabym chętnie.", "en": "I’d gladly go." },
+      { "pl": "Ja bym zapomniała.", "en": "I’d be the one to forget." },
+      { "pl": "Co byś zrobił?", "en": "What would you do?" },
+      { "pl": "Gdzie byście pojechali?", "en": "Where would you go?" }
+    ] },
+    { "type": "p", "text": "It’s especially common after question words and pronouns. Spelling follows the position: joined to the verb (*poszłabym*), written as a separate word everywhere else (*ja bym*, *co byś*)." },
+
+    { "type": "h", "text": "Politeness" },
+    { "type": "p", "text": "Requests and wishes sound abrupt in the plain present, so Polish speakers reach for the conditional:" },
+    { "type": "table", "head": ["plain", "polite", "English"], "rows": [
+      ["*Chcę przedstawić…*", "*Chciałabym przedstawić…*", "I’d like to introduce…"],
+      ["*Możesz kupić bilety?*", "*Mógłbyś kupić bilety?*", "Could you get the tickets?"],
+      ["*Mogę rozmawiać z…?*", "*Czy mógłbym rozmawiać z…?*", "Could I speak to…?"],
+      ["—", "*Byłbym wdzięczny, gdyby…*", "I’d be grateful if…"]
+    ] },
+
+    { "type": "h", "text": "If-clauses: gdyby and jeśli" },
+    { "type": "p", "text": "For unreal or hypothetical conditions, Polish uses *gdyby* in the if-clause and the conditional in the main clause. The person marker attaches to *gdyby*, and the verb stays a bare past form:" },
+    { "type": "examples", "items": [
+      { "pl": "Gdybyś chciała, poszlibyśmy razem.", "en": "If you wanted to, we could go together." },
+      { "pl": "Gdybym zdała egzamin, pojechalibyśmy nad morze.", "en": "If I passed the test, we’d drive to the seaside." },
+      { "pl": "Gdyby pani profesor oddzwoniła…", "en": "If the professor called back…" }
+    ] },
+    { "type": "p", "text": "Never put the marker on the verb as well: *gdybyś chciała*, not *gdybyś chciałaś* or *gdyby chciałaś*." },
+    { "type": "p", "text": "For real, open conditions, use *jeśli* or *jeżeli* with ordinary tenses: *Jeśli będę miał czas, przyjdę*, “If I have time, I’ll come.” The choice between *jeśli* and *gdyby* is the choice between a real possibility and an imagined one." },
+
+    { "type": "h", "text": "Present or past?" },
+    { "type": "p", "text": "Polish has one conditional for all times. *Gdybym wiedział, przyszedłbym* means both “If I knew, I’d come” and “If I had known, I would have come”; context decides. A compound past conditional (*byłbym przyszedł*) exists, but it’s literary and rarely heard." },
+
+    { "type": "h", "text": "Żeby: wanting someone else to act" },
+    { "type": "p", "text": "*Żeby* (also *aby*) works like *gdyby*: it carries the person marker and takes a bare past form. After verbs of wanting, asking and so on, it introduces a clause whose subject differs from the main clause:" },
+    { "type": "examples", "items": [
+      { "pl": "Chcę, żebyś przyszedł.", "en": "I want you to come." },
+      { "pl": "Poprosiła, żebyśmy zadzwonili.", "en": "She asked us to call." }
+    ] },
+    { "type": "p", "text": "If the subject is the same, use the infinitive instead: *Chcę przyjść*, “I want to come.”" }
+  ]
+}
