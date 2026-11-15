@@ -132,7 +132,7 @@
 
     function dialogue() {
       return h("section", { class: "card dialogue", "aria-label": "Dialogue" },
-        h("p", { class: "hint" }, "Tap an underlined word to see how it’s built. A small orange dot means the form would change with your gender."),
+        h("p", { class: "hint" }, "Tap an underlined word to see how it’s built. A small blue dot means the form would change with your gender."),
         lines.map(function (l) {
           return h("div", { class: "line" },
             h("div", { class: "avatar " + (l.gender === "f" ? "f" : "m"), "aria-hidden": "true" }, l.speaker.charAt(0)),

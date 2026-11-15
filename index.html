@@ -7,22 +7,35 @@
 <meta name="description" content="Dialogue-based lessons for intermediate learners of Polish, with word-by-word breakdowns.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Literata:opsz,wght@7..72,400;7..72,600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Brygada+1918:wght@400;600;700&family=Inter:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <main class="wrap">
-  <header class="titles">
+  <header class="titles home-head">
     <div class="eyebrow">Dialogue-based lessons in thematic units</div>
     <h1>Intermediate Polish</h1>
+    <p class="home-pl" lang="pl">Język polski dla średnio zaawansowanych</p>
     <p class="sub">Read real conversations and tap any word to see how it’s built and why it takes that form.</p>
   </header>
-  <div id="lessons" class="units"><p class="muted">Loading lessons…</p></div>
-  <section id="grammar" class="unit" aria-labelledby="grammar-title">
-    <h2 class="unit-title" id="grammar-title">Grammar reference</h2>
-    <p class="muted small unit-pl">Explanations and tables, with every example from the lessons.</p>
+
+  <details class="section" id="dialogues" open>
+    <summary>
+      <span class="section-title">Dialogues</span>
+      <span class="section-meta" id="dialogues-meta"></span>
+    </summary>
+    <div id="lessons" class="units"><p class="muted">Loading lessons…</p></div>
+  </details>
+
+  <details class="section" id="grammar">
+    <summary>
+      <span class="section-title">Grammar</span>
+      <span class="section-meta" id="grammar-meta"></span>
+    </summary>
+    <p class="muted section-intro">Explanations and tables, with every example from the lessons.</p>
     <div id="grammar-list"><p class="muted">Loading…</p></div>
-  </section>
+  </details>
+
   <div id="footer"></div>
 </main>
 <script src="js/common.js"></script>

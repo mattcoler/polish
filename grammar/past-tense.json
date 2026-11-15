@@ -3,7 +3,7 @@
   "title": "The past tense",
   "titlePl": "Czas przeszły",
   "blocks": [
-    { "type": "p", "text": "Polish has a single past tense. The distinctions English makes with *I did*, *I was doing*, *I have done* and *I had done* are carried instead by aspect: the choice between an imperfective verb (*czytałem*, “I was reading, I used to read”) and a perfective one (*przeczytałem*, “I read it through, I’ve read it”)." },
+    { "type": "p", "text": "Polish has a single past tense. The distinctions English makes with “I did”, “I was doing”, “I have done” and “I had done” are carried instead by aspect: the choice between an imperfective verb (*czytałem*, “I was reading, I used to read”) and a perfective one (*przeczytałem*, “I read it through, I’ve read it”)." },
 
     { "type": "h", "text": "How a past form is built" },
     { "type": "p", "text": "A past form has up to four parts. Take Ania’s *napisałam*, “I wrote”:" },
