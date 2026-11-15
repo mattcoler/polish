@@ -257,3 +257,19 @@ details > summary::-webkit-details-marker { display: none; }
 .section > summary::before { font-size: 44px; width: 40px; text-align: center; }
 .unit-title::before { font-size: 30px; width: 22px; text-align: center; }
 .titles h1 { margin-top: 6px; }
+
+.nobr { white-space: nowrap; }
+
+/* Grammar tables on phones: tighter cells so most tables fit without sideways scrolling */
+@media (max-width: 600px) {
+  .table-wrap { max-width: 100%; }
+  .g-table { min-width: 0; width: 100%; font-size: 14px; }
+  .g-table th, .g-table td { padding: 6px 8px; }
+  .g-table thead th { font-size: 11px; letter-spacing: 0.02em; }
+}
+
+/* Big display titles scale with narrow screens and may break inside very long words */
+@media (max-width: 600px) {
+  h1 { font-size: clamp(34px, 11vw, 48px); overflow-wrap: break-word; }
+  .home-head h1 { font-size: clamp(40px, 14vw, 60px); }
+}

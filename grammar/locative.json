@@ -1,0 +1,68 @@
+{
+  "id": "locative",
+  "title": "The locative",
+  "titlePl": "Miejscownik",
+  "blocks": [
+    { "type": "p", "text": "The locative answers *gdzie?*, “where?”, and *o kim? o czym?*, “about whom? about what?” It is the only Polish case that never appears without a preposition: it always follows *w*, *na*, *o*, *po* or *przy*." },
+
+    { "type": "h", "text": "Endings: singular" },
+    { "type": "p", "text": "The plural is easy (see below). The singular has two endings for masculine and neuter nouns and two for feminine nouns, and the choice depends on the last consonant of the stem." },
+    { "type": "table", "head": ["", "ending", "examples from the lessons"], "rows": [
+      ["masc. and neut., most hard stems", "*-e*, with a stem change", "*Krakowie, telefonie, kinie, stole, mieście, powrocie, niebie, lecie*"],
+      ["masc. and neut. after k, g, ch", "*-u*", "*roku, bloku, pociągu, Gdańsku, środku*"],
+      ["masc. and neut. after soft consonants and c, cz, sz, rz, ż", "*-u*", "*tygodniu, Poznaniu, dworcu, mieszkaniu, morzu*"],
+      ["three exceptions", "*-u*", "*panu, domu, synu*"],
+      ["feminine, hard stems", "*-e*, with a stem change", "*Warszawie, sobocie, siostrze, drodze*"],
+      ["feminine, soft stems and c, cz, sz, rz, ż", "*-i* / *-y*", "*Woli, komisji, konferencji, babci, pracy, ulicy*"],
+      ["adjectives (m./n.)", "*-ym* / *-im*", "*nowym, zeszłym, całym, tym*"],
+      ["adjectives (f.)", "*-ej*", "*lewej, tej*"]
+    ] },
+
+    { "type": "h", "text": "Stem changes before -e" },
+    { "type": "p", "text": "The *-e* ending changes the consonant before it. These changes are regular, and once you know them the locative of almost any hard-stem noun is predictable:" },
+    { "type": "table", "head": ["change", "examples"], "rows": [
+      ["*t → ć* (written *ci*)", "*powrót → powrocie, sobota → sobocie, lato → lecie*"],
+      ["*d → dź* (written *dzi*)", "*obiad → obiedzie, woda → wodzie*"],
+      ["*st → ść* (written *ści*)", "*miasto → mieście*"],
+      ["*r → rz*", "*siostra → siostrze*"],
+      ["*ł → l*", "*stół → stole, szkoła → szkole*"],
+      ["*k → c*, *g → dz*, *ch → sz*", "feminine only: *rzeka → rzece, droga → drodze, mucha → musze*"],
+      ["*n, w, b, p, m, s, z* soften (written with *i*)", "*telefon → telefonie, Kraków → Krakowie, niebo → niebie*"]
+    ] },
+    { "type": "p", "text": "Watch the vowel too: *ó* often becomes *o* when the syllable opens (*Kraków → Krakowie*, *stół → stole*), and in a few words *a* becomes *e* (*miasto → mieście*, *lato → lecie*, *obiad → obiedzie*)." },
+
+    { "type": "h", "text": "Endings: plural" },
+    { "type": "p", "text": "Every noun takes *-ach* in the locative plural, and every adjective *-ych* or *-ich*: *na światłach*, *w odwiedzinach*, *w nowych mieszkaniach*, *o polskich miastach*." },
+
+    { "type": "h", "text": "The five prepositions" },
+    { "type": "table", "head": ["preposition", "meaning", "examples"], "rows": [
+      ["*w*", "in", "*w Krakowie, w pociągu, w telefonie, w środku*"],
+      ["*na*", "on, at", "*na stole, na dworcu, na konferencji, na światłach, na niebie*"],
+      ["*o*", "about", "*o panu, o czym, o którym rozmawialiśmy*"],
+      ["*po*", "after; around, all over", "*po powrocie, po obiedzie* · *po mieście*"],
+      ["*przy*", "by, at; during", "*przy stole, przy okazji*"]
+    ] },
+    { "type": "p", "text": "*O* and *po* also take the accusative, with a different meaning: *chodzi o wykład* (“it’s about”) and *iść po chleb* (“to fetch”). See the accusative page." },
+
+    { "type": "h", "text": "W or na?" },
+    { "type": "p", "text": "*W* is the default for enclosed spaces and for most towns and countries: *w Krakowie*, *w Polsce*, *w kinie*. *Na* is used for:" },
+    { "type": "table", "head": ["", "examples"], "rows": [
+      ["surfaces and open spaces", "*na stole, na niebie, na ulicy, na Rynku*"],
+      ["events and activities", "*na konferencji, na koncercie, na Wigilii*"],
+      ["some institutions", "*na dworcu, na poczcie, na uniwersytecie*"],
+      ["town districts", "*na Woli, na Mokotowie, na Pradze*"],
+      ["some regions", "*na Śląsku, na Mazurach*"]
+    ] },
+    { "type": "p", "text": "The choice of *w* or *na* also fixes the matching words for “to” and “from”:" },
+    { "type": "table", "head": ["where? (locative)", "where to?", "where from?"], "rows": [
+      ["*w Krakowie*", "*do Krakowa*", "*z Krakowa*"],
+      ["*w kinie*", "*do kina*", "*z kina*"],
+      ["*na koncercie*", "*na koncert*", "*z koncertu*"],
+      ["*na dworcu*", "*na dworzec*", "*z dworca*"]
+    ] },
+    { "type": "p", "text": "So *w* pairs with *do* + genitive, and *na* pairs with *na* + accusative. *Z* + genitive serves both." },
+
+    { "type": "h", "text": "Time" },
+    { "type": "p", "text": "Some time expressions use *w* + locative: *w tym tygodniu*, “this week”; *w zeszłym roku*, “last year”; *w lecie*, “in summer” (also *latem*); *w nocy*, “at night.”" }
+  ]
+}

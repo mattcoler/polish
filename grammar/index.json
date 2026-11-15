@@ -25,27 +25,43 @@
     },
     {
       "id": "genitive",
-      "status": "planned",
+      "status": "ready",
       "title": "The genitive",
-      "titlePl": "Dopełniacz"
+      "titlePl": "Dopełniacz",
+      "summary": "Endings (and masculine -a vs. -u), and its six main uses: of, quantities, negation, absence, prepositions and verbs.",
+      "match": {
+        "tags": "\\bgenitive\\b(?!-like)"
+      }
     },
     {
       "id": "accusative",
-      "status": "planned",
+      "status": "ready",
       "title": "The accusative",
-      "titlePl": "Biernik"
+      "titlePl": "Biernik",
+      "summary": "Direct objects, when the accusative looks like the nominative or the genitive, direction vs. location, and time expressions.",
+      "match": {
+        "tags": "\\baccusative\\b"
+      }
     },
     {
       "id": "locative",
-      "status": "planned",
+      "status": "ready",
       "title": "The locative",
-      "titlePl": "Miejscownik"
+      "titlePl": "Miejscownik",
+      "summary": "Endings and the stem changes before -e, the five prepositions, and when to say w or na.",
+      "match": {
+        "tags": "\\blocative\\b"
+      }
     },
     {
       "id": "instrumental",
-      "status": "planned",
+      "status": "ready",
       "title": "The instrumental",
-      "titlePl": "Narzędnik"
+      "titlePl": "Narzędnik",
+      "summary": "With z, means of transport, what someone is after być, verbs like zajmować się, location after nad, pod, przed, za, and time words.",
+      "match": {
+        "tags": "\\binstrumental\\b"
+      }
     },
     {
       "id": "dative-vocative",

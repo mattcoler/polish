@@ -1,0 +1,76 @@
+{
+  "id": "accusative",
+  "title": "The accusative",
+  "titlePl": "Biernik",
+  "blocks": [
+    { "type": "p", "text": "The accusative answers *kogo? co?*, “whom? what?” Its main job is the direct object of a verb: *zgubiłem plecak*, *kupię bilety*, *poproszę kawę*. It also follows prepositions that express direction and purpose, and it’s used for some expressions of time." },
+    { "type": "p", "text": "For many nouns the accusative looks like another case, the nominative or the genitive. The real work is knowing which one, and that depends on gender and on whether the noun refers to a person or animal." },
+
+    { "type": "h", "text": "Endings: singular" },
+    { "type": "table", "head": ["", "accusative", "examples"], "rows": [
+      ["masculine, people and animals", "= genitive: *-a*", "*Tomasza, konduktora, pana*"],
+      ["masculine, things", "= nominative", "*plecak, wykład, koncert, raport*"],
+      ["neuter", "= nominative", "*mieszkanie, morze, szczęście, zaproszenie*"],
+      ["feminine in *-a*", "*-ę*", "*sobotę, stronę, ulicę, kolację, butelkę, godzinę, nadzieję*"],
+      ["feminine ending in a consonant", "= nominative", "*noc, miłość*"],
+      ["*pani*", "*panią*", "*Miło mi panią poznać.*"]
+    ] },
+    { "type": "p", "text": "Masculine nouns in *-a* (*kolega*, *mężczyzna*) take the feminine *-ę*, but an adjective with them follows the masculine animate pattern: *mojego kolegę*." },
+    { "type": "table", "caption": "Adjectives and possessives", "head": ["", "accusative", "examples"], "rows": [
+      ["masculine, people and animals", "*-ego*", "*mojego kolegę, Lewandowskiego*"],
+      ["masculine, things", "= nominative", "*najpiękniejszy balkon*"],
+      ["feminine", "*-ą*", "*złą stronę, całą sobotę, ślepą uliczkę, w Grodzką*"],
+      ["neuter", "= nominative", "*nowe mieszkanie*"]
+    ] },
+
+    { "type": "h", "text": "Endings: plural" },
+    { "type": "p", "text": "The plural has only two patterns. Groups of men (virile) take the genitive form; everything else takes the nominative form:" },
+    { "type": "table", "head": ["", "accusative", "examples"], "rows": [
+      ["virile", "= genitive", "*Znam twoich kolegów.* · *Zaprosiłem panów.*"],
+      ["all other nouns", "= nominative", "*bilety, jajka, cytryny, kanapki, buty, życzenia, święta*"]
+    ] },
+    { "type": "p", "text": "Adjectives follow the same split: *moich kolegów* (virile) but *nowe buty* (non-virile)." },
+
+    { "type": "h", "text": "Exceptions to watch" },
+    { "type": "p", "text": "A number of everyday masculine nouns for things take the animate *-a* in the accusative: *napisać maila*, *wysłać SMS-a*, *zjeść banana*, *grać w tenisa*. This is especially common with games, dances, brands and some recent loanwords. Both *napisać mail* and *napisać maila* are correct." },
+
+    { "type": "h", "text": "Pronouns" },
+    { "type": "table", "head": ["nominative", "accusative", "after a preposition"], "rows": [
+      ["*ja*", "*mnie*", "*mnie*"],
+      ["*ty*", "*cię* (stressed: *ciebie*)", "*ciebie*"],
+      ["*on, ono*", "*go* (stressed: *jego*); *je* for ono", "*niego*; *nie* for ono"],
+      ["*ona*", "*ją*", "*nią*"],
+      ["*my / wy*", "*nas / was*", "*nas / was*"],
+      ["*oni / one*", "*ich / je*", "*nich / nie*"]
+    ] },
+    { "type": "p", "text": "The short forms *cię* and *go* are the everyday ones; the long forms carry emphasis or start a sentence. After a preposition, third-person pronouns gain an *n-*: *dla niego*, *na nią*." },
+
+    { "type": "h", "text": "Direction vs. location" },
+    { "type": "p", "text": "Several prepositions take the accusative when they express movement towards something, and another case when they express being there:" },
+    { "type": "table", "head": ["preposition", "direction (accusative)", "location"], "rows": [
+      ["*w*", "*skręcić w Grodzką*, *wjechać w ślepą uliczkę*", "*w Krakowie* (locative)"],
+      ["*na*", "*na Wigilię, na koncert*", "*na koncercie* (locative)"],
+      ["*nad*", "*jechać nad morze*", "*nad morzem* (instrumental)"],
+      ["*pod*", "*wejść pod stół*", "*pod stołem* (instrumental)"],
+      ["*za*", "*schować się za drzewo*", "*za drzewem* (instrumental)"]
+    ] },
+    { "type": "p", "text": "The question tells you which case: *dokąd?*, “where to?”, takes the accusative; *gdzie?*, “where?”, takes the locative or instrumental." },
+
+    { "type": "h", "text": "Other prepositions with the accusative" },
+    { "type": "table", "head": ["preposition", "meaning", "examples"], "rows": [
+      ["*przez*", "through, across; for (a time)", "*przejść przez ulicę* · *szukałem przez godzinę*"],
+      ["*o*", "about, for (asking)", "*chodzi o wykład* · *prosić o pomoc* · *pytać o drogę*"],
+      ["*za*", "for (in exchange, thanks)", "*dziesięć sztuk za dwanaście złotych* · *dziękujemy za zaproszenie*"],
+      ["*po*", "to fetch", "*iść po chleb*"],
+      ["*w*", "on (days); in (time taken)", "*w sobotę* · *zrobisz to w dwie godziny*"],
+      ["*na*", "for (a planned period)", "*jadę na tydzień*"]
+    ] },
+    { "type": "p", "text": "*O* and *po* change meaning with the case: *o* + accusative is “for, about (asking)”, *o* + locative is “about (talking)”: *chodzi o wykład* but *rozmawialiśmy o wykładzie*. *Po* + accusative is “to fetch”, *po* + locative “after” or “around”: *po powrocie*, *po mieście*." },
+
+    { "type": "h", "text": "Time without a preposition" },
+    { "type": "p", "text": "How long something lasts can be a bare accusative: *całą sobotę*, “all Saturday”; *dwa tygodnie*, “(for) two weeks”; *cały dzień*, “all day.”" },
+
+    { "type": "h", "text": "When the accusative disappears" },
+    { "type": "p", "text": "Negate the verb and the accusative object becomes genitive: *mam czas* → *nie mam czasu*. See the genitive page for details." }
+  ]
+}

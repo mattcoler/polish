@@ -60,7 +60,8 @@ function siteFooter() {
 // Text with *Polish words* marked by asterisks → text and <em lang="pl"> nodes.
 function rich(text) {
   return String(text).split("*").map(function (s, i) {
-    return i % 2 ? h("em", { lang: "pl" }, s) : s;
+    // Short Polish items (endings like -a, -ów) never break across lines.
+    return i % 2 ? h("em", { lang: "pl", class: s.length <= 12 ? "nobr" : null }, s) : s;
   });
 }
 

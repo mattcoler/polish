@@ -1,0 +1,74 @@
+{
+  "id": "instrumental",
+  "title": "The instrumental",
+  "titlePl": "Narzędnik",
+  "blocks": [
+    { "type": "p", "text": "The instrumental answers *kim? czym?*, “(with) whom? (with) what?” Its name comes from its oldest use, the instrument or means (*jechać tramwajem*, “to go by tram”), but in everyday Polish it does much more: it follows *z* meaning “with”, it names what someone is after *być*, it’s required by verbs such as *zajmować się*, and it marks location after *nad*, *pod*, *przed*, *za* and *między*." },
+    { "type": "p", "text": "It is also the most regular case: one ending for each gender in the singular, and one for almost everything in the plural." },
+
+    { "type": "h", "text": "Endings" },
+    { "type": "table", "caption": "Singular", "head": ["", "ending", "examples"], "rows": [
+      ["masculine and neuter", "*-em*", "*tramwajem, autobusem, wieczorem, nauczycielem, mieszkaniem*"],
+      ["after k and g", "*-iem*", "*opłatkiem, Tomkiem, Nowakiem*"],
+      ["feminine", "*-ą*", "*mapą, fonetyką, panią, przyjemnością, zimą*"],
+      ["masculine nouns in *-a*", "*-ą*", "*kolegą, mężczyzną*"],
+      ["adjectives (m./n.)", "*-ym* / *-im*", "*dobrym, polskim*"],
+      ["adjectives (f.)", "*-ą*", "*dobrą, Malinowską, językoznawczynią*"]
+    ] },
+    { "type": "table", "caption": "Plural", "head": ["", "ending", "examples"], "rows": [
+      ["almost all nouns", "*-ami*", "*kolegami, wyrazami, biletami, kanapkami*"],
+      ["a handful of nouns", "*-mi*", "*dziećmi, ludźmi, gośćmi, pieniędzmi*"],
+      ["adjectives", "*-ymi* / *-imi*", "*z moimi kolegami, z polskimi przyjaciółmi*"]
+    ] },
+    { "type": "p", "text": "Unlike the locative, the instrumental doesn’t change the stem consonant: *Kraków → Krakowem*, *stół → stołem*. The only spelling point is *-iem* after *k* and *g*." },
+
+    { "type": "h", "text": "Use 1: z, “with”" },
+    { "type": "p", "text": "*Z* + instrumental means “together with” or “having”:" },
+    { "type": "examples", "items": [
+      { "pl": "Pójdziemy z kolegami na koncert.", "en": "I’m going to a concert with friends." },
+      { "pl": "Czy mógłbym rozmawiać z panią profesor?", "en": "Could I speak to the professor?" },
+      { "pl": "Codziennie chodzę po mieście z mapą w telefonie.", "en": "I walk around the city with a map on my phone." },
+      { "pl": "Z przyjemnością!", "en": "With pleasure!" }
+    ] },
+    { "type": "p", "text": "Two things to notice. *Z* + genitive means something different, “from”: *z Gdańska*. And “I … with X” is often expressed as “we … with X”: *pójdziemy z kolegami* means “I’ll go with my friends”, and *my z Anią* means “Ania and I.”" },
+
+    { "type": "h", "text": "Use 2: means of transport and instruments" },
+    { "type": "p", "text": "The thing you travel by or work with takes a bare instrumental, with no preposition: *jechać tramwajem, autobusem, pociągiem*; *pisać długopisem*; *jeść widelcem*." },
+    { "type": "p", "text": "A related use marks the route: *iść ulicą Grodzką*, “to walk along Grodzka Street”; *jechać lasem*, “to drive through the forest.”" },
+
+    { "type": "h", "text": "Use 3: what someone is" },
+    { "type": "p", "text": "After *być*, a noun that says what someone or something is goes in the instrumental. This is one of the most frequent uses in conversation:" },
+    { "type": "table", "head": ["Polish", "English"], "rows": [
+      ["*Jestem językoznawczynią.*", "I’m a linguist (woman)."],
+      ["*Jestem nauczycielem.*", "I’m a teacher (man)."],
+      ["*Mój brat jest lekarzem.*", "My brother is a doctor."],
+      ["*Chce zostać tłumaczką.*", "She wants to become a translator."]
+    ] },
+    { "type": "p", "text": "Three contrasts keep this straight. An adjective after *być* stays nominative: *jestem zmęczony*. A noun after *to* stays nominative: *To jest lekarz*, “That’s a doctor.” And *zostać*, “to become”, takes the instrumental like *być*." },
+
+    { "type": "h", "text": "Use 4: verbs that take the instrumental" },
+    { "type": "table", "head": ["verb", "example"], "rows": [
+      ["*zajmować się*, to work on, deal with", "*Zajmuję się fonetyką.* · *Czym się pani zajmuje?*"],
+      ["*interesować się*, to be interested in", "*Interesuję się historią.*"],
+      ["*dzielić się*, to share", "*Dzielimy się opłatkiem.*"],
+      ["*opiekować się*, to look after", "*Opiekuję się dziećmi.*"],
+      ["*cieszyć się*, to enjoy, be glad of", "*Cieszę się dobrym zdrowiem.*"],
+      ["*martwić się*, to worry about", "*Nie martw się tym.*"]
+    ] },
+    { "type": "p", "text": "Most of these are reflexive verbs with *się*. The question word follows the same case: *czym?*, *kim?*" },
+
+    { "type": "h", "text": "Use 5: location with nad, pod, przed, za, między" },
+    { "type": "p", "text": "These prepositions take the instrumental for location and the accusative for direction:" },
+    { "type": "table", "head": ["preposition", "where? (instrumental)", "where to? (accusative)"], "rows": [
+      ["*nad*, above; by (water)", "*nad morzem*", "*nad morze*"],
+      ["*pod*, under", "*pod stołem*", "*pod stół*"],
+      ["*przed*, in front of; before", "*przed domem*", "*przed dom*"],
+      ["*za*, behind", "*za drzewem*", "*za drzewo*"],
+      ["*między*, between", "*między nami*", "*między drzewa*"]
+    ] },
+    { "type": "p", "text": "*Przed* also means “before” in time, with the instrumental: *przed obiadem*, “before lunch”; *przed świętami*, “before Christmas.”" },
+
+    { "type": "h", "text": "Use 6: time of day and season" },
+    { "type": "p", "text": "Several time words are simply instrumentals of nouns: *wieczorem*, “in the evening”; *latem*, *zimą*, *wiosną*, *jesienią*, “in summer, winter, spring, autumn”; *nocą*, “by night” (a little literary; everyday speech prefers *w nocy*)." }
+  ]
+}

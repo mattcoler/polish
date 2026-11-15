@@ -1,0 +1,99 @@
+{
+  "id": "genitive",
+  "title": "The genitive",
+  "titlePl": "Dopełniacz",
+  "blocks": [
+    { "type": "p", "text": "The genitive answers *kogo? czego?*, “of whom? of what?” It is the most frequent case in the lessons after the nominative, because its uses go well beyond “of”: it follows quantities and the numbers from five up, replaces the accusative after negation, expresses absence, and is required by many prepositions and verbs." },
+
+    { "type": "h", "text": "Endings: singular" },
+    { "type": "table", "head": ["", "ending", "examples"], "rows": [
+      ["masculine", "*-a* or *-u*", "*pana, Tomasza, Krakowa, Gdańska, szampana* · *czasu, Rynku, Wawelu, roku, szacunku*"],
+      ["neuter", "*-a*", "*jutra, zdrowia, szczęścia, mieszkania, Językoznawstwa*"],
+      ["feminine", "*-y*; *-i* after k, g and soft stems (incl. *-ja*, *-ia*)", "*siostry, Kanady, mowy, pracy* · *fonetyki, Woli, komisji, babci, nadziei*"],
+      ["adjectives (m./n.)", "*-ego*", "*miłego, Szczęśliwego, Nowego, mojego, Lewandowskiego*"],
+      ["adjectives (f.)", "*-ej*", "*każdej, Malinowskiej*"]
+    ] },
+    { "type": "p", "text": "Masculine nouns ending in *-a* (*kolega*, *mężczyzna*) take the feminine ending: *kolegi*." },
+
+    { "type": "h", "text": "Masculine -a or -u?" },
+    { "type": "p", "text": "This is the one part of the genitive that has to be learned word by word. There are tendencies, though:" },
+    { "type": "table", "head": ["usually -a", "usually -u"], "rows": [
+      ["people and animals: *pana, kolegi, psa*", "abstract nouns: *czasu, szacunku, powrotu*"],
+      ["months: *stycznia, grudnia*", "substances: *cukru, piasku*"],
+      ["tools and measures: *noża, kilograma*", "many borrowed nouns: *raportu, telefonu, koncertu*"],
+      ["most Polish towns: *Krakowa, Gdańska, Poznania*", "many place names that aren’t towns: *Wawelu, Rynku*"]
+    ] },
+    { "type": "p", "text": "Exceptions are common enough (*chleba*, *szampana*, *tygodnia*, *komputera*) that a dictionary entry always gives the genitive. Learn it with the noun: *rok, roku*; *chleb, chleba*." },
+
+    { "type": "h", "text": "Endings: plural" },
+    { "type": "table", "head": ["", "ending", "examples"], "rows": [
+      ["most masculine nouns", "*-ów*", "*raportów, ziemniaków, kolegów, rodziców, języków*"],
+      ["masc. nouns with soft stems", "*-i* / *-y*", "*gości, nauczycieli*"],
+      ["feminine and neuter nouns", "no ending", "*jabłek, sztuk, potraw, marzeń, życzeń, świąt*"],
+      ["fem. nouns in *-ość*, *-ść* and soft consonants", "*-i*", "*okoliczności, nocy*"],
+      ["adjectives (all genders)", "*-ych* / *-ich*", "*złotych, znajomych, Wesołych, słowiańskich*"]
+    ] },
+    { "type": "p", "text": "When the ending disappears, the stem often adjusts. An *e* is inserted to break up a consonant cluster (*jabłko → jabłek*, *kanapka → kanapek*), and a vowel in the now-closed syllable may change (*święta → świąt*, *droga → dróg*). A few nouns are irregular: *rok → lat*, *dziecko → dzieci*, *człowiek → ludzi*." },
+
+    { "type": "h", "text": "Use 1: “of”" },
+    { "type": "p", "text": "The second of two nouns is genitive when it describes or owns the first:" },
+    { "type": "examples", "items": [
+      { "pl": "Instytut Językoznawstwa", "en": "Institute of Linguistics" },
+      { "pl": "fonetyka języków słowiańskich", "en": "the phonetics of Slavic languages" },
+      { "pl": "zbieg okoliczności", "en": "a coincidence (literally “a running-together of circumstances”)" },
+      { "pl": "spełnienie marzeń", "en": "the fulfilment of dreams" }
+    ] },
+
+    { "type": "h", "text": "Use 2: quantities and numbers" },
+    { "type": "p", "text": "Words for amounts and containers take the genitive (*kilo ziemniaków*, *butelka wina*, *dużo czasu*, *trochę cukru*, *ile jabłek?*), and so do the numbers from five upward (*pięć jabłek*, *dwanaście złotych*, *dziesięć sztuk*). With two to four, the noun stays in the ordinary plural: *dwa rodzaje*, *trzy złote*." },
+    { "type": "p", "text": "With perfective verbs of eating, drinking and giving, the genitive can mean “some”: *Napijesz się kawy?*, “Will you have some coffee?”; compare *Wypiłem kawę*, “I drank the coffee.”" },
+
+    { "type": "h", "text": "Use 3: negation" },
+    { "type": "p", "text": "A direct object in the accusative switches to the genitive when the verb is negated:" },
+    { "type": "table", "head": ["affirmative (accusative)", "negated (genitive)"], "rows": [
+      ["*Mam czas.*", "*Nie mam czasu.*"],
+      ["*Mam siłę.*", "*Nie mam siły.*"],
+      ["*Znasz moje mieszkanie.*", "*Nie znasz mojego mieszkania.*"],
+      ["*Zjem sześć potraw.*", "*Nie zjem nawet sześciu.*"]
+    ] },
+    { "type": "p", "text": "Only accusative objects change. Objects in other cases stay as they are: *Pomagam mu* → *Nie pomagam mu* (dative); *Interesuję się sportem* → *Nie interesuję się sportem* (instrumental)." },
+
+    { "type": "h", "text": "Use 4: absence" },
+    { "type": "p", "text": "“There is no …” is *nie ma* + genitive, in every tense. The verb is impersonal and never agrees with the noun:" },
+    { "type": "examples", "items": [
+      { "pl": "Nie ma mowy!", "en": "No way! (literally “there is no talk”)" },
+      { "pl": "Plecaka już nie było.", "en": "The backpack was gone." },
+      { "pl": "Jutro nie będzie czasu.", "en": "There won’t be time tomorrow." }
+    ] },
+
+    { "type": "h", "text": "Use 5: prepositions" },
+    { "type": "table", "head": ["preposition", "meaning", "examples"], "rows": [
+      ["*do*", "to, into; until", "*do Rynku, do rodziców, do Kanady, do poniedziałku*"],
+      ["*z*", "from, out of", "*z Gdańska, z pracy*; also a subject of study: *doktorat z fonetyki*"],
+      ["*od*", "from (a person); since", "*od rodziców, od jutra, od dwudziestu lat*"],
+      ["*dla*", "for", "*dla niespodziewanego gościa*"],
+      ["*obok*", "next to", "*obok szampana*"],
+      ["*u*", "at someone’s place", "*u babci, u lekarza*"],
+      ["*bez*", "without", "*bez cukru*"]
+    ] },
+    { "type": "p", "text": "Watch *z*: with the genitive it means “from” (*z Gdańska*), with the instrumental “with” (*z przyjemnością*). And *do* with a person means “to their place”: *jadę do rodziców*, “I’m going to my parents’.”" },
+
+    { "type": "h", "text": "Use 6: verbs that take the genitive" },
+    { "type": "p", "text": "A number of common verbs take a genitive object instead of an accusative:" },
+    { "type": "table", "head": ["verb", "example"], "rows": [
+      ["*szukać*, to look for", "*Szukałeś go?* · *szukać plecaka*"],
+      ["*spróbować*, to taste", "*Spróbuj zupy!* · *każdej trzeba spróbować*"],
+      ["*nauczyć się*, to learn", "*nauczyć się jakichś życzeń*"],
+      ["*życzyć*, to wish (someone something)", "*Życzę ci zdrowia.*"],
+      ["*potrzebować*, to need", "*Potrzebuję pomocy.*"],
+      ["*słuchać*, to listen to", "*słuchać muzyki*"],
+      ["*bać się*, to be afraid of", "*boję się psów*"]
+    ] },
+
+    { "type": "h", "text": "Wishes and greetings" },
+    { "type": "p", "text": "Because *życzyć* takes the genitive, wishes stay genitive even when the verb is dropped: *(Życzę) Wesołych Świąt!*, *Szczęśliwego Nowego Roku!*, *Miłego dnia!*, *Smacznego!*, *Wszystkiego najlepszego!* The same is true of a list of wishes: *zdrowia, szczęścia, spełnienia marzeń*." },
+
+    { "type": "h", "text": "Dates" },
+    { "type": "p", "text": "Saying “on” a date uses the genitive of the ordinal and the month: *dwudziestego czwartego grudnia*, “on 24 December”; *pierwszego stycznia*, “on 1 January.”" }
+  ]
+}
