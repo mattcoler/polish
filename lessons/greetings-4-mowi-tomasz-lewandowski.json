@@ -1,0 +1,343 @@
+{
+  "id": "greetings-4-mowi-tomasz-lewandowski",
+  "unit": "Greetings and introductions",
+  "level": 4,
+  "cefr": "B1–B2",
+  "title": "Dzień dobry, mówi Tomasz Lewandowski",
+  "titleEn": "Hello, Tomasz Lewandowski speaking",
+  "focus": "phone calls and formal emails: set phrases and the conditional",
+  "defaultWord": "mowi",
+  "patterns": {
+    "phone": "On the phone",
+    "letter": "Formal letters and emails",
+    "conditional": "Conditional",
+    "formal": "Formal you: pan / pani + 3rd person",
+    "speaker": "Gender follows the speaker",
+    "accusative": "Accusative case",
+    "genitive": "Genitive case",
+    "locative": "Locative case",
+    "instrumental": "Instrumental case",
+    "future": "Perfective present form = future"
+  },
+  "lines": [
+    { "speaker": "Sekretariat", "gender": "f", "pl": "Instytut Językoznawstwa|jezykoznawstwa, sekretariat, słucham|slucham?", "en": "Institute of Linguistics, departmental office. Hello?" },
+    { "speaker": "Tomek", "gender": "m", "pl": "Dzień dobry, mówi|mowi Tomasz Lewandowski. Czy mógłbym|moglbym rozmawiać z panią|pania_instr profesor Malinowską|malinowska?", "en": "Good morning, this is Tomasz Lewandowski. Could I speak to Professor Malinowska?" },
+    { "speaker": "Sekretariat", "gender": "f", "pl": "Niestety, pani profesor jest dziś na konferencji|konferencji w Gdańsku|gdansku. Czy mogę coś przekazać|przekazac?", "en": "I’m afraid the professor is at a conference in Gdańsk today. Can I take a message?" },
+    { "speaker": "Tomek", "gender": "m", "pl": "Tak, bardzo proszę. Chodzi|chodzi o wykład|wyklad gościnny, o którym|ktorym rozmawialiśmy|rozmawialismy w zeszłym tygodniu.", "en": "Yes, please. It’s about the guest lecture we discussed last week." },
+    { "speaker": "Sekretariat", "gender": "f", "pl": "Rozumiem. Czy pani profesor ma pana|pana_gen numer?", "en": "I see. Does the professor have your number?" },
+    { "speaker": "Tomek", "gender": "m", "pl": "Chyba nie. To sześćset dwa, czterysta trzynaście, osiemset siedem. Byłbym|bylbym wdzięczny|wdzieczny, gdyby|gdyby pani profesor oddzwoniła|oddzwonila po powrocie|powrocie.", "en": "I don’t think so. It’s 602 413 807. I’d be grateful if the professor could call me back when she returns." },
+    { "speaker": "Sekretariat", "gender": "f", "pl": "Oczywiście, przekażę|przekaze. Proponuję|proponuje też napisać do niej|niej maila|maila, bo na pewno sprawdza pocztę|poczte.", "en": "Of course, I’ll pass it on. I’d also suggest emailing her, because she’ll certainly be checking her mail." },
+    { "speaker": "Tomek", "gender": "m", "pl": "Dziękuję bardzo, tak zrobię. Do usłyszenia|uslyszenia!", "en": "Thank you very much, I’ll do that. Goodbye!" },
+    { "speaker": "Tomek (e-mail)", "gender": "m", "pl": "Szanowna|szanowna Pani|pani_letter Profesor|profesor_letter, nawiązując|nawiazujac do naszej rozmowy w Krakowie, chciałbym|chcialbym serdecznie zaprosić Panią|pania_letter do wygłoszenia|wygloszenia wykładu|wykladu gościnnego|goscinnego.", "en": "Dear Professor Malinowska, following up on our conversation in Kraków, I would like to warmly invite you to give a guest lecture." },
+    { "speaker": "Tomek (e-mail)", "gender": "m", "pl": "Z wyrazami|wyrazami szacunku|szacunku, Tomasz Lewandowski", "en": "Yours sincerely, Tomasz Lewandowski" }
+  ],
+  "words": {
+    "jezykoznawstwa": {
+      "form": "Językoznawstwa", "lemma": "językoznawstwo", "gloss": "linguistics",
+      "tags": "noun · neuter · genitive singular",
+      "parts": [["język", "root: language"], ["o", "linking vowel"], ["znaw", "root: know"], ["stw", "abstract noun suffix -stwo"], ["a", "gen. sg."]],
+      "why": "Instytut Językoznawstwa, “Institute of Linguistics”: the second noun is in the genitive. Compare językoznawczyni in the previous lesson: same roots, different suffix.",
+      "patterns": ["genitive"]
+    },
+    "slucham": {
+      "form": "słucham", "lemma": "słuchać", "gloss": "to listen",
+      "tags": "verb · imperfective · present · 1st person singular",
+      "parts": [["słucha", "verb stem"], ["m", "1st sg. ending"]],
+      "why": "Answering the phone, Poles often say słucham, “I’m listening.” In a shop or office it means “how can I help?”, and with rising intonation, “pardon?”",
+      "patterns": ["phone"]
+    },
+    "mowi": {
+      "form": "mówi", "lemma": "mówić", "gloss": "to speak",
+      "tags": "verb · imperfective · present · 3rd person singular",
+      "parts": [["mówi", "verb stem; 3rd sg. has no ending"]],
+      "why": "On the phone you introduce yourself in the third person: mówi Tomasz Lewandowski, “Tomasz Lewandowski speaking.” Z tej strony Tomasz Lewandowski is also common.",
+      "patterns": ["phone"]
+    },
+    "moglbym": {
+      "form": "mógłbym", "lemma": "móc", "gloss": "can, be able to",
+      "tags": "verb · imperfective · conditional · 1st person singular · masculine",
+      "parts": [["móg", "root (ó/o alternation)"], ["ł", "past suffix -ł- (l-participle)"], ["by", "conditional particle"], ["m", "1st sg. person marker"]],
+      "why": "Czy mógłbym…? is the standard polite request, “could I…?” It’s masculine, with no agreement ending, because Tomek is the speaker.",
+      "you": { "m": "You would say: Czy mógłbym…?", "f": "You would say: Czy mogłabym…? (ó becomes o before -a)." },
+      "patterns": ["conditional", "speaker"]
+    },
+    "pania_instr": {
+      "form": "panią", "lemma": "pani", "gloss": "Mrs., madam",
+      "tags": "noun · feminine · instrumental singular",
+      "parts": [["pan", "stem"], ["ią", "instr. sg. -ą (the i marks soft ń)"]],
+      "why": "Rozmawiać z + instrumental: z panią profesor. Pani has the same form, panią, in the accusative and the instrumental. Profesor stays undeclined, because it refers to a woman.",
+      "patterns": ["instrumental", "formal"]
+    },
+    "malinowska": {
+      "form": "Malinowską", "lemma": "Malinowska", "gloss": "a surname",
+      "tags": "surname (adjectival) · feminine · instrumental singular",
+      "parts": [["Malinowsk", "stem"], ["ą", "fem. instr. sg."]],
+      "why": "Feminine surnames in -ska decline like adjectives: Malinowska, Malinowskiej, Malinowską. Here it’s instrumental after z.",
+      "patterns": ["instrumental"]
+    },
+    "konferencji": {
+      "form": "konferencji", "lemma": "konferencja", "gloss": "conference",
+      "tags": "noun · feminine · locative singular",
+      "parts": [["konferencj", "stem"], ["i", "loc. sg."]],
+      "why": "Na + locative for events: na konferencji, na koncercie, na weselu. Towns and buildings usually take w: w Gdańsku.",
+      "patterns": ["locative"]
+    },
+    "gdansku": {
+      "form": "Gdańsku", "lemma": "Gdańsk", "gloss": "Gdańsk",
+      "tags": "proper noun · masculine inanimate · locative singular",
+      "parts": [["Gdańsk", "stem"], ["u", "loc. sg."]],
+      "why": "W + locative. Stems ending in k take -u: w Gdańsku, w roku, w bloku.",
+      "patterns": ["locative"]
+    },
+    "przekazac": {
+      "form": "przekazać", "lemma": "przekazać", "gloss": "to pass on",
+      "tags": "verb · perfective · infinitive",
+      "parts": [["prze", "prefix: across, on"], ["kaza", "verb stem"], ["ć", "infinitive ending"]],
+      "why": "Czy mogę coś przekazać? is the standard “can I take a message?” Prze- here means passing something on from one person to another.",
+      "patterns": ["phone"]
+    },
+    "chodzi": {
+      "form": "Chodzi", "lemma": "chodzić", "gloss": "to walk; (impersonal) to concern",
+      "tags": "verb · imperfective · present · 3rd person singular · impersonal use",
+      "parts": [["chodzi", "verb stem; 3rd sg. has no ending"]],
+      "why": "Chodzi o + accusative means “it’s about, it concerns.” The motion verb chodzić is used impersonally here, with no subject. Chodzi mi o to, że… means “What I mean is…”",
+      "patterns": []
+    },
+    "wyklad": {
+      "form": "wykład", "lemma": "wykład", "gloss": "lecture",
+      "tags": "noun · masculine inanimate · accusative singular (same as nominative)",
+      "parts": [["wy", "prefix: out"], ["kład", "root (cf. kłaść, “to lay”)"]],
+      "why": "O + accusative after chodzi. Masculine inanimate nouns usually look the same in the accusative as in the nominative.",
+      "history": "From wykładać, “to lay out”: a lecture sets out its subject.",
+      "patterns": ["accusative"]
+    },
+    "ktorym": {
+      "form": "którym", "lemma": "który", "gloss": "which, who",
+      "tags": "relative pronoun · masculine · locative singular",
+      "parts": [["któr", "stem"], ["ym", "loc. sg."]],
+      "why": "Który takes its gender from the noun it refers to (wykład, masculine) and its case from its own clause: rozmawiać o + locative, so o którym.",
+      "patterns": ["locative"]
+    },
+    "rozmawialismy": {
+      "form": "rozmawialiśmy", "lemma": "rozmawiać", "gloss": "to talk, discuss",
+      "tags": "verb · imperfective · past · 1st person plural · virile",
+      "parts": [["rozmawia", "verb stem"], ["l", "past suffix -ł-, written l before -i"], ["i", "virile plural ending"], ["śmy", "1st pl. person marker"]],
+      "why": "“We” is Tomek and the professor, and one man makes the group virile, so the ending is -i. Before it, ł is written l.",
+      "you": { "m": "Any group you’re in: rozmawialiśmy.", "f": "With a mixed group: rozmawialiśmy. Only women: rozmawiałyśmy." },
+      "patterns": []
+    },
+    "pana_gen": {
+      "form": "pana", "lemma": "pan", "gloss": "your (formal, to a man)",
+      "tags": "formal pronoun · masculine · genitive singular, used as a possessive",
+      "parts": [["pan", "stem"], ["a", "gen. sg."]],
+      "why": "The formal “your” is the genitive of pan or pani, placed before the noun: pana numer, pani numer. It doesn’t change with the noun’s case: z pana numerem.",
+      "you": { "m": "Asked about your number: pana numer.", "f": "Asked about your number: pani numer." },
+      "patterns": ["formal"]
+    },
+    "bylbym": {
+      "form": "Byłbym", "lemma": "być", "gloss": "to be",
+      "tags": "verb · conditional · 1st person singular · masculine",
+      "parts": [["by", "stem of być"], ["ł", "past suffix -ł- (l-participle)"], ["by", "conditional particle"], ["m", "1st sg. person marker"]],
+      "why": "Byłbym wdzięczny, gdyby…, “I’d be grateful if…”, is the standard formula for a polite request, in speech and in writing.",
+      "you": { "m": "You would say: byłbym wdzięczny.", "f": "You would say: byłabym wdzięczna." },
+      "patterns": ["conditional", "speaker"]
+    },
+    "wdzieczny": {
+      "form": "wdzięczny", "lemma": "wdzięczny", "gloss": "grateful",
+      "tags": "adjective · masculine · nominative singular",
+      "parts": [["wdzięczn", "stem"], ["y", "masc. sg. ending"]],
+      "why": "The adjective agrees with the speaker: wdzięczny for a man, wdzięczna for a woman.",
+      "history": "Related to dzięki, “thanks.”",
+      "you": { "m": "You would say: wdzięczny.", "f": "You would say: wdzięczna." },
+      "patterns": ["speaker"]
+    },
+    "gdyby": {
+      "form": "gdyby", "lemma": "gdyby", "gloss": "if (hypothetical)",
+      "tags": "conjunction (conditional)",
+      "parts": [["gdy", "when, if"], ["by", "conditional particle"]],
+      "why": "With a third-person subject, gdyby takes no person marker and the verb is a bare past form: gdyby pani profesor oddzwoniła.",
+      "compare": "With “you”: gdybyś (Plany na sobotę).",
+      "patterns": ["conditional"]
+    },
+    "oddzwonila": {
+      "form": "oddzwoniła", "lemma": "oddzwonić", "gloss": "to call back",
+      "tags": "verb · perfective · past form · 3rd person singular · feminine",
+      "parts": [["od", "prefix: back, in return"], ["dzwoni", "stem (cf. dzwonić, “to ring, call”)"], ["ł", "past suffix -ł- (l-participle)"], ["a", "feminine ending"]],
+      "why": "Od- here means “back, in response”: oddzwonić, odpisać (“write back”), oddać (“give back”). Feminine to agree with pani profesor.",
+      "patterns": ["phone"]
+    },
+    "powrocie": {
+      "form": "powrocie", "lemma": "powrót", "gloss": "return",
+      "tags": "noun · masculine inanimate · locative singular",
+      "parts": [["po", "prefix"], ["wro", "root (ó → o)"], ["cie", "t → ć before loc. -e, spelled ci"]],
+      "why": "Po + locative means “after”: po powrocie, po obiedzie. Before the locative ending, ó becomes o and t softens to ć: powrót → powrocie.",
+      "compare": "Po + accusative means “to fetch”: iść po chleb.",
+      "patterns": ["locative"]
+    },
+    "przekaze": {
+      "form": "przekażę", "lemma": "przekazać", "gloss": "to pass on",
+      "tags": "verb · perfective · non-past (future meaning) · 1st person singular",
+      "parts": [["prze", "prefix: across, on"], ["każ", "stem (z → ż in the present)"], ["ę", "1st sg. ending"]],
+      "why": "Perfective, so the present form refers to the future: “I’ll pass it on.” The z of przekazać alternates with ż in the present: przekażę, przekażesz.",
+      "patterns": ["future"]
+    },
+    "proponuje": {
+      "form": "Proponuję", "lemma": "proponować", "gloss": "to suggest, propose",
+      "tags": "verb · imperfective · present · 1st person singular",
+      "parts": [["propon", "root"], ["uj", "-ow- becomes -uj- in the present"], ["ę", "1st sg. ending"]],
+      "why": "Proponuję + infinitive, “I suggest (doing)”, is a polite way to recommend something.",
+      "patterns": []
+    },
+    "niej": {
+      "form": "niej", "lemma": "ona", "gloss": "she, her",
+      "tags": "pronoun · genitive · form used after a preposition",
+      "parts": [["n", "n- added after a preposition"], ["iej", "genitive of ona (jej)"]],
+      "why": "After a preposition, third-person pronouns take an initial n-: jej → do niej, jego → dla niego, im → z nimi.",
+      "patterns": []
+    },
+    "maila": {
+      "form": "maila", "lemma": "mail", "gloss": "email",
+      "tags": "noun · masculine inanimate · accusative singular (genitive-like form)",
+      "parts": [["mail", "stem"], ["a", "acc. sg. -a, as in the genitive"]],
+      "why": "Masculine inanimate nouns usually have an accusative identical to the nominative, but a number of everyday nouns take -a: napisać maila, wysłać SMS-a, zjeść banana. Napisać mail is also correct.",
+      "patterns": ["accusative"]
+    },
+    "poczte": {
+      "form": "pocztę", "lemma": "poczta", "gloss": "mail; post office",
+      "tags": "noun · feminine · accusative singular",
+      "parts": [["poczt", "stem"], ["ę", "acc. sg."]],
+      "why": "Poczta means both “post office” and “mail.” Sprawdzać pocztę is the usual way to say “check one’s email.”",
+      "patterns": ["accusative"]
+    },
+    "uslyszenia": {
+      "form": "usłyszenia", "lemma": "usłyszenie", "gloss": "hearing",
+      "tags": "verbal noun · neuter · genitive singular",
+      "parts": [["u", "perfective prefix"], ["słysz", "root: hear"], ["eni", "verbal noun suffix"], ["a", "gen. sg."]],
+      "why": "Do usłyszenia, “until we hear (each other)”, is the phone counterpart of do widzenia, “until we see (each other)”. Do takes the genitive.",
+      "patterns": ["phone", "genitive"]
+    },
+    "szanowna": {
+      "form": "Szanowna", "lemma": "szanowny", "gloss": "respected; Dear (in letters)",
+      "tags": "adjective · feminine · singular",
+      "parts": [["Szanown", "stem"], ["a", "fem. sg. ending"]],
+      "why": "Szanowna Pani / Szanowny Panie is the standard formal opening of a letter or email, the equivalent of “Dear …”. A title usually follows, without the surname: Szanowna Pani Profesor.",
+      "compare": "To a man: Szanowny Panie Profesorze.",
+      "history": "From szanować, “to respect.”",
+      "patterns": ["letter"]
+    },
+    "pani_letter": {
+      "form": "Pani", "lemma": "pani", "gloss": "Mrs., madam",
+      "tags": "noun · feminine · capitalised in letters",
+      "parts": [["Pani", "title"]],
+      "why": "In letters and emails, Pan, Pani and Państwo are capitalised as a mark of respect, in all their forms: Pani, Panią, Pana. The dialogue lines above are speech, so they’re written in lower case.",
+      "patterns": ["letter"]
+    },
+    "profesor_letter": {
+      "form": "Profesor", "lemma": "profesor", "gloss": "professor",
+      "tags": "noun · not declined when referring to a woman",
+      "parts": [["Profesor", "no ending: indeclinable here"]],
+      "why": "Capitalised in the salutation along with Pani. As in speech, it doesn’t decline when it refers to a woman.",
+      "patterns": ["letter"]
+    },
+    "nawiazujac": {
+      "form": "nawiązując", "lemma": "nawiązywać", "gloss": "to refer to, follow up on",
+      "tags": "adverbial participle (present) · invariable",
+      "parts": [["na", "prefix"], ["wiąz", "root: tie, bind"], ["uj", "present stem of -ywać verbs"], ["ąc", "adverbial participle suffix"]],
+      "why": "Nawiązując do…, “following up on…”, is a fixed opening in formal letters. The -ąc form means “while doing” and must have the same subject as the main verb, here Tomek.",
+      "history": "Literally “tying on to”: wiązać means “to tie.”",
+      "patterns": ["letter"]
+    },
+    "chcialbym": {
+      "form": "chciałbym", "lemma": "chcieć", "gloss": "to want",
+      "tags": "verb · imperfective · conditional · 1st person singular · masculine",
+      "parts": [["chcia", "stem (e → a)"], ["ł", "past suffix -ł- (l-participle)"], ["by", "conditional particle"], ["m", "1st sg. person marker"]],
+      "why": "In formal writing, the conditional chciałbym is the usual way to state an intention or request.",
+      "you": { "m": "You would write: chciałbym.", "f": "You would write: chciałabym." },
+      "patterns": ["conditional", "speaker", "letter"]
+    },
+    "pania_letter": {
+      "form": "Panią", "lemma": "pani", "gloss": "you (formal, to a woman)",
+      "tags": "formal pronoun · feminine · accusative singular · capitalised in letters",
+      "parts": [["Pan", "stem"], ["ią", "acc. sg. -ą (the i marks soft ń)"]],
+      "why": "Zaprosić kogoś: the person invited is in the accusative. Capitalised because this is a letter.",
+      "patterns": ["letter", "formal", "accusative"]
+    },
+    "wygloszenia": {
+      "form": "wygłoszenia", "lemma": "wygłoszenie", "gloss": "delivery (of a speech)",
+      "tags": "verbal noun · neuter · genitive singular",
+      "parts": [["wy", "prefix: out"], ["głosz", "root (s → sz; cf. głos, “voice”)"], ["eni", "verbal noun suffix"], ["a", "gen. sg."]],
+      "why": "Zaprosić kogoś do + genitive: to invite someone to do something. Formal Polish often uses a verbal noun where English uses a verb: do wygłoszenia wykładu, “to give a lecture.”",
+      "patterns": ["genitive", "letter"]
+    },
+    "wykladu": {
+      "form": "wykładu", "lemma": "wykład", "gloss": "lecture",
+      "tags": "noun · masculine inanimate · genitive singular",
+      "parts": [["wy", "prefix: out"], ["kład", "root"], ["u", "gen. sg."]],
+      "why": "Genitive after the verbal noun: wygłoszenie wykładu, “the delivery of a lecture.”",
+      "patterns": ["genitive"]
+    },
+    "goscinnego": {
+      "form": "gościnnego", "lemma": "gościnny", "gloss": "guest (adj.); hospitable",
+      "tags": "adjective · masculine · genitive singular",
+      "parts": [["gości", "root gość, “guest” (ć spelled ci)"], ["nn", "-in- + adjective suffix -n-"], ["ego", "gen. sg."]],
+      "why": "Wykład gościnny is a guest lecture. The adjective comes after the noun, as it usually does when the phrase names a type of thing.",
+      "patterns": ["genitive"]
+    },
+    "wyrazami": {
+      "form": "wyrazami", "lemma": "wyraz", "gloss": "expression; word",
+      "tags": "noun · masculine inanimate · instrumental plural",
+      "parts": [["wyraz", "stem"], ["ami", "instr. pl."]],
+      "why": "Z wyrazami szacunku, “with expressions of respect”, is the standard formal sign-off, roughly “Yours sincerely.” Z poważaniem is also formal, if a little official; Pozdrawiam is less formal.",
+      "patterns": ["letter", "instrumental"]
+    },
+    "szacunku": {
+      "form": "szacunku", "lemma": "szacunek", "gloss": "respect",
+      "tags": "noun · masculine inanimate · genitive singular",
+      "parts": [["szacun", "stem"], ["k", "stem-final k (fleeting e dropped)"], ["u", "gen. sg."]],
+      "why": "Genitive after wyrazami: “expressions of respect.” The e of szacunek is fleeting, as in Rynek → Rynku.",
+      "patterns": ["genitive", "letter"]
+    }
+  },
+  "exercises": [
+    {
+      "id": "e1", "model": "moglbym",
+      "prompt": "Ask on the phone: “Could I speak to Mr. Nowak?” Czy ___ rozmawiać z panem Nowakiem?",
+      "answer": { "m": ["móg", "ł", "by", "m"], "f": ["mog", "ł", "a", "by", "m"] },
+      "tiles": ["móg", "mog", "ł", "a", "by", "m", "ś"],
+      "explain": { "m": "móg + ł + by + m: the ó stays in the closed syllable.", "f": "mog + ł + a + by + m: with -a after it, the syllable opens and ó becomes o." },
+      "hint": "Check the learner setting at the top, and remember mógł → mogła."
+    },
+    {
+      "id": "e2", "model": "oddzwonila",
+      "prompt": "“If Mr. Nowak called back…” Gdyby pan Nowak ___ (oddzwonić)",
+      "answer": ["od", "dzwoni", "ł"],
+      "tiles": ["od", "prze", "dzwoni", "ł", "a", "l", "i", "by"],
+      "explain": "After gdyby, a third-person subject takes the bare past form; masculine has no agreement ending: od + dzwoni + ł.",
+      "hint": "Compare gdyby pani profesor oddzwoniła. What changes for a man?"
+    },
+    {
+      "id": "e3", "model": "niej",
+      "prompt": "“I’ll write to him” (on): Napiszę do ___.",
+      "answer": ["n", "iego"],
+      "tiles": ["n", "j", "iego", "ego", "iej"],
+      "explain": "After a preposition, jego becomes niego: n + iego.",
+      "hint": "Compare do niej: what was added to jej?"
+    },
+    {
+      "id": "e4", "model": "szanowna",
+      "prompt": "Open an email to a male professor: ___ Panie Profesorze,",
+      "answer": ["Szanown", "y"],
+      "tiles": ["Szanown", "a", "y", "e", "ego"],
+      "explain": "The adjective agrees with Panie, which is masculine: Szanowny Panie Profesorze.",
+      "hint": "Szanowna agrees with Pani. Which ending goes with Panie?"
+    },
+    {
+      "id": "e5", "model": "powrocie",
+      "prompt": "“After lunch” (obiad): po ___",
+      "answer": ["obiedzi", "e"],
+      "tiles": ["obiad", "obiedzi", "e", "u", "em"],
+      "explain": "Po meaning “after” takes the locative. The stem changes, a → e and d → dź (spelled dzi): obiad → obiedzie.",
+      "hint": "Look at po powrocie, then think of miasto → mieście."
+    }
+  ]
+}
