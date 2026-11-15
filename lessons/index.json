@@ -4,14 +4,36 @@
       "title": "Greetings and introductions",
       "titlePl": "Powitania i przedstawianie się",
       "lessons": [
-        { "id": "greetings-2-pani-krystyno", "level": 2, "cefr": "A2–B1", "title": "Dzień dobry, pani Krystyno", "titleEn": "Good morning, Mrs. Krystyna", "focus": "formal address and the vocative" }
+        {
+          "id": "greetings-2-pani-krystyno",
+          "level": 2,
+          "cefr": "A2–B1",
+          "title": "Dzień dobry, pani Krystyno",
+          "titleEn": "Good morning, Mrs. Krystyna",
+          "focus": "formal address and the vocative"
+        },
+        {
+          "id": "greetings-3-milo-mi-pana-poznac",
+          "level": 3,
+          "cefr": "B1",
+          "title": "Miło mi pana poznać",
+          "titleEn": "Pleased to meet you",
+          "focus": "formal introductions: pan/pani in every case, państwo, the instrumental"
+        }
       ]
     },
     {
       "title": "Making plans",
       "titlePl": "Plany",
       "lessons": [
-        { "id": "plans-3-plany-na-sobote", "level": 3, "cefr": "B1", "title": "Plany na sobotę", "titleEn": "Plans for Saturday", "focus": "the conditional" }
+        {
+          "id": "plans-3-plany-na-sobote",
+          "level": 3,
+          "cefr": "B1",
+          "title": "Plany na sobotę",
+          "titleEn": "Plans for Saturday",
+          "focus": "the conditional"
+        }
       ]
     }
   ]

@@ -1,0 +1,383 @@
+{
+  "id": "greetings-3-milo-mi-pana-poznac",
+  "unit": "Greetings and introductions",
+  "level": 3,
+  "cefr": "B1",
+  "title": "Miło mi pana poznać",
+  "titleEn": "Pleased to meet you",
+  "focus": "formal introductions: pan/pani in every case, państwo, the instrumental",
+  "defaultWord": "profesor",
+  "patterns": {
+    "vocative": "Vocative: addressing someone",
+    "formal": "Formal you: pan / pani / państwo + 3rd person verb",
+    "accusative": "Accusative case",
+    "instrumental": "Instrumental case",
+    "genitive": "Genitive case",
+    "locative": "Locative case",
+    "conditional": "Conditional",
+    "speaker": "Gender follows the speaker"
+  },
+  "lines": [
+    { "speaker": "Ania", "gender": "f", "pl": "Pani|pani_prof profesor|profesor, chciałabym|chcialabym przedstawić pani|pani_dat mojego|mojego kolegę|kolege, Tomasza|tomasza Lewandowskiego|lewandowskiego.", "en": "Professor, I’d like to introduce my colleague, Tomasz Lewandowski." },
+    { "speaker": "Prof. Malinowska", "gender": "f", "pl": "Bardzo mi miło pana|pana poznać|poznac. Ania dużo mi o panu|panu opowiadała|opowiadala.", "en": "Very nice to meet you. Ania has told me a lot about you." },
+    { "speaker": "Tomek", "gender": "m", "pl": "Mam nadzieję|nadzieje, że same|same dobre rzeczy. Czym|czym się pani zajmuje|zajmuje, jeśli mogę zapytać?", "en": "Only good things, I hope. What do you work on, if I may ask?" },
+    { "speaker": "Prof. Malinowska", "gender": "f", "pl": "Jestem językoznawczynią|jezykoznawczynia. Zajmuję|zajmuje1 się fonetyką|fonetyka języków|jezykow słowiańskich|slowianskich.", "en": "I’m a linguist. I work on the phonetics of Slavic languages." },
+    { "speaker": "Tomek", "gender": "m", "pl": "Co za zbieg okoliczności|okolicznosci! Mój brat robi doktorat z fonetyki|fonetyki w Poznaniu|poznaniu. Może go|go pani zna|zna?", "en": "What a coincidence! My brother’s doing a PhD in phonetics in Poznań. Perhaps you know him?" },
+    { "speaker": "Prof. Malinowska", "gender": "f", "pl": "Lewandowski… Oczywiście, Marek! Byłam|bylam w jego|jego komisji|komisji w zeszłym|zeszlym roku|roku. Proszę|prosze go ode|ode mnie pozdrowić|pozdrowic.", "en": "Lewandowski… Of course, Marek! I was on his committee last year. Please give him my regards." },
+    { "speaker": "Prof. Malinowska", "gender": "f", "pl": "Może usiądą|usiada państwo|panstwo z nami? Zaraz podają|podaja kolację|kolacje.", "en": "Would you like to sit with us? They’re about to serve dinner." },
+    { "speaker": "Tomek", "gender": "m", "pl": "Z przyjemnością|przyjemnoscia. Dziękujemy|dziekujemy za zaproszenie|zaproszenie.", "en": "With pleasure. Thank you for the invitation." }
+  ],
+  "words": {
+    "pani_prof": {
+      "form": "Pani", "lemma": "pani", "gloss": "Mrs., madam; formal “you” to a woman",
+      "tags": "noun · feminine · vocative singular (same form as nominative)",
+      "parts": [["Pani", "title"]],
+      "why": "In direct address Polish uses pan or pani with a title and no surname: pani profesor, panie doktorze, pani dyrektor. “Profesor Malinowska” on its own would not be used to address her.",
+      "compare": "To a male professor: Panie profesorze.",
+      "patterns": ["vocative", "formal"]
+    },
+    "profesor": {
+      "form": "profesor", "lemma": "profesor", "gloss": "professor",
+      "tags": "noun · masculine form referring to a woman · not declined",
+      "parts": [["profesor", "no ending: indeclinable here"]],
+      "why": "When profesor refers to a woman, it doesn’t decline: pani profesor (vocative), z panią profesor (instrumental). Referring to a man, it declines fully: panie profesorze, z panem profesorem.",
+      "compare": "The feminine profesorka exists, but in academic address pani profesor is the norm.",
+      "history": "From Latin professor, “one who declares publicly.”",
+      "patterns": ["vocative"]
+    },
+    "chcialabym": {
+      "form": "chciałabym", "lemma": "chcieć", "gloss": "to want",
+      "tags": "verb · imperfective · conditional · 1st person singular · feminine",
+      "parts": [["chcia", "stem (e → a)"], ["ł", "past suffix -ł- (l-participle)"], ["a", "feminine ending"], ["by", "conditional particle"], ["m", "1st sg. person marker"]],
+      "why": "The conditional makes an offer or request polite: chciałabym przedstawić, “I’d like to introduce.” Plain chcę would sound abrupt in this setting.",
+      "you": { "m": "You would say: chciałbym przedstawić…", "f": "You would say: chciałabym przedstawić…, as Ania does." },
+      "patterns": ["conditional", "speaker"]
+    },
+    "pani_dat": {
+      "form": "pani", "lemma": "pani", "gloss": "to you (formal, to a woman)",
+      "tags": "formal pronoun · feminine · dative singular",
+      "parts": [["pani", "dative: same form as nominative"]],
+      "why": "Przedstawić kogoś komuś: the person being introduced is in the accusative, and the person they’re introduced to is in the dative. Pani looks the same in the dative.",
+      "compare": "To a man: przedstawić panu.",
+      "patterns": ["formal"]
+    },
+    "mojego": {
+      "form": "mojego", "lemma": "mój", "gloss": "my",
+      "tags": "possessive · masculine personal · accusative singular",
+      "parts": [["moj", "stem"], ["ego", "acc. sg. = gen. sg. (animate)"]],
+      "why": "For masculine nouns denoting people or animals, the accusative singular has the genitive form: mojego kolegę. With an inanimate noun it matches the nominative: mój dom.",
+      "patterns": ["accusative"]
+    },
+    "kolege": {
+      "form": "kolegę", "lemma": "kolega", "gloss": "colleague, friend (male)",
+      "tags": "noun · masculine, declined like a feminine -a noun · accusative singular",
+      "parts": [["koleg", "stem"], ["ę", "acc. sg."]],
+      "why": "Kolega ends in -a, so it takes the -ę of feminine -a nouns in the accusative. The adjective with it is still masculine: mojego kolegę.",
+      "compare": "Other masculine -a nouns: mężczyzna, poeta, kierowca.",
+      "patterns": ["accusative"]
+    },
+    "tomasza": {
+      "form": "Tomasza", "lemma": "Tomasz", "gloss": "a man’s name",
+      "tags": "proper noun · masculine personal · accusative singular",
+      "parts": [["Tomasz", "stem"], ["a", "acc. sg. = gen. sg. (animate)"]],
+      "why": "Masculine personal nouns take the genitive ending -a in the accusative. Ania uses the full name, Tomasz, because the setting is formal; among friends he’s Tomek.",
+      "patterns": ["accusative"]
+    },
+    "lewandowskiego": {
+      "form": "Lewandowskiego", "lemma": "Lewandowski", "gloss": "a surname",
+      "tags": "surname (adjectival) · masculine · accusative singular",
+      "parts": [["Lewandowsk", "stem"], ["iego", "-ego (the i marks k softened before e)"]],
+      "why": "Surnames in -ski, -cki and -dzki decline like adjectives: Lewandowski, Lewandowskiego, Lewandowskiemu. A woman of the same family is Lewandowska.",
+      "patterns": ["accusative"]
+    },
+    "pana": {
+      "form": "pana", "lemma": "pan", "gloss": "you (formal, to a man)",
+      "tags": "formal pronoun · masculine · accusative singular",
+      "parts": [["pan", "stem"], ["a", "acc. sg. = gen. sg. (animate)"]],
+      "why": "Poznać takes a direct object in the accusative, and for pan the accusative has the genitive form: pana.",
+      "compare": "To a woman: Miło mi panią poznać.",
+      "you": { "m": "People meeting you will say: Miło mi pana poznać.", "f": "People meeting you will say: Miło mi panią poznać." },
+      "patterns": ["formal", "accusative"]
+    },
+    "poznac": {
+      "form": "poznać", "lemma": "poznać", "gloss": "to meet; to get to know",
+      "tags": "verb · perfective · infinitive",
+      "parts": [["po", "prefix"], ["zna", "stem (cf. znać, “to know”)"], ["ć", "infinitive ending"]],
+      "why": "Poznać is a perfective of znać: “to come to know,” and so “to meet for the first time.” Afterwards you know each other: znamy się.",
+      "patterns": []
+    },
+    "panu": {
+      "form": "panu", "lemma": "pan", "gloss": "you (formal, to a man)",
+      "tags": "formal pronoun · masculine · locative singular",
+      "parts": [["pan", "stem"], ["u", "loc. sg."]],
+      "why": "O meaning “about” takes the locative: o panu, o pani, o nim. Panu is also the dative, as in dziękuję panu.",
+      "patterns": ["formal", "locative"]
+    },
+    "opowiadala": {
+      "form": "opowiadała", "lemma": "opowiadać", "gloss": "to tell, recount",
+      "tags": "verb · imperfective · past · 3rd person singular · feminine",
+      "parts": [["opowiada", "verb stem"], ["ł", "past suffix -ł- (l-participle)"], ["a", "feminine ending"]],
+      "why": "Feminine because the subject is Ania. Imperfective because the telling happened repeatedly or over time; third person has no person marker.",
+      "compare": "Perfective, one telling: opowiedziała.",
+      "patterns": []
+    },
+    "nadzieje": {
+      "form": "nadzieję", "lemma": "nadzieja", "gloss": "hope",
+      "tags": "noun · feminine · accusative singular",
+      "parts": [["nadziej", "stem"], ["ę", "acc. sg."]],
+      "why": "Polish says “to have hope”: mieć nadzieję. Nadzieja is the direct object of mieć, so it’s accusative.",
+      "patterns": ["accusative"]
+    },
+    "same": {
+      "form": "same", "lemma": "sam", "gloss": "alone; only; -self",
+      "tags": "adjective · non-virile plural · nominative/accusative",
+      "parts": [["sam", "stem"], ["e", "non-virile pl. ending"]],
+      "why": "Before a plural noun, sam means “nothing but”: same dobre rzeczy, “only good things.” Rzeczy is feminine, so the ending is non-virile -e.",
+      "patterns": []
+    },
+    "czym": {
+      "form": "Czym", "lemma": "co", "gloss": "what",
+      "tags": "interrogative pronoun · instrumental",
+      "parts": [["cz", "stem of co in the oblique cases"], ["ym", "instr. ending"]],
+      "why": "Zajmować się takes the instrumental (zajmuję się fonetyką), so the question word is instrumental too. Czym się pani zajmuje? is the polite way to ask about someone’s work.",
+      "compare": "Other forms of co: czego, czemu, o czym.",
+      "patterns": ["instrumental"]
+    },
+    "zajmuje": {
+      "form": "zajmuje", "lemma": "zajmować się", "gloss": "to work on, deal with",
+      "tags": "verb · imperfective · present · 3rd person singular",
+      "parts": [["zajm", "root"], ["uj", "-ow- becomes -uj- in the present"], ["e", "3rd sg. ending"]],
+      "why": "Third person because it agrees with pani. Verbs in -ować form their present tense with -uj-: zajmować → zajmuje, dziękować → dziękuje.",
+      "patterns": ["formal"]
+    },
+    "jezykoznawczynia": {
+      "form": "językoznawczynią", "lemma": "językoznawczyni", "gloss": "linguist (woman)",
+      "tags": "noun · feminine · instrumental singular",
+      "parts": [["język", "root: language"], ["o", "linking vowel"], ["znaw", "root: know"], ["czyni", "feminine suffix (masc. -ca → fem. -czyni)"], ["ą", "instr. sg."]],
+      "why": "After być, a noun saying what someone is goes in the instrumental: jestem językoznawczynią, jestem nauczycielem.",
+      "compare": "Some women prefer the masculine form: jestem językoznawcą.",
+      "you": { "m": "You would say: Jestem językoznawcą.", "f": "You would say: Jestem językoznawczynią (or językoznawcą)." },
+      "patterns": ["instrumental"]
+    },
+    "zajmuje1": {
+      "form": "Zajmuję", "lemma": "zajmować się", "gloss": "to work on, deal with",
+      "tags": "verb · imperfective · present · 1st person singular",
+      "parts": [["zajm", "root"], ["uj", "-ow- becomes -uj- in the present"], ["ę", "1st sg. ending"]],
+      "why": "The answer to Tomek’s question, in the first person. Present-tense forms don’t mark gender, so this is the same for everyone.",
+      "patterns": []
+    },
+    "fonetyka": {
+      "form": "fonetyką", "lemma": "fonetyka", "gloss": "phonetics",
+      "tags": "noun · feminine · instrumental singular",
+      "parts": [["fonetyk", "stem"], ["ą", "instr. sg."]],
+      "why": "Instrumental because zajmować się requires it.",
+      "history": "From Greek phōnētikós, from phōnḗ, “voice, sound.”",
+      "patterns": ["instrumental"]
+    },
+    "jezykow": {
+      "form": "języków", "lemma": "język", "gloss": "language; tongue",
+      "tags": "noun · masculine inanimate · genitive plural",
+      "parts": [["język", "stem"], ["ów", "gen. pl."]],
+      "why": "Fonetyka języków: the genitive does the work of English “of.”",
+      "patterns": ["genitive"]
+    },
+    "slowianskich": {
+      "form": "słowiańskich", "lemma": "słowiański", "gloss": "Slavic",
+      "tags": "adjective · genitive plural",
+      "parts": [["słowiań", "stem (n → ń before -sk-)"], ["sk", "adjective suffix"], ["ich", "gen. pl. ending"]],
+      "why": "Adjectives agree with their noun: języków is genitive plural, so słowiańskich. After k and g the ending is spelled -ich in place of -ych.",
+      "patterns": ["genitive"]
+    },
+    "okolicznosci": {
+      "form": "okoliczności", "lemma": "okoliczność", "gloss": "circumstance",
+      "tags": "noun · feminine · genitive plural",
+      "parts": [["okoliczn", "stem"], ["ości", "suffix -ość + gen. pl. -i (ć spelled ci)"]],
+      "why": "Zbieg okoliczności, literally “a running-together of circumstances,” is the everyday word for “coincidence.” The second noun is genitive.",
+      "history": "Zbieg comes from zbiegać się, “to run together, converge.”",
+      "patterns": ["genitive"]
+    },
+    "fonetyki": {
+      "form": "fonetyki", "lemma": "fonetyka", "gloss": "phonetics",
+      "tags": "noun · feminine · genitive singular",
+      "parts": [["fonetyk", "stem"], ["i", "gen. sg. (-y spelled -i after k)"]],
+      "why": "Z plus the genitive names the subject of a degree or exam: doktorat z fonetyki, egzamin z matematyki. Contrast z przyjemnością at the end, where z means “with” and takes the instrumental.",
+      "patterns": ["genitive"]
+    },
+    "poznaniu": {
+      "form": "Poznaniu", "lemma": "Poznań", "gloss": "Poznań (city)",
+      "tags": "proper noun · masculine · locative singular",
+      "parts": [["Poznani", "stem Poznań- (ń spelled ni before a vowel)"], ["u", "loc. sg."]],
+      "why": "W plus the locative. Masculine nouns ending in a soft consonant take -u in the locative: w Poznaniu, w pokoju.",
+      "history": "Usually derived from an old personal name, Poznan, related to poznać, “to get to know.”",
+      "patterns": ["locative"]
+    },
+    "go": {
+      "form": "go", "lemma": "on", "gloss": "he, him",
+      "tags": "pronoun · accusative · short (clitic) form",
+      "parts": [["go", "him"]],
+      "why": "Go is the unstressed accusative of on. Short pronouns like go, mu and mi tend to come early in the clause, here right after może.",
+      "compare": "Stressed form, or after a preposition: jego, dla niego.",
+      "patterns": []
+    },
+    "zna": {
+      "form": "zna", "lemma": "znać", "gloss": "to know (a person, a place)",
+      "tags": "verb · imperfective · present · 3rd person singular",
+      "parts": [["zna", "stem; 3rd sg. has no ending"]],
+      "why": "Third person to agree with pani. Znać is for knowing people and things; wiedzieć is for knowing facts.",
+      "patterns": ["formal"]
+    },
+    "bylam": {
+      "form": "Byłam", "lemma": "być", "gloss": "to be",
+      "tags": "verb · past · 1st person singular · feminine",
+      "parts": [["by", "stem of być"], ["ł", "past suffix -ł- (l-participle)"], ["a", "feminine ending"], ["m", "1st sg. person marker"]],
+      "why": "The professor is speaking about herself, so the feminine ending -a.",
+      "you": { "m": "You would say: byłem.", "f": "You would say: byłam." },
+      "patterns": ["speaker"]
+    },
+    "jego": {
+      "form": "jego", "lemma": "on", "gloss": "his",
+      "tags": "possessive (genitive of on) · invariable",
+      "parts": [["jego", "his"]],
+      "why": "Jego, “his,” is the genitive of on and never agrees with its noun: jego komisja, w jego komisji, jego brat.",
+      "compare": "Her: jej. Their: ich. Both are invariable too.",
+      "patterns": []
+    },
+    "komisji": {
+      "form": "komisji", "lemma": "komisja", "gloss": "committee, board",
+      "tags": "noun · feminine · locative singular",
+      "parts": [["komisj", "stem"], ["i", "loc. sg."]],
+      "why": "W plus the locative. Nouns in -ja take -i in the locative, genitive and dative: komisja → komisji. Here komisja is the doctoral examining committee.",
+      "patterns": ["locative"]
+    },
+    "zeszlym": {
+      "form": "zeszłym", "lemma": "zeszły", "gloss": "last, previous",
+      "tags": "adjective · masculine · locative singular",
+      "parts": [["zeszł", "stem"], ["ym", "loc. sg."]],
+      "why": "W zeszłym roku, “last year,” is locative after w.",
+      "history": "Zeszły comes from the past form of zejść, “to go down, pass”: a year that has gone by.",
+      "patterns": ["locative"]
+    },
+    "roku": {
+      "form": "roku", "lemma": "rok", "gloss": "year",
+      "tags": "noun · masculine inanimate · locative singular",
+      "parts": [["rok", "stem"], ["u", "loc. sg."]],
+      "why": "Stems ending in k, g or ch take -u in the locative: w roku, w bloku, w parku.",
+      "patterns": ["locative"]
+    },
+    "prosze": {
+      "form": "Proszę", "lemma": "prosić", "gloss": "to ask; please",
+      "tags": "verb · imperfective · present · 1st person singular",
+      "parts": [["prosz", "stem (ś → sz)"], ["ę", "1st sg. ending"]],
+      "why": "Proszę plus an infinitive is the polite way to ask someone to do something: proszę usiąść, proszę go pozdrowić. It avoids the imperative, which can sound brusque in formal speech.",
+      "patterns": ["formal"]
+    },
+    "ode": {
+      "form": "ode", "lemma": "od", "gloss": "from",
+      "tags": "preposition · variant form",
+      "parts": [["od", "from"], ["e", "inserted vowel"]],
+      "why": "Before mnie, od becomes ode to break up the consonant cluster. Other prepositions do the same: ze mną, we mnie, beze mnie.",
+      "patterns": []
+    },
+    "pozdrowic": {
+      "form": "pozdrowić", "lemma": "pozdrowić", "gloss": "to greet; to give regards",
+      "tags": "verb · perfective · infinitive",
+      "parts": [["po", "prefix"], ["zdrow", "root: healthy"], ["i", "verb stem suffix"], ["ć", "infinitive ending"]],
+      "why": "Pozdrowić kogoś od kogoś means “to give someone regards from someone.” The root is zdrowy, “healthy”: greeting someone was wishing them health.",
+      "patterns": []
+    },
+    "usiada": {
+      "form": "usiądą", "lemma": "usiąść", "gloss": "to sit down",
+      "tags": "verb · perfective · non-past · 3rd person plural",
+      "parts": [["u", "prefix"], ["siąd", "root"], ["ą", "3rd pl. ending"]],
+      "why": "Third person plural to agree with państwo. Może usiądą państwo…? works as a polite invitation: “perhaps you’ll sit…?”",
+      "patterns": ["formal"]
+    },
+    "panstwo": {
+      "form": "państwo", "lemma": "państwo", "gloss": "you (formal plural); ladies and gentlemen",
+      "tags": "noun · plural agreement · nominative",
+      "parts": [["pań", "root of pan, pani"], ["stwo", "collective suffix"]],
+      "why": "Państwo is the formal “you” for a group, especially a mixed one. It takes a third-person plural verb: usiądą państwo, czy państwo się znają?",
+      "compare": "Państwo meaning “state, country” is spelled the same but is a neuter singular noun.",
+      "history": "Both meanings go back to pan, originally “lord, master.”",
+      "patterns": ["formal"]
+    },
+    "podaja": {
+      "form": "podają", "lemma": "podawać", "gloss": "to serve; to hand",
+      "tags": "verb · imperfective · present · 3rd person plural · no stated subject",
+      "parts": [["po", "prefix"], ["daj", "stem (-dawać → -daj- in the present)"], ["ą", "3rd pl. ending"]],
+      "why": "With no subject, a third-person plural verb means people in general, like English “they’re serving dinner.”",
+      "patterns": []
+    },
+    "kolacje": {
+      "form": "kolację", "lemma": "kolacja", "gloss": "dinner, supper",
+      "tags": "noun · feminine · accusative singular",
+      "parts": [["kolacj", "stem"], ["ę", "acc. sg."]],
+      "why": "The direct object of podają, so accusative.",
+      "history": "From Latin collatio, “a bringing together”; in Polish it’s the evening meal.",
+      "patterns": ["accusative"]
+    },
+    "przyjemnoscia": {
+      "form": "przyjemnością", "lemma": "przyjemność", "gloss": "pleasure",
+      "tags": "noun · feminine · instrumental singular",
+      "parts": [["przyjemn", "stem"], ["ości", "suffix -ość (ć spelled ci before a vowel)"], ["ą", "instr. sg."]],
+      "why": "Z meaning “with” takes the instrumental: z przyjemnością, “with pleasure.” In doktorat z fonetyki, z takes the genitive and means something different.",
+      "patterns": ["instrumental"]
+    },
+    "dziekujemy": {
+      "form": "Dziękujemy", "lemma": "dziękować", "gloss": "to thank",
+      "tags": "verb · imperfective · present · 1st person plural",
+      "parts": [["dzięk", "root"], ["uj", "-ow- becomes -uj- in the present"], ["emy", "1st pl. ending"]],
+      "why": "Tomek thanks her for both himself and Ania, so he uses “we.”",
+      "patterns": []
+    },
+    "zaproszenie": {
+      "form": "zaproszenie", "lemma": "zaproszenie", "gloss": "invitation",
+      "tags": "noun · neuter · accusative singular",
+      "parts": [["za", "prefix"], ["prosz", "root (ś → sz)"], ["eni", "verbal noun suffix"], ["e", "neuter sg. ending"]],
+      "why": "Dziękować za plus the accusative: to thank for something. Zaproszenie is the verbal noun of zaprosić, “to invite.”",
+      "patterns": ["accusative"]
+    }
+  },
+  "exercises": [
+    {
+      "id": "e1", "model": "jezykoznawczynia",
+      "prompt": "Say what you do: “I’m a teacher” (nauczyciel / nauczycielka). Jestem ___.",
+      "answer": { "m": ["nauczyciel", "em"], "f": ["nauczyciel", "k", "ą"] },
+      "tiles": ["nauczyciel", "k", "a", "ą", "em", "e"],
+      "explain": { "m": "After być, the instrumental: nauczyciel + em.", "f": "The feminine nauczycielka in the instrumental: nauczyciel + k + ą." },
+      "hint": "Look at jestem językoznawczynią. Which case follows jestem? Then check the learner setting at the top."
+    },
+    {
+      "id": "e2", "model": "lewandowskiego",
+      "prompt": "Introduce Marek’s sister, Ewa Lewandowska: Chciałbym przedstawić Ewę ___.",
+      "answer": ["Lewandowsk", "ą"],
+      "tiles": ["Lewandowsk", "iego", "a", "ą", "iej"],
+      "explain": "Women’s surnames in -ska decline like feminine adjectives, so the accusative is -ą.",
+      "hint": "Lewandowski becomes Lewandowskiego, like an adjective. What does a feminine adjective do in the accusative?"
+    },
+    {
+      "id": "e3", "model": "pana",
+      "prompt": "Say to a woman you’ve just met: Miło mi ___ poznać.",
+      "answer": ["pan", "ią"],
+      "tiles": ["pan", "a", "ią", "i", "u"],
+      "explain": "The accusative of pani is panią: pan + ią, where the i marks the soft ń.",
+      "hint": "To a man it’s pana. What happens to pani after poznać?"
+    },
+    {
+      "id": "e4", "model": "fonetyka",
+      "prompt": "“I work on syntax” (składnia): Zajmuję się ___.",
+      "answer": ["składni", "ą"],
+      "tiles": ["składni", "a", "ą", "ę", "i"],
+      "explain": "Zajmować się takes the instrumental: składnia → składnią.",
+      "hint": "Compare zajmuję się fonetyką."
+    },
+    {
+      "id": "e5", "model": "panstwo",
+      "prompt": "Ask a couple politely whether they know each other (znać): Czy państwo się ___?",
+      "answer": ["zna", "ją"],
+      "tiles": ["zna", "sz", "cie", "ją", "my", "m"],
+      "explain": "Państwo takes a third-person plural verb: znają.",
+      "hint": "Look at może usiądą państwo. Which person does the verb take?"
+    }
+  ]
+}
