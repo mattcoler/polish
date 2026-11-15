@@ -1,0 +1,312 @@
+{
+  "id": "around-2-jak-dojde-do-rynku",
+  "unit": "Getting around",
+  "level": 2,
+  "cefr": "B1",
+  "title": "Jak dojdę do Rynku?",
+  "titleEn": "How do I get to the Main Square?",
+  "focus": "motion verbs: iść and chodzić, jechać, and prefixes",
+  "defaultWord": "dojde",
+  "patterns": {
+    "determinate": "Iść vs. chodzić: one direction now vs. around or habitually",
+    "prefix": "Motion prefixes: do- (reach), prze- (across), po- (set off), w- (into)",
+    "future": "Perfective present form = future",
+    "aspect": "Aspect pair: zgubić się / gubić się",
+    "accusative": "Accusative case",
+    "genitive": "Genitive case",
+    "locative": "Locative case",
+    "instrumental": "Instrumental case",
+    "formal": "Formal you: pan / pani + 3rd person verb",
+    "speaker": "Gender follows the speaker"
+  },
+  "lines": [
+    { "speaker": "Ania", "gender": "f", "pl": "Przepraszam, zgubiłam|zgubilam się. Jak dojdę|dojde do Rynku|rynku?", "en": "Excuse me, I’m lost. How do I get to the Main Square?" },
+    { "speaker": "Przechodzień", "gender": "m", "pl": "Idzie|idzie pani w złą|zla stronę|strone. Proszę zawrócić|zawrocic i przejść|przejsc przez ulicę|ulice na światłach|swiatlach.", "en": "You’re going the wrong way. Turn back and cross the street at the lights." },
+    { "speaker": "Ania", "gender": "f", "pl": "A potem? Czy to daleko? Może lepiej pojadę|pojade tramwajem|tramwajem?", "en": "And then? Is it far? Maybe I’d better take the tram?" },
+    { "speaker": "Przechodzień", "gender": "m", "pl": "Nie warto|warto, to piętnaście minut pieszo|pieszo. Najpierw dojdzie|dojdzie pani do Wawelu|wawelu, potem skręci|skreci pani w Grodzką|grodzka i pójdzie|pojdzie pani prosto aż do Rynku.", "en": "It’s not worth it, it’s fifteen minutes on foot. First you’ll get to Wawel, then you turn into Grodzka Street and go straight on all the way to the square." },
+    { "speaker": "Ania", "gender": "f", "pl": "Dziękuję! Codziennie chodzę|chodze po mieście|miescie z mapą|mapa w telefonie|telefonie, a i tak się gubię|gubie.", "en": "Thank you! I walk around the city every day with a map on my phone, and I still get lost." },
+    { "speaker": "Przechodzień", "gender": "m", "pl": "Każdy się tu gubi. Ja mieszkam|mieszkam w Krakowie|krakowie od dwudziestu|dwudziestu lat|lat, a wczoraj wjechałem|wjechalem w ślepą|slepa uliczkę|uliczke!", "en": "Everyone gets lost here. I’ve lived in Kraków for twenty years, and yesterday I drove into a dead end!" },
+    { "speaker": "Ania", "gender": "f", "pl": "No to mnie pan pocieszył|pocieszyl! Do widzenia!", "en": "Well, that’s a comfort! Goodbye!" }
+  ],
+  "words": {
+    "zgubilam": {
+      "form": "zgubiłam", "lemma": "zgubić się", "gloss": "to get lost",
+      "tags": "verb · perfective · past · 1st person singular · feminine",
+      "parts": [["z", "perfective prefix"], ["gubi", "verb stem"], ["ł", "past suffix -ł- (l-participle)"], ["a", "feminine ending"], ["m", "1st sg. person marker"]],
+      "why": "Perfective: the getting lost has happened, and she is now lost. Its imperfective partner, gubić się, describes getting lost again and again (line 5).",
+      "you": { "m": "You would say: zgubiłem się.", "f": "You would say: zgubiłam się, as Ania does." },
+      "patterns": ["aspect", "speaker"]
+    },
+    "dojde": {
+      "form": "dojdę", "lemma": "dojść", "gloss": "to get to, reach (on foot)",
+      "tags": "verb · perfective · non-past (future meaning) · 1st person singular",
+      "parts": [["do", "prefix: reaching a goal"], ["jd", "root of iść (id-); i → j after a prefix"], ["ę", "1st sg. ending"]],
+      "why": "Do- adds “all the way to”: dojść do Rynku, “to get as far as the square.” It goes with do + genitive. Being perfective, the present-tense form refers to the future: “how will I get there?”",
+      "compare": "By vehicle: Jak dojadę do Rynku?",
+      "patterns": ["prefix", "future"]
+    },
+    "rynku": {
+      "form": "Rynku", "lemma": "Rynek", "gloss": "market square; the Main Square",
+      "tags": "proper noun · masculine inanimate · genitive singular",
+      "parts": [["Ryn", "stem"], ["k", "stem-final k (fleeting e dropped)"], ["u", "gen. sg."]],
+      "why": "Do takes the genitive. The e of Rynek is a fleeting vowel: Rynek, Rynku. In Kraków, Rynek on its own means Rynek Główny, the Main Square.",
+      "history": "From Middle High German rinc, “ring, circle.”",
+      "patterns": ["genitive"]
+    },
+    "idzie": {
+      "form": "Idzie", "lemma": "iść", "gloss": "to go, walk (one direction, now)",
+      "tags": "verb · imperfective · determinate · present · 3rd person singular",
+      "parts": [["idzi", "root id- (d → dź before e, spelled dzi)"], ["e", "3rd sg. ending"]],
+      "why": "Iść is the determinate verb of walking: one trip, in one direction, under way now. Ania is on her way at this moment, so idzie. For walking around or habitually, Polish uses chodzić (line 5).",
+      "compare": "Indeterminate: chodzi, “she walks (around, regularly).”",
+      "patterns": ["determinate", "formal"]
+    },
+    "zla": {
+      "form": "złą", "lemma": "zły", "gloss": "bad, wrong",
+      "tags": "adjective · feminine · accusative singular",
+      "parts": [["zł", "stem"], ["ą", "fem. acc. sg."]],
+      "why": "W złą stronę, “in the wrong direction”: w + accusative for direction of movement, and the adjective agrees with strona.",
+      "patterns": ["accusative"]
+    },
+    "strone": {
+      "form": "stronę", "lemma": "strona", "gloss": "side; direction",
+      "tags": "noun · feminine · accusative singular",
+      "parts": [["stron", "stem"], ["ę", "acc. sg."]],
+      "why": "W + accusative expresses direction: w stronę Rynku, “towards the square.” Location uses the locative: po lewej stronie, “on the left side.”",
+      "patterns": ["accusative"]
+    },
+    "zawrocic": {
+      "form": "zawrócić", "lemma": "zawrócić", "gloss": "to turn back",
+      "tags": "verb · perfective · infinitive",
+      "parts": [["za", "prefix"], ["wróci", "stem (cf. wrócić, “to return”)"], ["ć", "infinitive ending"]],
+      "why": "Proszę + infinitive is the polite way to give instructions. Zawrócić means “to turn round and head back”; wrócić alone is “to return.”",
+      "patterns": []
+    },
+    "przejsc": {
+      "form": "przejść", "lemma": "przejść", "gloss": "to cross, go across",
+      "tags": "verb · perfective · infinitive",
+      "parts": [["prze", "prefix: across, through"], ["jś", "root of iść; i → j after a prefix"], ["ć", "infinitive ending"]],
+      "why": "Prze- means across or through, and usually comes with przez + accusative: przejść przez ulicę, przez most, przez park.",
+      "patterns": ["prefix"]
+    },
+    "ulice": {
+      "form": "ulicę", "lemma": "ulica", "gloss": "street",
+      "tags": "noun · feminine · accusative singular",
+      "parts": [["ulic", "stem"], ["ę", "acc. sg."]],
+      "why": "Przez takes the accusative.",
+      "patterns": ["accusative"]
+    },
+    "swiatlach": {
+      "form": "światłach", "lemma": "światła", "gloss": "traffic lights",
+      "tags": "noun · neuter · locative plural",
+      "parts": [["światł", "stem"], ["ach", "loc. pl."]],
+      "why": "Światło means “light”; its plural, światła, is the everyday word for traffic lights. Na + locative for location: na światłach, “at the lights.”",
+      "patterns": ["locative"]
+    },
+    "pojade": {
+      "form": "pojadę", "lemma": "pojechać", "gloss": "to go (by vehicle), set off",
+      "tags": "verb · perfective · non-past (future meaning) · 1st person singular",
+      "parts": [["po", "prefix: setting off"], ["jad", "root of jechać (jech-/jad-)"], ["ę", "1st sg. ending"]],
+      "why": "Jechać is for going by vehicle; iść is only on foot. Po- makes it perfective and adds the sense of setting off: pojadę, “I’ll go (by tram).”",
+      "compare": "On foot: pójdę.",
+      "patterns": ["prefix", "future"]
+    },
+    "tramwajem": {
+      "form": "tramwajem", "lemma": "tramwaj", "gloss": "tram",
+      "tags": "noun · masculine inanimate · instrumental singular",
+      "parts": [["tramwaj", "stem"], ["em", "instr. sg."]],
+      "why": "The vehicle you travel by goes in the instrumental, with no preposition: jechać tramwajem, autobusem, pociągiem.",
+      "patterns": ["instrumental"]
+    },
+    "warto": {
+      "form": "warto", "lemma": "warto", "gloss": "it’s worth (it)",
+      "tags": "impersonal predicative · invariable",
+      "parts": [["warto", "it’s worth"]],
+      "why": "Warto is impersonal: (nie) warto, or warto + infinitive, “it’s (not) worth doing.” It has no subject and doesn’t change; the past is warto było.",
+      "history": "Related to wart, “worth,” and wartość, “value.”",
+      "patterns": []
+    },
+    "pieszo": {
+      "form": "pieszo", "lemma": "pieszo", "gloss": "on foot",
+      "tags": "adverb",
+      "parts": [["piesz", "stem"], ["o", "adverb suffix"]],
+      "why": "Pieszo, “on foot,” shares its root with pieszy, “pedestrian.” In everyday speech you’ll also hear na piechotę.",
+      "patterns": []
+    },
+    "dojdzie": {
+      "form": "dojdzie", "lemma": "dojść", "gloss": "to get to, reach (on foot)",
+      "tags": "verb · perfective · non-past (future meaning) · 3rd person singular",
+      "parts": [["do", "prefix: reaching a goal"], ["jdzi", "root of iść (d → dź, spelled dzi)"], ["e", "3rd sg. ending"]],
+      "why": "The same verb as Ania’s dojdę, now third person to agree with pani. A perfective present refers to the future: “you’ll get to Wawel.”",
+      "patterns": ["prefix", "future", "formal"]
+    },
+    "wawelu": {
+      "form": "Wawelu", "lemma": "Wawel", "gloss": "Wawel (hill and castle)",
+      "tags": "proper noun · masculine inanimate · genitive singular",
+      "parts": [["Wawel", "stem"], ["u", "gen. sg."]],
+      "why": "Do + genitive. Many masculine inanimate nouns take -u in the genitive: do Wawelu, do Rynku.",
+      "history": "Wawel is the hill above the Vistula with Kraków’s royal castle and cathedral.",
+      "patterns": ["genitive"]
+    },
+    "skreci": {
+      "form": "skręci", "lemma": "skręcić", "gloss": "to turn",
+      "tags": "verb · perfective · non-past (future meaning) · 3rd person singular",
+      "parts": [["s", "prefix"], ["kręci", "stem (cf. kręcić, “to turn, spin”)"]],
+      "why": "Skręcić w + accusative means to turn into a street: skręcić w Grodzką, skręcić w lewo. Perfective, so the present form describes the next step.",
+      "patterns": ["future", "formal"]
+    },
+    "grodzka": {
+      "form": "Grodzką", "lemma": "Grodzka", "gloss": "Grodzka Street",
+      "tags": "adjective used as a street name · feminine · accusative singular",
+      "parts": [["Grodzk", "stem: gród + adjective suffix -sk-"], ["ą", "fem. acc. sg."]],
+      "why": "Many street names are adjectives agreeing with an understood ulica, which is feminine: ulica Grodzka. After skręcić w it’s accusative, because w here means “into.”",
+      "history": "From gród, an old word for a fortified settlement.",
+      "patterns": ["accusative"]
+    },
+    "pojdzie": {
+      "form": "pójdzie", "lemma": "pójść", "gloss": "to go (on foot), set off",
+      "tags": "verb · perfective · non-past (future meaning) · 3rd person singular",
+      "parts": [["pó", "prefix po-, spelled pó in this verb"], ["jdzi", "root of iść (d → dź, spelled dzi)"], ["e", "3rd sg. ending"]],
+      "why": "Pójść is the perfective of iść: “to set off, go.” Here it’s the next step of the route, so the present form refers to the future.",
+      "compare": "By vehicle: pojedzie.",
+      "patterns": ["prefix", "future", "formal"]
+    },
+    "chodze": {
+      "form": "chodzę", "lemma": "chodzić", "gloss": "to walk (around, regularly)",
+      "tags": "verb · imperfective · indeterminate · present · 1st person singular",
+      "parts": [["chodz", "stem (d → dz before ę)"], ["ę", "1st sg. ending"]],
+      "why": "Chodzić is the indeterminate partner of iść: walking around, back and forth, or habitually. Codziennie chodzę, “every day I walk around.” Idę would mean she’s on her way somewhere right now.",
+      "compare": "By vehicle: jeżdżę (jeździć), the indeterminate partner of jechać.",
+      "patterns": ["determinate"]
+    },
+    "miescie": {
+      "form": "mieście", "lemma": "miasto", "gloss": "town, city",
+      "tags": "noun · neuter · locative singular",
+      "parts": [["mieś", "stem (a → e, st → ść)"], ["cie", "loc. sg. -e (ć spelled ci)"]],
+      "why": "Po + locative means “around, all over”: po mieście, po parku. The stem changes before the locative -e: miasto → mieście.",
+      "patterns": ["locative"]
+    },
+    "mapa": {
+      "form": "mapą", "lemma": "mapa", "gloss": "map",
+      "tags": "noun · feminine · instrumental singular",
+      "parts": [["map", "stem"], ["ą", "instr. sg."]],
+      "why": "Z meaning “with” takes the instrumental: z mapą.",
+      "patterns": ["instrumental"]
+    },
+    "telefonie": {
+      "form": "telefonie", "lemma": "telefon", "gloss": "phone",
+      "tags": "noun · masculine inanimate · locative singular",
+      "parts": [["telefon", "stem"], ["ie", "loc. sg. -e (the i marks n softened to ń)"]],
+      "why": "W + locative. The same softening as kino → kinie.",
+      "patterns": ["locative"]
+    },
+    "gubie": {
+      "form": "gubię", "lemma": "gubić się", "gloss": "to get lost (repeatedly)",
+      "tags": "verb · imperfective · present · 1st person singular",
+      "parts": [["gubi", "stem"], ["ę", "1st sg. ending"]],
+      "why": "Imperfective because it keeps happening. Compare zgubiłam się in line 1: a single, completed event.",
+      "patterns": ["aspect"]
+    },
+    "mieszkam": {
+      "form": "mieszkam", "lemma": "mieszkać", "gloss": "to live (somewhere)",
+      "tags": "verb · imperfective · present · 1st person singular",
+      "parts": [["mieszka", "verb stem"], ["m", "1st sg. ending"]],
+      "why": "Polish uses the present tense for a situation that began in the past and still continues: mieszkam tu od dwudziestu lat, “I’ve lived here for twenty years.” English needs the perfect.",
+      "patterns": []
+    },
+    "krakowie": {
+      "form": "Krakowie", "lemma": "Kraków", "gloss": "Kraków",
+      "tags": "proper noun · masculine inanimate · locative singular",
+      "parts": [["Krakow", "stem (ó → o)"], ["ie", "loc. sg. -e (the i marks w softened)"]],
+      "why": "W + locative. The ó of Kraków becomes o when an ending follows: Krakowa, w Krakowie.",
+      "patterns": ["locative"]
+    },
+    "dwudziestu": {
+      "form": "dwudziestu", "lemma": "dwadzieścia", "gloss": "twenty",
+      "tags": "numeral · genitive",
+      "parts": [["dwu", "two (old combining form)"], ["dziest", "ten"], ["u", "gen. ending"]],
+      "why": "Od takes the genitive, so the numeral is genitive too: od dwudziestu lat.",
+      "patterns": ["genitive"]
+    },
+    "lat": {
+      "form": "lat", "lemma": "rok", "gloss": "year",
+      "tags": "noun · genitive plural (suppletive form)",
+      "parts": [["lat", "gen. pl. of rok (from lato)"]],
+      "why": "Rok takes its plural from another word: dwa lata, pięć lat, od dwudziestu lat. The forms come from lato, “summer.”",
+      "patterns": ["genitive"]
+    },
+    "wjechalem": {
+      "form": "wjechałem", "lemma": "wjechać", "gloss": "to drive into",
+      "tags": "verb · perfective · past · 1st person singular · masculine",
+      "parts": [["w", "prefix: into"], ["jecha", "verb stem"], ["ł", "past suffix -ł- (l-participle)"], ["e", "inserted vowel"], ["m", "1st sg. person marker"]],
+      "why": "W- means “into,” with w + accusative: wjechać w ślepą uliczkę. The masculine has no agreement ending, and an e is inserted before the person marker.",
+      "compare": "On foot: wszedłem (wejść).",
+      "you": { "m": "You would say: wjechałem, as he does.", "f": "You would say: wjechałam." },
+      "patterns": ["prefix", "speaker"]
+    },
+    "slepa": {
+      "form": "ślepą", "lemma": "ślepy", "gloss": "blind",
+      "tags": "adjective · feminine · accusative singular",
+      "parts": [["ślep", "stem"], ["ą", "fem. acc. sg."]],
+      "why": "Ślepa uliczka, literally “a blind little street,” is a dead end. The adjective agrees with uliczka.",
+      "patterns": ["accusative"]
+    },
+    "uliczke": {
+      "form": "uliczkę", "lemma": "uliczka", "gloss": "little street, lane",
+      "tags": "noun · feminine · accusative singular",
+      "parts": [["ulicz", "stem (c → cz)"], ["k", "diminutive suffix"], ["ę", "acc. sg."]],
+      "why": "A diminutive of ulica: c changes to cz before the suffix -k(a). Accusative because w here means “into.”",
+      "patterns": ["accusative"]
+    },
+    "pocieszyl": {
+      "form": "pocieszył", "lemma": "pocieszyć", "gloss": "to comfort, cheer up",
+      "tags": "verb · perfective · past · 3rd person singular · masculine",
+      "parts": [["po", "perfective prefix"], ["cieszy", "stem (cf. cieszyć się, “to be glad”)"], ["ł", "past suffix -ł- (l-participle)"]],
+      "why": "Masculine with no agreement ending, because it agrees with pan. Ania says it with irony: “well, that’s a comfort!”",
+      "compare": "To a woman: pocieszyła mnie pani.",
+      "patterns": ["formal"]
+    }
+  },
+  "exercises": [
+    {
+      "id": "e1", "model": "wjechalem",
+      "prompt": "Say about yourself: “I drove out of the garage” (wy- + jechać). ___ z garażu.",
+      "answer": { "m": ["wy", "jecha", "ł", "e", "m"], "f": ["wy", "jecha", "ł", "a", "m"] },
+      "tiles": ["w", "wy", "prze", "jecha", "ł", "a", "e", "m"],
+      "explain": { "m": "Wy- means “out of”: wy + jecha + ł + e + m.", "f": "Wy- means “out of”: wy + jecha + ł + a + m." },
+      "hint": "W- means “into.” Which prefix means “out of”? Then check the learner setting at the top."
+    },
+    {
+      "id": "e2", "model": "dojde",
+      "prompt": "Ask: “How do I get to the station (on foot)?” Jak ___ do dworca?",
+      "answer": ["do", "jd", "ę"],
+      "tiles": ["do", "prze", "w", "id", "jd", "ę", "zie"],
+      "explain": "Do- means reaching a goal: do + jd + ę. After a prefix, the root id- of iść appears as jd-.",
+      "hint": "Look at Ania’s question in the first line."
+    },
+    {
+      "id": "e3", "model": "przejsc",
+      "prompt": "Tell someone politely to cross the bridge: Proszę ___ przez most.",
+      "answer": ["prze", "jś", "ć"],
+      "tiles": ["prze", "do", "w", "iś", "jś", "ć"],
+      "explain": "Prze- means “across” and goes with przez + accusative: prze + jś + ć.",
+      "hint": "Look at przejść przez ulicę in line 2."
+    },
+    {
+      "id": "e4", "model": "chodze",
+      "prompt": "“I go to the gym every week”: Co tydzień ___ na siłownię.",
+      "answer": ["chodz", "ę"],
+      "tiles": ["id", "chodz", "ę", "zie", "i"],
+      "explain": "A regular, repeated trip takes the indeterminate chodzić: chodz + ę. Idę would mean you’re on your way right now.",
+      "hint": "Compare codziennie chodzę with idzie pani."
+    },
+    {
+      "id": "e5", "model": "tramwajem",
+      "prompt": "“I’ll go by bus” (autobus): Pojadę ___.",
+      "answer": ["autobus", "em"],
+      "tiles": ["autobus", "em", "ie", "u", "a"],
+      "explain": "The vehicle you travel by is instrumental, with no preposition: tramwajem, autobusem, pociągiem.",
+      "hint": "Compare pojadę tramwajem."
+    }
+  ]
+}
