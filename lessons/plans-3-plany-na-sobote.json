@@ -1,0 +1,708 @@
+{
+  "id": "plans-3-plany-na-sobote",
+  "title": "Plany na sobotę",
+  "titleEn": "Plans for Saturday",
+  "level": 3,
+  "focus": "the conditional",
+  "defaultWord": "poszlabym",
+  "patterns": {
+    "locative": "Locative case",
+    "genitive": "Genitive case",
+    "conditional": "Conditional",
+    "addressee": "Gender follows the listener",
+    "speaker": "Gender follows the speaker",
+    "plural": "Plural gender: virile / non-virile"
+  },
+  "lines": [
+    {
+      "speaker": "Tomek",
+      "gender": "m",
+      "pl": "Byłaś|bylas już w tym nowym|nowym kinie|kinie na Woli|woli?",
+      "en": "Have you been to that new cinema in Wola yet?"
+    },
+    {
+      "speaker": "Ania",
+      "gender": "f",
+      "pl": "Jeszcze nie. Poszłabym|poszlabym, ale w tym tygodniu|tygodniu napisałam|napisalam pięć raportów|raportow i nie mam siły|sily.",
+      "en": "Not yet. I’d go, but I’ve written five reports this week and I’m worn out."
+    },
+    {
+      "speaker": "Tomek",
+      "gender": "m",
+      "pl": "To może w sobotę|sobote? Gdybyś|gdybys chciała|chciala, poszlibyśmy|poszlibysmy razem.",
+      "en": "Saturday, then? If you wanted, we could go together."
+    },
+    {
+      "speaker": "Ania",
+      "gender": "f",
+      "pl": "Chętnie! Mógłbyś|moglbys kupić bilety? Ja bym|bym zapomniała|zapomniala.",
+      "en": "I’d love to! Could you get the tickets? I’d forget."
+    },
+    {
+      "speaker": "Tomek",
+      "gender": "m",
+      "pl": "Jasne. Moi koledzy|koledzy już tam byli|byli i mówili|mowili, że jest świetne|swietne.",
+      "en": "Sure. My friends have already been and said it’s great."
+    },
+    {
+      "speaker": "Ania",
+      "gender": "f",
+      "pl": "To byłoby|byloby idealne zakończenie tygodnia.",
+      "en": "That would be the perfect end to the week."
+    }
+  ],
+  "words": {
+    "bylas": {
+      "form": "Byłaś",
+      "lemma": "być",
+      "gloss": "to be",
+      "tags": "verb · past · 2nd person singular · feminine",
+      "parts": [
+        [
+          "by",
+          "stem of być"
+        ],
+        [
+          "ł",
+          "past suffix -ł- (l-participle)"
+        ],
+        [
+          "a",
+          "feminine ending"
+        ],
+        [
+          "ś",
+          "2nd sg. person marker"
+        ]
+      ],
+      "why": "Tomek is asking Ania, so the verb agrees with her. In a “you” form, the gender marker follows the person you’re talking to.",
+      "compare": "To a man: Byłeś już…?",
+      "patterns": [
+        "addressee"
+      ]
+    },
+    "nowym": {
+      "form": "nowym",
+      "lemma": "nowy",
+      "gloss": "new",
+      "tags": "adjective · locative singular · neuter",
+      "parts": [
+        [
+          "now",
+          "stem"
+        ],
+        [
+          "ym",
+          "loc. sg. (masc./neut.)"
+        ]
+      ],
+      "why": "Adjectives copy the case, number and gender of their noun. Kino is neuter and in the locative here, so nowy becomes nowym.",
+      "patterns": [
+        "locative"
+      ]
+    },
+    "kinie": {
+      "form": "kinie",
+      "lemma": "kino",
+      "gloss": "cinema",
+      "tags": "noun · neuter · locative singular",
+      "parts": [
+        [
+          "kin",
+          "stem"
+        ],
+        [
+          "ie",
+          "loc. sg. -e (the i marks n softened to ń)"
+        ]
+      ],
+      "why": "W + locative means “in” a place. The locative ending -e softens the n to ń, which is spelled ni before a vowel: kino → kinie.",
+      "compare": "Going there takes a different case: idę do kina.",
+      "patterns": [
+        "locative"
+      ]
+    },
+    "woli": {
+      "form": "Woli",
+      "lemma": "Wola",
+      "gloss": "a Warsaw district",
+      "tags": "proper noun · feminine · locative singular",
+      "parts": [
+        [
+          "Wol",
+          "stem"
+        ],
+        [
+          "i",
+          "loc. sg."
+        ]
+      ],
+      "why": "Many Warsaw districts take na instead of w: na Woli, na Mokotowie, na Pradze.",
+      "history": "From wola, “will, freedom”: an old name for new settlements granted some years free of dues to attract settlers.",
+      "patterns": [
+        "locative"
+      ]
+    },
+    "poszlabym": {
+      "form": "Poszłabym",
+      "lemma": "pójść",
+      "gloss": "to go (and get there)",
+      "tags": "verb · perfective · conditional · 1st person singular · feminine",
+      "parts": [
+        [
+          "po",
+          "perfective prefix"
+        ],
+        [
+          "sz",
+          "root of iść, past-tense form (cf. szedł)"
+        ],
+        [
+          "ł",
+          "past suffix -ł- (l-participle)"
+        ],
+        [
+          "a",
+          "feminine ending"
+        ],
+        [
+          "by",
+          "conditional particle"
+        ],
+        [
+          "m",
+          "1st sg. person marker"
+        ]
+      ],
+      "why": "The conditional is the past form without its person marker (poszła) plus by plus a person marker. Ania uses it to say she’d like to go, and ale tells you what’s stopping her.",
+      "compare": "Same meaning, marker detached: Ja bym poszła.",
+      "you": {
+        "m": "You would say: poszedłbym.",
+        "f": "You would say: poszłabym, as Ania does."
+      },
+      "patterns": [
+        "conditional",
+        "speaker"
+      ]
+    },
+    "tygodniu": {
+      "form": "tygodniu",
+      "lemma": "tydzień",
+      "gloss": "week",
+      "tags": "noun · masculine · locative singular",
+      "parts": [
+        [
+          "tygodni",
+          "oblique stem"
+        ],
+        [
+          "u",
+          "loc. sg."
+        ]
+      ],
+      "why": "W tym tygodniu = “this week.” The stem shifts from tydzień to tygodni- everywhere except the nominative and accusative singular.",
+      "history": "From an old phrase meaning “that day”: the period until the same weekday comes round again.",
+      "patterns": [
+        "locative"
+      ]
+    },
+    "napisalam": {
+      "form": "napisałam",
+      "lemma": "napisać",
+      "gloss": "to write (and finish)",
+      "tags": "verb · perfective · past · 1st person singular · feminine",
+      "parts": [
+        [
+          "na",
+          "perfective prefix"
+        ],
+        [
+          "pisa",
+          "verb stem"
+        ],
+        [
+          "ł",
+          "past suffix -ł- (l-participle)"
+        ],
+        [
+          "a",
+          "feminine ending"
+        ],
+        [
+          "m",
+          "1st sg. person marker"
+        ]
+      ],
+      "why": "Ania is talking about herself, so her past-tense “I” form carries the feminine -a-. The perfective (na- + pisać) says the five reports are finished.",
+      "compare": "Imperfective: pisałam, “I was writing.”",
+      "you": {
+        "m": "You would say: napisałem.",
+        "f": "You would say: napisałam, as Ania does."
+      },
+      "patterns": [
+        "speaker"
+      ]
+    },
+    "raportow": {
+      "form": "raportów",
+      "lemma": "raport",
+      "gloss": "report",
+      "tags": "noun · masculine inanimate · genitive plural",
+      "parts": [
+        [
+          "raport",
+          "stem"
+        ],
+        [
+          "ów",
+          "gen. pl."
+        ]
+      ],
+      "why": "Numbers from 5 up take the genitive plural. With 2–4 you get the ordinary plural: trzy raporty.",
+      "patterns": [
+        "genitive"
+      ]
+    },
+    "sily": {
+      "form": "siły",
+      "lemma": "siła",
+      "gloss": "strength, energy",
+      "tags": "noun · feminine · genitive singular",
+      "parts": [
+        [
+          "sił",
+          "stem"
+        ],
+        [
+          "y",
+          "gen. sg."
+        ]
+      ],
+      "why": "Negating a verb turns its direct object genitive: mam siłę → nie mam siły. The phrase is the everyday way to say “I’m worn out.”",
+      "compare": "Without negation: mam siłę.",
+      "patterns": [
+        "genitive"
+      ]
+    },
+    "sobote": {
+      "form": "sobotę",
+      "lemma": "sobota",
+      "gloss": "Saturday",
+      "tags": "noun · feminine · accusative singular",
+      "parts": [
+        [
+          "sobot",
+          "stem"
+        ],
+        [
+          "ę",
+          "acc. sg."
+        ]
+      ],
+      "why": "Days of the week take w + accusative: w sobotę, w poniedziałek.",
+      "history": "Ultimately from Hebrew shabbat, which reached Slavic through Greek.",
+      "patterns": []
+    },
+    "gdybys": {
+      "form": "Gdybyś",
+      "lemma": "gdyby",
+      "gloss": "if (hypothetical)",
+      "tags": "conjunction + person ending",
+      "parts": [
+        [
+          "gdy",
+          "when, if"
+        ],
+        [
+          "by",
+          "conditional particle"
+        ],
+        [
+          "ś",
+          "2nd sg. person marker"
+        ]
+      ],
+      "why": "In a hypothetical if-clause the person ending moves onto gdyby and the verb stays bare: gdybyś chciała, not gdyby chciałaś.",
+      "patterns": [
+        "conditional"
+      ]
+    },
+    "chciala": {
+      "form": "chciała",
+      "lemma": "chcieć",
+      "gloss": "to want",
+      "tags": "verb · imperfective · past form · feminine",
+      "parts": [
+        [
+          "chcia",
+          "stem (e → a)"
+        ],
+        [
+          "ł",
+          "past suffix -ł- (l-participle)"
+        ],
+        [
+          "a",
+          "feminine ending"
+        ]
+      ],
+      "why": "The e of chcieć alternates with a before the past suffix: chcieć → chciał. The gender follows Ania, the person being asked.",
+      "compare": "To a man: gdybyś chciał.",
+      "patterns": [
+        "addressee"
+      ]
+    },
+    "poszlibysmy": {
+      "form": "poszlibyśmy",
+      "lemma": "pójść",
+      "gloss": "to go (and get there)",
+      "tags": "verb · perfective · conditional · 1st person plural · virile",
+      "parts": [
+        [
+          "po",
+          "perfective prefix"
+        ],
+        [
+          "sz",
+          "root of iść, past-tense form"
+        ],
+        [
+          "l",
+          "past suffix -ł-, written l before -i"
+        ],
+        [
+          "i",
+          "virile plural ending"
+        ],
+        [
+          "by",
+          "conditional particle"
+        ],
+        [
+          "śmy",
+          "1st pl. person marker"
+        ]
+      ],
+      "why": "The virile ending -i is used because the group, Tomek and Ania, includes a man; before it, ł is written l. One man in a group is enough.",
+      "compare": "Two women: poszłybyśmy.",
+      "you": {
+        "m": "Any group you’re part of: poszlibyśmy.",
+        "f": "With a mixed group: poszlibyśmy. With only women: poszłybyśmy."
+      },
+      "patterns": [
+        "conditional",
+        "plural"
+      ]
+    },
+    "moglbys": {
+      "form": "Mógłbyś",
+      "lemma": "móc",
+      "gloss": "can, be able to",
+      "tags": "verb · imperfective · conditional · 2nd person singular · masculine",
+      "parts": [
+        [
+          "móg",
+          "root (ó/o alternation)"
+        ],
+        [
+          "ł",
+          "past suffix -ł- (l-participle)"
+        ],
+        [
+          "by",
+          "conditional particle"
+        ],
+        [
+          "ś",
+          "2nd sg. person marker"
+        ]
+      ],
+      "why": "The conditional of móc is the standard polite request, like English “could you.” It’s masculine because Ania is asking Tomek. The root has ó in a closed syllable (móc, mógł, mógłbyś) and o when a vowel follows (mogła, mogli, mogę).",
+      "compare": "To a woman: Mogłabyś kupić bilety?",
+      "patterns": [
+        "conditional",
+        "addressee"
+      ]
+    },
+    "bym": {
+      "form": "bym",
+      "lemma": "by",
+      "gloss": "conditional marker",
+      "tags": "particle + 1st person singular ending",
+      "parts": [
+        [
+          "by",
+          "conditional particle"
+        ],
+        [
+          "m",
+          "1st sg. person marker"
+        ]
+      ],
+      "why": "The conditional particle with its person marker can detach from the verb and attach to an earlier word in the clause, here ja. Ja bym zapomniała and zapomniałabym mean the same; the overt ja is contrastive: “I’m the one who’d forget.”",
+      "patterns": [
+        "conditional"
+      ]
+    },
+    "zapomniala": {
+      "form": "zapomniała",
+      "lemma": "zapomnieć",
+      "gloss": "to forget",
+      "tags": "verb · perfective · past form · feminine",
+      "parts": [
+        [
+          "za",
+          "prefix"
+        ],
+        [
+          "pomnia",
+          "stem (e → a)"
+        ],
+        [
+          "ł",
+          "past suffix -ł- (l-participle)"
+        ],
+        [
+          "a",
+          "feminine ending"
+        ]
+      ],
+      "why": "This is the verb half of a detached conditional (ja bym … zapomniała). As in chcieć → chciała, the e of the infinitive alternates with a before the past suffix.",
+      "history": "Za- plus an old verb pomnieć, “to remember,” which survives in pomnik “monument” and wspomnieć “to recall.”",
+      "you": {
+        "m": "You would say: ja bym zapomniał.",
+        "f": "You would say: ja bym zapomniała."
+      },
+      "patterns": [
+        "speaker"
+      ]
+    },
+    "koledzy": {
+      "form": "koledzy",
+      "lemma": "kolega",
+      "gloss": "friend, colleague",
+      "tags": "noun · masculine personal · nominative plural",
+      "parts": [
+        [
+          "koledz",
+          "stem (g → dz)"
+        ],
+        [
+          "y",
+          "virile nom. pl. ending"
+        ]
+      ],
+      "why": "Nouns for male persons have a special nominative plural, and it softens the stem consonant: kolega → koledzy, like drogi → drodzy.",
+      "compare": "Female friends: koleżanki.",
+      "history": "From Latin collega.",
+      "patterns": [
+        "plural"
+      ]
+    },
+    "byli": {
+      "form": "byli",
+      "lemma": "być",
+      "gloss": "to be",
+      "tags": "verb · past · 3rd person plural · virile",
+      "parts": [
+        [
+          "by",
+          "stem of być"
+        ],
+        [
+          "l",
+          "past suffix -ł-, written l before -i"
+        ],
+        [
+          "i",
+          "virile plural ending"
+        ]
+      ],
+      "why": "Tomek’s friends are men, so the plural takes the virile ending -i; before it, ł is written l.",
+      "compare": "All women: były.",
+      "patterns": [
+        "plural"
+      ]
+    },
+    "mowili": {
+      "form": "mówili",
+      "lemma": "mówić",
+      "gloss": "to say, speak",
+      "tags": "verb · imperfective · past · 3rd person plural · virile",
+      "parts": [
+        [
+          "mówi",
+          "verb stem"
+        ],
+        [
+          "l",
+          "past suffix -ł-, written l before -i"
+        ],
+        [
+          "i",
+          "virile plural ending"
+        ]
+      ],
+      "why": "Same agreement as byli. Reported talk usually takes imperfective mówić; powiedzieli would point to one specific occasion.",
+      "compare": "All women: mówiły.",
+      "patterns": [
+        "plural"
+      ]
+    },
+    "swietne": {
+      "form": "świetne",
+      "lemma": "świetny",
+      "gloss": "great, excellent",
+      "tags": "adjective · neuter · nominative singular",
+      "parts": [
+        [
+          "świetn",
+          "stem"
+        ],
+        [
+          "e",
+          "neut. sg."
+        ]
+      ],
+      "why": "The unspoken subject is kino, which is neuter, so the adjective is neuter too: jest świetne.",
+      "history": "Related to świat and światło, “light,” and świecić, “to shine”: originally “bright, shining.”",
+      "patterns": []
+    },
+    "byloby": {
+      "form": "byłoby",
+      "lemma": "być",
+      "gloss": "to be",
+      "tags": "verb · conditional · 3rd person singular · neuter",
+      "parts": [
+        [
+          "by",
+          "stem of być"
+        ],
+        [
+          "ł",
+          "past suffix -ł- (l-participle)"
+        ],
+        [
+          "o",
+          "neuter ending"
+        ],
+        [
+          "by",
+          "conditional particle"
+        ]
+      ],
+      "why": "The neuter ending -o agrees with the subject to, “that.” The by at the start is the stem of być; the by at the end is the conditional particle. Third person has no person marker.",
+      "compare": "With a feminine subject: To byłaby dobra kolacja.",
+      "patterns": [
+        "conditional"
+      ]
+    }
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "model": "poszlabym",
+      "prompt": "Say “I would buy” about yourself (kupić).",
+      "answer": {
+        "m": [
+          "kupi",
+          "ł",
+          "by",
+          "m"
+        ],
+        "f": [
+          "kupi",
+          "ł",
+          "a",
+          "by",
+          "m"
+        ]
+      },
+      "tiles": [
+        "kupi",
+        "ł",
+        "a",
+        "li",
+        "by",
+        "m",
+        "ś"
+      ],
+      "explain": {
+        "m": "The masculine has no agreement ending: kupi + ł + by + m.",
+        "f": "Built like Ania’s poszłabym: kupi + ł + a + by + m."
+      },
+      "hint": "Look at how poszłabym is put together, then check the learner setting at the top."
+    },
+    {
+      "id": "e2",
+      "model": "poszlibysmy",
+      "prompt": "You and a male friend: “we would do it” (zrobić).",
+      "answer": [
+        "zrobi",
+        "l",
+        "i",
+        "by",
+        "śmy"
+      ],
+      "tiles": [
+        "zrobi",
+        "ł",
+        "l",
+        "i",
+        "y",
+        "by",
+        "śmy",
+        "m"
+      ],
+      "explain": "A group with a man takes the virile ending -i, and ł is written l before it: zrobi + l + i + by + śmy.",
+      "hint": "Who’s in the group? One man makes the plural virile."
+    },
+    {
+      "id": "e3",
+      "model": "moglbys",
+      "prompt": "Ask a woman politely: “Could you…?” (móc).",
+      "answer": [
+        "mog",
+        "ł",
+        "a",
+        "by",
+        "ś"
+      ],
+      "tiles": [
+        "móg",
+        "mog",
+        "ł",
+        "a",
+        "i",
+        "by",
+        "ś"
+      ],
+      "explain": "With the feminine ending -a after it, the syllable opens and ó becomes o: mog + ł + a + by + ś.",
+      "hint": "Tomek gets mógłbyś. What changes for a woman, and what happens to the ó?"
+    },
+    {
+      "id": "e4",
+      "model": "byloby",
+      "prompt": "“That would cost a lot”: To ___ dużo (kosztować).",
+      "answer": [
+        "kosztowa",
+        "ł",
+        "o",
+        "by"
+      ],
+      "tiles": [
+        "kosztowa",
+        "ł",
+        "a",
+        "o",
+        "i",
+        "by",
+        "m"
+      ],
+      "explain": "The neuter ending -o agrees with to, then by with no person marker, as in byłoby.",
+      "hint": "The subject is to. Which gender is it, and does it need a person ending?"
+    }
+  ],
+  "unit": "Making plans",
+  "cefr": "B1"
+}

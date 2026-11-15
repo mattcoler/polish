@@ -1,0 +1,744 @@
+{
+  "id": "greetings-2-pani-krystyno",
+  "unit": "Greetings and introductions",
+  "level": 2,
+  "cefr": "A2–B1",
+  "title": "Dzień dobry, pani Krystyno",
+  "titleEn": "Good morning, Mrs. Krystyna",
+  "focus": "formal address and the vocative",
+  "defaultWord": "krystyno",
+  "patterns": {
+    "vocative": "Vocative: addressing someone",
+    "formal": "Formal you: pan / pani + 3rd person verb",
+    "informal": "Informal: ty / wy",
+    "genitive": "Genitive case",
+    "future": "Perfective present form = future",
+    "speaker": "Gender follows the speaker"
+  },
+  "lines": [
+    {
+      "speaker": "Tomek",
+      "gender": "m",
+      "pl": "Dzień dobry, pani|pani_title Krystyno|krystyno! Jak się pani|pani_you miewa|miewa?",
+      "en": "Good morning, Mrs. Krystyna! How are you keeping?"
+    },
+    {
+      "speaker": "Krystyna",
+      "gender": "f",
+      "pl": "Dzień dobry, panie|panie Tomku|tomku. Dziękuję, nie narzekam|narzekam. A pan|pan?",
+      "en": "Good morning, Tomek. Thanks, I can’t complain. And you?"
+    },
+    {
+      "speaker": "Tomek",
+      "gender": "m",
+      "pl": "Wszystko dobrze. Pozwoli|pozwoli pani, że przedstawię|przedstawie: to Ania, moja koleżanka|kolezanka z pracy|pracy.",
+      "en": "All good. Allow me to introduce Ania, a colleague from work."
+    },
+    {
+      "speaker": "Krystyna",
+      "gender": "f",
+      "pl": "Bardzo mi|mi miło. Krystyna Nowak. Pani|pani_ania też tu mieszka|mieszka?",
+      "en": "Very nice to meet you. Krystyna Nowak. Do you live here too?"
+    },
+    {
+      "speaker": "Ania",
+      "gender": "f",
+      "pl": "Nie, jestem tylko w odwiedzinach|odwiedzinach. Słyszałam|slyszalam, że ma pani najpiękniejszy|najpiekniejszy balkon w całym bloku|bloku.",
+      "en": "No, I’m just visiting. I heard you have the most beautiful balcony in the whole building."
+    },
+    {
+      "speaker": "Krystyna",
+      "gender": "f",
+      "pl": "Och, Tomek przesadza|przesadza! Ale proszę, mówcie|mowcie mi Krystyna. Przejdziemy|przejdziemy na ty|ty?",
+      "en": "Oh, Tomek exaggerates! But please, call me Krystyna. Shall we use first names?"
+    },
+    {
+      "speaker": "Tomek",
+      "gender": "m",
+      "pl": "Bardzo chętnie, Krystyno|krystyno2. To my już lecimy|lecimy. Miłego|milego dnia|dnia!",
+      "en": "Gladly, Krystyna. We’ll be off, then. Have a nice day!"
+    }
+  ],
+  "words": {
+    "pani_title": {
+      "form": "pani",
+      "lemma": "pani",
+      "gloss": "Mrs., madam; formal “you” to a woman",
+      "tags": "noun · feminine · vocative singular (same form as nominative)",
+      "parts": [
+        [
+          "pani",
+          "title"
+        ]
+      ],
+      "why": "Pani plus a first name is the usual polite way to address someone you know, such as a neighbor. Pani plus surname is rare in direct address. Both words are in the vocative; pani just looks the same as the nominative.",
+      "compare": "To a man: panie Tomku (next line).",
+      "patterns": [
+        "vocative",
+        "formal"
+      ]
+    },
+    "krystyno": {
+      "form": "Krystyno",
+      "lemma": "Krystyna",
+      "gloss": "a woman’s name",
+      "tags": "proper noun · feminine · vocative singular",
+      "parts": [
+        [
+          "Krystyn",
+          "stem"
+        ],
+        [
+          "o",
+          "vocative"
+        ]
+      ],
+      "why": "Feminine nouns in -a take -o in the vocative: Krystyna → Krystyno, Anna → Anno. In casual speech many people use the nominative with a bare first name, but after pani the vocative is the norm.",
+      "compare": "Diminutives in -ia take -u instead: Ania → Aniu.",
+      "patterns": [
+        "vocative"
+      ]
+    },
+    "pani_you": {
+      "form": "pani",
+      "lemma": "pani",
+      "gloss": "you (formal, to a woman)",
+      "tags": "formal pronoun · feminine · nominative",
+      "parts": [
+        [
+          "pani",
+          "you (formal, fem.)"
+        ]
+      ],
+      "why": "Formal “you” is grammatically a noun, so the verb is third person: jak się pani miewa, literally “how does madam fare.” The informal equivalent is jak się masz?",
+      "compare": "To a man: Jak się pan miewa?",
+      "patterns": [
+        "formal"
+      ]
+    },
+    "miewa": {
+      "form": "miewa",
+      "lemma": "miewać",
+      "gloss": "to have (from time to time); to be keeping (well)",
+      "tags": "verb · imperfective · iterative · present · 3rd person singular",
+      "parts": [
+        [
+          "mie",
+          "stem of mieć"
+        ],
+        [
+          "wa",
+          "iterative suffix"
+        ]
+      ],
+      "why": "Miewać is the iterative counterpart of mieć, “to have.” Jak się pani miewa is a slightly more formal, somewhat old-fashioned version of jak się pani ma. The verb is third person because it agrees with pani.",
+      "patterns": [
+        "formal"
+      ]
+    },
+    "panie": {
+      "form": "panie",
+      "lemma": "pan",
+      "gloss": "Mr., sir; formal “you” to a man",
+      "tags": "noun · masculine personal · vocative singular",
+      "parts": [
+        [
+          "pan",
+          "stem"
+        ],
+        [
+          "ie",
+          "vocative -e (the i marks n softened to ń)"
+        ]
+      ],
+      "why": "Unlike pani, pan has a distinct vocative: panie. Krystyna answers at the same level of politeness Tomek used with her: title plus first name.",
+      "compare": "Nominative: pan, as in A pan? at the end of this line.",
+      "patterns": [
+        "vocative",
+        "formal"
+      ]
+    },
+    "tomku": {
+      "form": "Tomku",
+      "lemma": "Tomek",
+      "gloss": "everyday form of Tomasz",
+      "tags": "proper noun · masculine · vocative singular",
+      "parts": [
+        [
+          "Tom",
+          "stem"
+        ],
+        [
+          "k",
+          "diminutive suffix -ek (the e is fleeting)"
+        ],
+        [
+          "u",
+          "vocative ending"
+        ]
+      ],
+      "why": "The e of the suffix -ek is a fleeting vowel: it appears only in the nominative singular (Tomek, but Tomka, Tomkowi). Nouns in -ek take -u in the vocative: Tomku, Marku, Jacku.",
+      "history": "Tomek is the usual short form of Tomasz, from Greek Thōmas, from Aramaic for “twin.”",
+      "patterns": [
+        "vocative"
+      ]
+    },
+    "narzekam": {
+      "form": "narzekam",
+      "lemma": "narzekać",
+      "gloss": "to complain",
+      "tags": "verb · imperfective · present · 1st person singular",
+      "parts": [
+        [
+          "narzeka",
+          "verb stem"
+        ],
+        [
+          "m",
+          "1st sg. ending"
+        ]
+      ],
+      "why": "Nie narzekam, “I can’t complain,” is a stock reply to “how are you,” a notch more modest than dobrze.",
+      "compare": "Same -am class: mam, czytam, pamiętam.",
+      "patterns": []
+    },
+    "pan": {
+      "form": "pan",
+      "lemma": "pan",
+      "gloss": "you (formal, to a man)",
+      "tags": "formal pronoun · masculine · nominative",
+      "parts": [
+        [
+          "pan",
+          "you (formal, masc.)"
+        ]
+      ],
+      "why": "A pan? means “And you?” to a man. When you’re on formal terms, “you” is pan or pani, never ty.",
+      "you": {
+        "m": "People will ask you: A pan?",
+        "f": "People will ask you: A pani?"
+      },
+      "patterns": [
+        "formal"
+      ]
+    },
+    "pozwoli": {
+      "form": "Pozwoli",
+      "lemma": "pozwolić",
+      "gloss": "to allow",
+      "tags": "verb · perfective · non-past · 3rd person singular",
+      "parts": [
+        [
+          "pozwol",
+          "stem"
+        ],
+        [
+          "i",
+          "3rd sg. ending"
+        ]
+      ],
+      "why": "Pozwoli pani, że przedstawię… is a set phrase for introductions. The verb is third person because it agrees with pani.",
+      "compare": "Informal: Pozwól, że przedstawię…",
+      "patterns": [
+        "formal"
+      ]
+    },
+    "przedstawie": {
+      "form": "przedstawię",
+      "lemma": "przedstawić",
+      "gloss": "to introduce, present",
+      "tags": "verb · perfective · non-past (future meaning) · 1st person singular",
+      "parts": [
+        [
+          "przed",
+          "prefix: in front of"
+        ],
+        [
+          "staw",
+          "root: place, put"
+        ],
+        [
+          "ię",
+          "1st sg. ending -ę (the i marks w softened)"
+        ]
+      ],
+      "why": "A perfective verb in its present-tense form refers to the future: “(allow me that) I’ll introduce.” The parts are close to literal: przed, “in front of,” plus stawić, “to place.”",
+      "compare": "Reflexive: przedstawić się, “to introduce oneself.”",
+      "patterns": [
+        "future"
+      ]
+    },
+    "kolezanka": {
+      "form": "koleżanka",
+      "lemma": "koleżanka",
+      "gloss": "(female) colleague, friend",
+      "tags": "noun · feminine · nominative singular",
+      "parts": [
+        [
+          "koleż",
+          "stem (g → ż)"
+        ],
+        [
+          "ank",
+          "feminine suffix"
+        ],
+        [
+          "a",
+          "nom. sg."
+        ]
+      ],
+      "why": "Built on kolega with the feminine suffix -anka. Adding z pracy makes it clear she’s a colleague and not a personal friend.",
+      "compare": "A male colleague: mój kolega z pracy.",
+      "history": "Kolega comes from Latin collega.",
+      "patterns": []
+    },
+    "pracy": {
+      "form": "pracy",
+      "lemma": "praca",
+      "gloss": "work, job",
+      "tags": "noun · feminine · genitive singular",
+      "parts": [
+        [
+          "prac",
+          "stem"
+        ],
+        [
+          "y",
+          "gen. sg."
+        ]
+      ],
+      "why": "Z meaning “from” takes the genitive: z pracy, z Polski. With the instrumental, z means “with”: z Tomkiem.",
+      "patterns": [
+        "genitive"
+      ]
+    },
+    "mi": {
+      "form": "mi",
+      "lemma": "ja",
+      "gloss": "I, me",
+      "tags": "pronoun · dative · short form",
+      "parts": [
+        [
+          "mi",
+          "to me"
+        ]
+      ],
+      "why": "Polish says “it’s pleasant to me”: bardzo mi miło. Mi is the short dative of ja; the full form mnie is used for emphasis and after prepositions.",
+      "compare": "Same pattern: zimno mi, “I’m cold”; przykro mi, “I’m sorry.”",
+      "patterns": []
+    },
+    "pani_ania": {
+      "form": "Pani",
+      "lemma": "pani",
+      "gloss": "you (formal, to a woman)",
+      "tags": "formal pronoun · feminine · nominative",
+      "parts": [
+        [
+          "Pani",
+          "you (formal, fem.)"
+        ]
+      ],
+      "why": "Krystyna has only just met Ania, so she uses pani even though Ania is much younger. Between adults, formality depends on how well you know each other.",
+      "compare": "To a man: Pan też tu mieszka?",
+      "you": {
+        "m": "Someone you’ve just met would ask: Pan też tu mieszka?",
+        "f": "Someone you’ve just met would ask: Pani też tu mieszka?"
+      },
+      "patterns": [
+        "formal"
+      ]
+    },
+    "mieszka": {
+      "form": "mieszka",
+      "lemma": "mieszkać",
+      "gloss": "to live (somewhere)",
+      "tags": "verb · imperfective · present · 3rd person singular",
+      "parts": [
+        [
+          "mieszka",
+          "stem; 3rd person sg. has no ending"
+        ]
+      ],
+      "why": "Third person because it agrees with pani. To a friend you’d say mieszkasz.",
+      "patterns": [
+        "formal"
+      ]
+    },
+    "odwiedzinach": {
+      "form": "odwiedzinach",
+      "lemma": "odwiedziny",
+      "gloss": "a visit",
+      "tags": "noun · plural only · locative",
+      "parts": [
+        [
+          "odwiedzin",
+          "stem"
+        ],
+        [
+          "ach",
+          "loc. pl."
+        ]
+      ],
+      "why": "Odwiedziny exists only in the plural, even for a single visit, much like English “scissors.” Być w odwiedzinach means “to be visiting.”",
+      "compare": "The verb: odwiedzać / odwiedzić, “to visit.”",
+      "patterns": []
+    },
+    "slyszalam": {
+      "form": "Słyszałam",
+      "lemma": "słyszeć",
+      "gloss": "to hear",
+      "tags": "verb · imperfective · past · 1st person singular · feminine",
+      "parts": [
+        [
+          "słysza",
+          "stem (e → a)"
+        ],
+        [
+          "ł",
+          "past suffix -ł- (l-participle)"
+        ],
+        [
+          "a",
+          "feminine ending"
+        ],
+        [
+          "m",
+          "1st sg. person marker"
+        ]
+      ],
+      "why": "Ania is talking about herself, so the feminine ending -a. As in chcieć → chciała, the e of słyszeć alternates with a before the past suffix.",
+      "you": {
+        "m": "You would say: słyszałem.",
+        "f": "You would say: słyszałam, as Ania does."
+      },
+      "patterns": [
+        "speaker"
+      ]
+    },
+    "najpiekniejszy": {
+      "form": "najpiękniejszy",
+      "lemma": "piękny",
+      "gloss": "beautiful",
+      "tags": "adjective · superlative · masculine · accusative singular",
+      "parts": [
+        [
+          "naj",
+          "superlative prefix"
+        ],
+        [
+          "piękn",
+          "stem"
+        ],
+        [
+          "iejsz",
+          "comparative suffix -ejsz- (the i marks n softened to ń)"
+        ],
+        [
+          "y",
+          "masc. sg. ending"
+        ]
+      ],
+      "why": "The superlative is the comparative (piękniejszy, “more beautiful”) with naj- in front. It’s masculine to agree with balkon; after ma it’s accusative, which for masculine inanimate nouns looks like the nominative.",
+      "compare": "Irregular: dobry → lepszy → najlepszy.",
+      "patterns": []
+    },
+    "bloku": {
+      "form": "bloku",
+      "lemma": "blok",
+      "gloss": "apartment block",
+      "tags": "noun · masculine inanimate · locative singular",
+      "parts": [
+        [
+          "blok",
+          "stem"
+        ],
+        [
+          "u",
+          "loc. sg."
+        ]
+      ],
+      "why": "W + locative. Masculine and neuter nouns whose stem ends in k, g or ch take -u in the locative instead of -e: w bloku, w parku, na brzegu, w dachu.",
+      "history": "Blok is the everyday word for an apartment building, especially the post-war prefabricated kind.",
+      "patterns": []
+    },
+    "przesadza": {
+      "form": "przesadza",
+      "lemma": "przesadzać",
+      "gloss": "to exaggerate",
+      "tags": "verb · imperfective · present · 3rd person singular",
+      "parts": [
+        [
+          "prze",
+          "prefix: over, too much"
+        ],
+        [
+          "sadz",
+          "root"
+        ],
+        [
+          "a",
+          "verb stem suffix"
+        ]
+      ],
+      "why": "Krystyna is talking about Tomek, so the verb is third person. Prze- often adds “too much”: przesadzać, przepłacić “to overpay,” przejeść się “to overeat.”",
+      "history": "Przesadzać also means “to transplant” a plant; sadzić is “to plant.”",
+      "patterns": []
+    },
+    "mowcie": {
+      "form": "mówcie",
+      "lemma": "mówić",
+      "gloss": "to say, speak",
+      "tags": "verb · imperfective · imperative · 2nd person plural",
+      "parts": [
+        [
+          "mów",
+          "imperative stem"
+        ],
+        [
+          "cie",
+          "2nd pl. imperative ending"
+        ]
+      ],
+      "why": "Krystyna is speaking to both of them, so she uses the plural imperative. Once people are on first-name terms, the plural of ty is wy.",
+      "compare": "To one person: Mów mi Krystyna.",
+      "patterns": [
+        "informal"
+      ]
+    },
+    "przejdziemy": {
+      "form": "Przejdziemy",
+      "lemma": "przejść",
+      "gloss": "to cross over; to switch",
+      "tags": "verb · perfective · non-past (future meaning) · 1st person plural",
+      "parts": [
+        [
+          "prze",
+          "prefix: across"
+        ],
+        [
+          "jdzi",
+          "root of iść (id-), d softened to dź"
+        ],
+        [
+          "emy",
+          "1st pl. ending"
+        ]
+      ],
+      "why": "Przejść na ty, literally “to cross over to ty,” means agreeing to use first names. By custom the older or more senior person suggests it, as Krystyna does here.",
+      "patterns": [
+        "future",
+        "informal"
+      ]
+    },
+    "ty": {
+      "form": "ty",
+      "lemma": "ty",
+      "gloss": "you (informal, singular)",
+      "tags": "pronoun · used here as a noun",
+      "parts": [
+        [
+          "ty",
+          "you"
+        ]
+      ],
+      "why": "In na ty, the pronoun stands for the informal relationship itself. The opposite is being na pan or na pani.",
+      "patterns": [
+        "informal"
+      ]
+    },
+    "krystyno2": {
+      "form": "Krystyno",
+      "lemma": "Krystyna",
+      "gloss": "a woman’s name",
+      "tags": "proper noun · feminine · vocative singular",
+      "parts": [
+        [
+          "Krystyn",
+          "stem"
+        ],
+        [
+          "o",
+          "vocative"
+        ]
+      ],
+      "why": "Now that they’re on first-name terms, Tomek drops pani and uses her name on its own, still in the vocative.",
+      "compare": "Line 1, before the switch: pani Krystyno.",
+      "patterns": [
+        "vocative",
+        "informal"
+      ]
+    },
+    "lecimy": {
+      "form": "lecimy",
+      "lemma": "lecieć",
+      "gloss": "to fly",
+      "tags": "verb · imperfective · present · 1st person plural",
+      "parts": [
+        [
+          "lec",
+          "stem"
+        ],
+        [
+          "imy",
+          "1st pl. ending"
+        ]
+      ],
+      "why": "Literally “we’re flying.” In casual speech it means “we’re off, we have to go.”",
+      "compare": "Neutral: Musimy już iść.",
+      "patterns": []
+    },
+    "milego": {
+      "form": "Miłego",
+      "lemma": "miły",
+      "gloss": "nice, pleasant",
+      "tags": "adjective · masculine · genitive singular",
+      "parts": [
+        [
+          "mił",
+          "stem"
+        ],
+        [
+          "ego",
+          "masc./neut. gen. sg. ending"
+        ]
+      ],
+      "why": "Miłego dnia is short for życzę miłego dnia, “I wish you a nice day.” Życzyć takes the genitive, and the case stays even when the verb is dropped.",
+      "compare": "Same pattern: Smacznego! Wszystkiego najlepszego!",
+      "patterns": [
+        "genitive"
+      ]
+    },
+    "dnia": {
+      "form": "dnia",
+      "lemma": "dzień",
+      "gloss": "day",
+      "tags": "noun · masculine · genitive singular",
+      "parts": [
+        [
+          "dni",
+          "stem: fleeting e lost, d + soft ń"
+        ],
+        [
+          "a",
+          "gen. sg. ending"
+        ]
+      ],
+      "why": "Genitive because of the unspoken życzę. The e of dzień is a fleeting vowel, so the other forms are built on dń-, spelled dni before a vowel: dnia, dniu.",
+      "history": "The same word hides in tydzień, “week” (see Plany na sobotę).",
+      "patterns": [
+        "genitive"
+      ]
+    }
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "model": "krystyno",
+      "prompt": "Greet Mrs. Barbara politely: Dzień dobry, pani ___!",
+      "answer": [
+        "Barbar",
+        "o"
+      ],
+      "tiles": [
+        "Barbar",
+        "a",
+        "o",
+        "u",
+        "ie"
+      ],
+      "explain": "Feminine names in -a take -o in the vocative, like Krystyna → Krystyno.",
+      "hint": "How did Tomek address Krystyna in the first line?"
+    },
+    {
+      "id": "e2",
+      "model": "tomku",
+      "prompt": "Greet your friend Marek: Cześć, ___!",
+      "answer": [
+        "Mar",
+        "k",
+        "u"
+      ],
+      "tiles": [
+        "Mar",
+        "ek",
+        "k",
+        "u",
+        "o",
+        "ie"
+      ],
+      "explain": "Like Tomek → Tomku: the fleeting e drops and the vocative ending is -u.",
+      "hint": "What happened to the e when Tomek became Tomku?"
+    },
+    {
+      "id": "e3",
+      "model": "najpiekniejszy",
+      "prompt": "“The most interesting film” (ciekawy): ___ film",
+      "answer": [
+        "naj",
+        "ciekaw",
+        "sz",
+        "y"
+      ],
+      "tiles": [
+        "naj",
+        "ciekaw",
+        "sz",
+        "iejsz",
+        "y",
+        "a"
+      ],
+      "explain": "Ciekawy forms its comparative with plain -szy (ciekawszy), so the superlative is naj + ciekaw + sz + y.",
+      "hint": "Start from the comparative ciekawszy. Which piece turns it into a superlative?"
+    },
+    {
+      "id": "e4",
+      "model": "slyszalam",
+      "prompt": "Say “I saw” about yourself (widzieć).",
+      "answer": {
+        "m": [
+          "widzia",
+          "ł",
+          "e",
+          "m"
+        ],
+        "f": [
+          "widzia",
+          "ł",
+          "a",
+          "m"
+        ]
+      },
+      "tiles": [
+        "widzie",
+        "widzia",
+        "ł",
+        "a",
+        "e",
+        "m"
+      ],
+      "explain": {
+        "m": "The masculine has no agreement ending, and an e is inserted before the person marker: widział + e + m. As in słyszeć → słyszał, the e of widzieć alternates with a.",
+        "f": "Built like Ania’s słyszałam: widzia + ł + a + m."
+      },
+      "hint": "Check the learner setting at the top, and remember what happens to the e in słyszeć → słyszałam."
+    },
+    {
+      "id": "e5",
+      "model": "mowcie",
+      "prompt": "Tell two friends: “Write to me!” ___ do mnie! (pisać)",
+      "answer": [
+        "pisz",
+        "cie"
+      ],
+      "tiles": [
+        "pisa",
+        "pisz",
+        "cie",
+        "my",
+        "ę"
+      ],
+      "explain": "Imperative stem plus -cie for the plural: piszcie, like mówcie.",
+      "hint": "Krystyna says mówcie to two people. Find the imperative stem of pisać and add the same ending."
+    }
+  ]
+}
