@@ -22,12 +22,14 @@
       h("p", null, msg)));
   }
 
-  function getJson(path) {
-    return fetch(path).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); });
-  }
-
   // Lesson id from ?id=…; without one, open the first lesson in the list.
-  var id = new URLSearchParams(location.search).get("id");
+  var params = new URLSearchParams(location.search);
+  var id = params.get("id");
+  var focusWord = params.get("w");
+  var grammarTopics = [];
+  var grammarPromise = getJson("grammar/index.json")
+    .then(function (g) { grammarTopics = g.topics; })
+    .catch(function () { /* grammar pages are optional */ });
   var idPromise = id
     ? Promise.resolve(id)
     : getJson("lessons/index.json").then(function (index) { return index.units[0].lessons[0].id; });
@@ -35,9 +37,9 @@
   idPromise
     .then(function (lid) {
       if (!/^[a-z0-9-]+$/.test(lid)) throw new Error("bad id");
-      return getJson("lessons/" + lid + ".json");
+      return Promise.all([getJson("lessons/" + lid + ".json"), grammarPromise]);
     })
-    .then(start)
+    .then(function (r) { start(r[0]); })
     .catch(function () { fail("Could not load this lesson."); });
 
   function start(lesson) {
@@ -48,7 +50,7 @@
     });
 
     var state = {
-      sel: words[lesson.defaultWord] ? lesson.defaultWord : Object.keys(words)[0],
+      sel: words[focusWord] ? focusWord : (words[lesson.defaultWord] ? lesson.defaultWord : Object.keys(words)[0]),
       learner: store.get("learner", "m"),
       showEn: store.get("showEn", true),
       built: store.get("built:" + lesson.id, {}),
@@ -142,6 +144,16 @@
     }
 
     // ---------- word panel ----------
+    function gramLinks(w) {
+      var topics = grammarTopicsFor(w, grammarTopics);
+      if (!topics.length) return null;
+      return h("div", { class: "g-links" },
+        h("h3", null, "Grammar"),
+        h("div", { class: "chips" }, topics.map(function (t) {
+          return h("a", { class: "chip-link", href: "grammar.html?topic=" + t.id }, t.title + " →");
+        })));
+    }
+
     function panel() {
       var w = words[state.sel];
       var pats = (w.patterns || []).map(function (k) {
@@ -172,6 +184,7 @@
           h("h3", null, state.learner === "m" ? "Your form (as a man)" : "Your form (as a woman)"),
           h("p", { class: "body" }, w.you[state.learner])) : null,
         w.history ? h("div", null, h("h3", null, "Word history"), h("p", { class: "body" }, w.history)) : null,
+        gramLinks(w),
         pats.length ? h("div", { class: "pats" },
           h("h3", null, "Same pattern in this lesson"),
           pats.map(function (p) {
@@ -267,5 +280,11 @@
     }
 
     render();
+    if (focusWord && words[focusWord]) {
+      var el = Array.prototype.find.call(root.querySelectorAll("[data-key]"), function (e) {
+        return e.getAttribute("data-key") === "tok-" + focusWord;
+      });
+      if (el) el.scrollIntoView({ block: "center" });
+    }
   }
 })();

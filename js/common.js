@@ -56,3 +56,24 @@ function siteFooter() {
     repo ? [" · ", h("a", { href: repo + "/issues" }, "Suggest a correction")] : null
   );
 }
+
+// Text with *Polish words* marked by asterisks → text and <em lang="pl"> nodes.
+function rich(text) {
+  return String(text).split("*").map(function (s, i) {
+    return i % 2 ? h("em", { lang: "pl" }, s) : s;
+  });
+}
+
+function getJson(path) {
+  return fetch(path).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); });
+}
+
+// Grammar topics (status "ready") whose rule matches an annotated word.
+function grammarTopicsFor(word, topics) {
+  return (topics || []).filter(function (t) {
+    if (t.status !== "ready" || !t.match) return false;
+    var byTags = t.match.tags && new RegExp(t.match.tags, "i").test(word.tags || "");
+    var byPattern = (t.match.patterns || []).some(function (p) { return (word.patterns || []).indexOf(p) >= 0; });
+    return byTags || byPattern;
+  });
+}

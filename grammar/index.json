@@ -1,0 +1,92 @@
+{
+  "topics": [
+    {
+      "id": "past-tense",
+      "status": "ready",
+      "title": "The past tense",
+      "titlePl": "Czas przeszły",
+      "summary": "How past forms are built, gender and number agreement, irregular stems, and choosing an aspect.",
+      "match": {
+        "tags": "(?:^|[\\s·(])past\\b|l-participle"
+      }
+    },
+    {
+      "id": "genitive",
+      "status": "planned",
+      "title": "The genitive",
+      "titlePl": "Dopełniacz"
+    },
+    {
+      "id": "accusative",
+      "status": "planned",
+      "title": "The accusative",
+      "titlePl": "Biernik"
+    },
+    {
+      "id": "locative",
+      "status": "planned",
+      "title": "The locative",
+      "titlePl": "Miejscownik"
+    },
+    {
+      "id": "instrumental",
+      "status": "planned",
+      "title": "The instrumental",
+      "titlePl": "Narzędnik"
+    },
+    {
+      "id": "dative-vocative",
+      "status": "planned",
+      "title": "The dative and the vocative",
+      "titlePl": "Celownik i wołacz"
+    },
+    {
+      "id": "formal-address",
+      "status": "planned",
+      "title": "Formal address: pan, pani, państwo",
+      "titlePl": "Formy grzecznościowe"
+    },
+    {
+      "id": "aspect-future",
+      "status": "planned",
+      "title": "Aspect and the future",
+      "titlePl": "Aspekt i czas przyszły"
+    },
+    {
+      "id": "conditional",
+      "status": "planned",
+      "title": "The conditional",
+      "titlePl": "Tryb przypuszczający"
+    },
+    {
+      "id": "numerals",
+      "status": "planned",
+      "title": "Numerals",
+      "titlePl": "Liczebniki"
+    },
+    {
+      "id": "motion-verbs",
+      "status": "planned",
+      "title": "Verbs of motion",
+      "titlePl": "Czasowniki ruchu"
+    },
+    {
+      "id": "pronouns",
+      "status": "planned",
+      "title": "Pronouns",
+      "titlePl": "Zaimki"
+    },
+    {
+      "id": "adjectives",
+      "status": "planned",
+      "title": "Adjectives and comparison",
+      "titlePl": "Przymiotniki i stopniowanie"
+    },
+    {
+      "id": "imperative",
+      "status": "planned",
+      "title": "The imperative",
+      "titlePl": "Tryb rozkazujący"
+    }
+  ]
+}

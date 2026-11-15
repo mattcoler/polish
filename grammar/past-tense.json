@@ -1,0 +1,75 @@
+{
+  "id": "past-tense",
+  "title": "The past tense",
+  "titlePl": "Czas przeszły",
+  "blocks": [
+    { "type": "p", "text": "Polish has a single past tense. The distinctions English makes with *I did*, *I was doing*, *I have done* and *I had done* are carried instead by aspect: the choice between an imperfective verb (*czytałem*, “I was reading, I used to read”) and a perfective one (*przeczytałem*, “I read it through, I’ve read it”)." },
+
+    { "type": "h", "text": "How a past form is built" },
+    { "type": "p", "text": "A past form has up to four parts. Take Ania’s *napisałam*, “I wrote”:" },
+    { "type": "breakdown", "parts": [["na", "perfective prefix"], ["pisa", "verb stem"], ["ł", "past suffix -ł-"], ["a", "agreement ending: feminine"], ["m", "person marker: I"]] },
+    { "type": "p", "text": "The suffix *-ł-* forms the so-called l-participle, which agrees with its subject in gender and number, like an adjective. A person marker (*-m*, *-ś*, *-śmy*, *-ście*) then adds the person. The third person has no marker: *napisała* is simply “she wrote.”" },
+
+    { "type": "h", "text": "The full paradigm" },
+    { "type": "p", "text": "Here is *być*, “to be.” Every regular verb follows the same pattern once you know its stem." },
+    { "type": "table", "caption": "Singular", "head": ["", "masculine", "feminine", "neuter"], "rows": [
+      ["*ja*", "*byłem*", "*byłam*", "—"],
+      ["*ty*", "*byłeś*", "*byłaś*", "—"],
+      ["*on / ona / ono*", "*był*", "*była*", "*było*"]
+    ] },
+    { "type": "table", "caption": "Plural", "head": ["", "virile", "non-virile"], "rows": [
+      ["*my*", "*byliśmy*", "*byłyśmy*"],
+      ["*wy*", "*byliście*", "*byłyście*"],
+      ["*oni / one*", "*byli*", "*były*"]
+    ] },
+    { "type": "p", "text": "Two details recur in every verb. In the masculine singular the stem ends in a consonant, so an *e* is inserted before the person marker: *był-e-m*, *był-e-ś*. And before the virile ending *-i*, the suffix *ł* is written *l*: *byli*, *czytali*." },
+    { "type": "p", "text": "First- and second-person neuter forms (*byłom*, *byłoś*) exist in principle but are confined to literary or playful use, so they are left out above." },
+
+    { "type": "h", "text": "Virile or non-virile?" },
+    { "type": "p", "text": "The plural distinguishes groups containing at least one male person (virile, *-li*) from all other groups (non-virile, *-ły*): women, children, animals and things." },
+    { "type": "examples", "items": [
+      { "pl": "Moi koledzy już tam byli.", "en": "My (male) friends have already been there." },
+      { "pl": "Moje koleżanki już tam były.", "en": "My (female) friends have already been there." },
+      { "pl": "Ania i Tomek byli w kinie.", "en": "Ania and Tomek were at the cinema." },
+      { "pl": "Dzieci były zmęczone.", "en": "The children were tired." }
+    ] },
+    { "type": "p", "text": "One man is enough to make a group virile. That’s why Tomek’s parents *wyjechali* in *Przyjdź do nas na Wigilię*, and why Tomek and the professor *rozmawialiśmy* in *Dzień dobry, mówi Tomasz Lewandowski*." },
+
+    { "type": "h", "text": "Whose gender?" },
+    { "type": "p", "text": "In the first person, the form shows the speaker’s gender: a man says *byłem*, a woman *byłam*. In the second person it shows the listener’s: Tomek asks Ania *Byłaś już…?* With formal *pan* and *pani* the verb is third person, so it again follows the person addressed: *Pan był?*, *Pani była?* This is why the learner setting at the top of each lesson changes the forms offered to you." },
+
+    { "type": "h", "text": "Finding the stem" },
+    { "type": "p", "text": "For most verbs, drop the *-ć* of the infinitive: *czyta-ć → czytał*, *robi-ć → robił*, *pracowa-ć → pracował*." },
+    { "type": "table", "caption": "Verbs in -eć: a before ł, e before l", "head": ["infinitive", "masculine", "feminine", "virile plural"], "rows": [
+      ["*chcieć*", "*chciał*", "*chciała*", "*chcieli*"],
+      ["*mieć*", "*miał*", "*miała*", "*mieli*"],
+      ["*widzieć*", "*widział*", "*widziała*", "*widzieli*"]
+    ] },
+    { "type": "table", "caption": "Common verbs with irregular past stems", "head": ["infinitive", "masculine", "feminine", "virile plural"], "rows": [
+      ["*iść*", "*szedł*", "*szła*", "*szli*"],
+      ["*pójść*", "*poszedł*", "*poszła*", "*poszli*"],
+      ["*jeść*", "*jadł*", "*jadła*", "*jedli*"],
+      ["*móc*", "*mógł*", "*mogła*", "*mogli*"],
+      ["*znaleźć*", "*znalazł*", "*znalazła*", "*znaleźli*"],
+      ["*nieść*", "*niósł*", "*niosła*", "*nieśli*"],
+      ["*zasnąć*", "*zasnął*", "*zasnęła*", "*zasnęli*"],
+      ["*wziąć*", "*wziął*", "*wzięła*", "*wzięli*"]
+    ] },
+    { "type": "p", "text": "Verbs in *-nąć* keep *ą* only in the masculine singular: *zasnąłem*, but *zasnęłam*, *zasnęli*. A few of them drop *-ną-* in the past altogether: *zmarznąć → zmarzł*, *zmarzła*." },
+
+    { "type": "h", "text": "Person markers that move" },
+    { "type": "p", "text": "In casual speech the person marker can leave the verb and attach to an earlier word, often a question word or pronoun: *Gdzieś był?* for *Gdzie byłeś?*, “Where were you?” This is informal; in writing keep the marker on the verb. In the conditional, the same detachment is fully standard: *Ja bym zapomniała*." },
+
+    { "type": "h", "text": "Which aspect?" },
+    { "type": "p", "text": "With only one past tense, aspect does much of the work English does with tenses." },
+    { "type": "table", "head": ["", "imperfective", "perfective"], "rows": [
+      ["presents", "an activity, a state, a habit, an attempt", "a single completed event or its result"],
+      ["example", "*Szukałem przez godzinę*, “I looked for an hour”", "*…ale nie znalazłem*, “…but I didn’t find it”"],
+      ["in a story", "the background: *siedziałem, czytałem*", "the events: *zasnąłem, obudziłem się*"]
+    ] },
+    { "type": "p", "text": "A full page on aspect is in preparation." },
+
+    { "type": "h", "text": "The l-participle elsewhere" },
+    { "type": "p", "text": "The same *-ł* form turns up in two other places: in the conditional (*byłbym*, *poszłabym*) and in one of the two ways to form the imperfective future (*będę pisał*, *będziesz pracowała*)." }
+  ]
+}
