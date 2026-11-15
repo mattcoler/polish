@@ -1,0 +1,308 @@
+{
+  "id": "table-3-kiedy-bylas-mloda",
+  "unit": "At the table",
+  "level": 3,
+  "cefr": "B1–B2",
+  "title": "Kiedy byłaś młoda…",
+  "titleEn": "When you were young…",
+  "focus": "family stories: past habits, virile and non-virile plurals, żeby",
+  "defaultWord": "wygladaly",
+  "patterns": {
+    "imperfective": "Imperfective: habits and background",
+    "virile": "Plural gender: virile / non-virile",
+    "vocative": "Vocative",
+    "addressee": "Gender follows the listener",
+    "speaker": "Gender follows the speaker",
+    "numbers": "Numbers and agreement",
+    "zeby": "Żeby: purpose and wishes",
+    "genitive": "Genitive case",
+    "accusative": "Accusative case",
+    "locative": "Locative case",
+    "instrumental": "Instrumental case",
+    "future": "Perfective present form = future"
+  },
+  "lines": [
+    { "speaker": "Kasia", "gender": "f", "pl": "Babciu|babciu, a jak wyglądały|wygladaly niedzielne|niedzielne obiady, kiedy byłaś|bylas młoda|mloda?", "en": "Grandma, what were Sunday dinners like when you were young?" },
+    { "speaker": "Babcia", "gender": "f", "pl": "Zupełnie inaczej. Mieszkaliśmy|mieszkalismy na wsi|wsi, a przy|przy stole siadało|siadalo nas czternaścioro|czternascioro.", "en": "Completely different. We lived in the countryside, and fourteen of us sat down at the table." },
+    { "speaker": "Babcia", "gender": "f", "pl": "Mięso jedliśmy|jedlismy tylko w niedzielę|niedziele. Mama wstawała|wstawala o piątej|piatej, żeby|zeby upiec|upiec chleb.", "en": "We only ate meat on Sundays. My mother got up at five to bake bread." },
+    { "speaker": "Wujek Jurek", "gender": "m", "pl": "A ja pamiętam, jak dziadek co tydzień opowiadał|opowiadal tę|te samą historię|historie o wojsku|wojsku.", "en": "And I remember Grandpa telling the same army story every week." },
+    { "speaker": "Babcia", "gender": "f", "pl": "Bo za każdym razem|razem była trochę inna! Dziadek lubił, żeby|zeby2 wszyscy|wszyscy go słuchali|sluchali.", "en": "Because it was a bit different every time! Grandpa liked everyone to listen to him." },
+    { "speaker": "Ania", "gender": "f", "pl": "A teraz wszyscy siedzą przy stole z telefonami|telefonami.", "en": "And now everyone sits at the table with their phones." },
+    { "speaker": "Babcia", "gender": "f", "pl": "Dlatego dziś proponuję zasadę|zasade: kto pierwszy weźmie|wezmie telefon do ręki|reki, ten zmywa|zmywa naczynia.", "en": "That’s why today I propose a rule: whoever picks up their phone first does the washing-up." },
+    { "speaker": "Wujek Jurek", "gender": "m", "pl": "Zgoda! … O, Kasia już przegrała|przegrala.", "en": "Deal! … Oh, Kasia’s already lost." },
+    { "speaker": "Kasia", "gender": "f", "pl": "Ale ja tylko sprawdzałam|sprawdzalam przepis|przepis na sernik!", "en": "But I was only checking the cheesecake recipe!" }
+  ],
+  "words": {
+    "babciu": {
+      "form": "Babciu", "lemma": "babcia", "gloss": "grandma",
+      "tags": "noun · feminine · vocative singular",
+      "parts": [["Babci", "stem"], ["u", "vocative"]],
+      "why": "Nouns in -ia take -u in the vocative: babcia → babciu, ciocia → ciociu, Kasia → Kasiu.",
+      "patterns": ["vocative"]
+    },
+    "wygladaly": {
+      "form": "wyglądały", "lemma": "wyglądać", "gloss": "to look, appear",
+      "tags": "verb · imperfective · past · 3rd person plural · non-virile",
+      "parts": [["wygląda", "verb stem"], ["ł", "past suffix -ł- (l-participle)"], ["y", "non-virile plural ending"]],
+      "why": "Obiady is a masculine noun, but it doesn’t refer to men, so the plural is non-virile: obiady wyglądały. Only groups that include male persons take virile -li.",
+      "patterns": ["virile", "imperfective"]
+    },
+    "niedzielne": {
+      "form": "niedzielne", "lemma": "niedzielny", "gloss": "Sunday (adj.)",
+      "tags": "adjective · non-virile plural",
+      "parts": [["niedziel", "stem (niedziela, “Sunday”)"], ["n", "adjective suffix"], ["e", "non-virile pl. ending"]],
+      "why": "An adjective formed from niedziela. Polish often uses an adjective where English uses a noun as a modifier: niedzielny obiad, “Sunday dinner.”",
+      "patterns": []
+    },
+    "bylas": {
+      "form": "byłaś", "lemma": "być", "gloss": "to be",
+      "tags": "verb · past · 2nd person singular · feminine",
+      "parts": [["by", "stem of być"], ["ł", "past suffix -ł- (l-participle)"], ["a", "feminine ending"], ["ś", "2nd sg. person marker"]],
+      "why": "Kasia addresses her grandmother with ty, as Polish families do, so the verb shows the listener’s gender.",
+      "you": { "m": "Asked of you: kiedy byłeś młody?", "f": "Asked of you: kiedy byłaś młoda?" },
+      "patterns": ["addressee"]
+    },
+    "mloda": {
+      "form": "młoda", "lemma": "młody", "gloss": "young",
+      "tags": "adjective · feminine · nominative singular",
+      "parts": [["młod", "stem"], ["a", "fem. sg. ending"]],
+      "why": "An adjective after być stays in the nominative (byłaś młoda), whereas a noun would be instrumental (byłaś studentką).",
+      "you": { "m": "Asked of you: kiedy byłeś młody?", "f": "Asked of you: kiedy byłaś młoda?" },
+      "patterns": ["addressee"]
+    },
+    "mieszkalismy": {
+      "form": "Mieszkaliśmy", "lemma": "mieszkać", "gloss": "to live (somewhere)",
+      "tags": "verb · imperfective · past · 1st person plural · virile",
+      "parts": [["Mieszka", "verb stem"], ["l", "past suffix -ł-, written l before -i"], ["i", "virile plural ending"], ["śmy", "1st pl. person marker"]],
+      "why": "Imperfective: a long-term situation. Virile, because the family included men.",
+      "you": { "m": "Any group you’re in: mieszkaliśmy.", "f": "With a mixed group: mieszkaliśmy. Only women: mieszkałyśmy." },
+      "patterns": ["imperfective", "virile"]
+    },
+    "wsi": {
+      "form": "wsi", "lemma": "wieś", "gloss": "village; the countryside",
+      "tags": "noun · feminine · locative singular",
+      "parts": [["wsi", "irregular: wieś loses its e in all other forms"]],
+      "why": "Wieś drops its vowel in every form but the nominative and accusative: wsi, wsią. “In the countryside” is na wsi, with na.",
+      "patterns": ["locative"]
+    },
+    "przy": {
+      "form": "przy", "lemma": "przy", "gloss": "by, at",
+      "tags": "preposition (+ locative)",
+      "parts": [["przy", "by, at"]],
+      "why": "Przy + locative: przy stole, “at the table.” Na stole would mean on top of it.",
+      "patterns": ["locative"]
+    },
+    "siadalo": {
+      "form": "siadało", "lemma": "siadać", "gloss": "to sit down",
+      "tags": "verb · imperfective · past · 3rd person singular · neuter",
+      "parts": [["siada", "verb stem"], ["ł", "past suffix -ł- (l-participle)"], ["o", "neuter ending"]],
+      "why": "With a collective numeral, or any numeral from five up, as its subject, a past verb is neuter singular: siadało nas czternaścioro. Imperfective, because it happened every Sunday.",
+      "patterns": ["imperfective", "numbers"]
+    },
+    "czternascioro": {
+      "form": "czternaścioro", "lemma": "czternaścioro", "gloss": "fourteen (collective)",
+      "tags": "collective numeral · nominative",
+      "parts": [["czternaści", "stem (cf. czternaście, “fourteen”)"], ["oro", "collective numeral suffix"]],
+      "why": "A collective numeral, used for a mixed group of men, women and children. Nas, “of us”, is genitive.",
+      "patterns": ["numbers"]
+    },
+    "jedlismy": {
+      "form": "jedliśmy", "lemma": "jeść", "gloss": "to eat",
+      "tags": "verb · imperfective · past · 1st person plural · virile",
+      "parts": [["jed", "past stem of jeść (jed- before l)"], ["l", "past suffix -ł-, written l before -i"], ["i", "virile plural ending"], ["śmy", "1st pl. person marker"]],
+      "why": "Jeść has two past stems: jad- before ł (jadł, jadłam) and jed- before l (jedli, jedliśmy). Imperfective: a habit.",
+      "patterns": ["imperfective", "virile"]
+    },
+    "niedziele": {
+      "form": "niedzielę", "lemma": "niedziela", "gloss": "Sunday",
+      "tags": "noun · feminine · accusative singular",
+      "parts": [["niedziel", "stem"], ["ę", "acc. sg."]],
+      "why": "Days of the week take w + accusative: w niedzielę.",
+      "history": "Literally “not working”: from nie + działać.",
+      "patterns": ["accusative"]
+    },
+    "wstawala": {
+      "form": "wstawała", "lemma": "wstawać", "gloss": "to get up",
+      "tags": "verb · imperfective · past · 3rd person singular · feminine",
+      "parts": [["wstawa", "verb stem"], ["ł", "past suffix -ł- (l-participle)"], ["a", "feminine ending"]],
+      "why": "Imperfective for something that happened regularly. The perfective wstała would describe a single morning.",
+      "patterns": ["imperfective"]
+    },
+    "piatej": {
+      "form": "piątej", "lemma": "piąty", "gloss": "fifth",
+      "tags": "ordinal numeral · feminine · locative singular",
+      "parts": [["piąt", "stem (piąty, “fifth”)"], ["ej", "fem. loc. sg."]],
+      "why": "Clock times are feminine ordinals agreeing with an understood godzina. “At” a time is o + locative: o piątej, “at five.”",
+      "patterns": ["locative"]
+    },
+    "zeby": {
+      "form": "żeby", "lemma": "żeby", "gloss": "in order to; so that",
+      "tags": "conjunction",
+      "parts": [["żeby", "in order to"]],
+      "why": "Żeby + infinitive expresses purpose when the subject stays the same: wstawała, żeby upiec chleb, “got up to bake bread.”",
+      "patterns": ["zeby"]
+    },
+    "upiec": {
+      "form": "upiec", "lemma": "upiec", "gloss": "to bake",
+      "tags": "verb · perfective · infinitive",
+      "parts": [["u", "perfective prefix"], ["piec", "root and infinitive in -c"]],
+      "why": "Piec belongs to a small group of verbs whose infinitive ends in -c instead of -ć: piec, móc, biec. The perfective u- means baking it all the way through.",
+      "patterns": []
+    },
+    "opowiadal": {
+      "form": "opowiadał", "lemma": "opowiadać", "gloss": "to tell, recount",
+      "tags": "verb · imperfective · past · 3rd person singular · masculine",
+      "parts": [["opowiada", "verb stem"], ["ł", "past suffix -ł- (l-participle)"]],
+      "why": "Imperfective: repeated every week (co tydzień).",
+      "patterns": ["imperfective"]
+    },
+    "te": {
+      "form": "tę", "lemma": "ten", "gloss": "this, that",
+      "tags": "demonstrative · feminine · accusative singular",
+      "parts": [["tę", "this/that (fem. acc.)"]],
+      "why": "The feminine accusative of ten is tę: tę samą historię. In everyday speech you’ll often hear tą, but tę is the standard form.",
+      "patterns": ["accusative"]
+    },
+    "historie": {
+      "form": "historię", "lemma": "historia", "gloss": "story; history",
+      "tags": "noun · feminine · accusative singular",
+      "parts": [["histori", "stem"], ["ę", "acc. sg."]],
+      "why": "Direct object of opowiadał. Historia means both “story” and “history.”",
+      "patterns": ["accusative"]
+    },
+    "wojsku": {
+      "form": "wojsku", "lemma": "wojsko", "gloss": "army",
+      "tags": "noun · neuter · locative singular",
+      "parts": [["wojsk", "stem"], ["u", "loc. sg."]],
+      "why": "O + locative, “about.” Stems ending in k take -u: o wojsku.",
+      "patterns": ["locative"]
+    },
+    "razem": {
+      "form": "razem", "lemma": "raz", "gloss": "time, occasion",
+      "tags": "noun · masculine inanimate · instrumental singular",
+      "parts": [["raz", "stem"], ["em", "instr. sg."]],
+      "why": "Za każdym razem, “every time”, is a fixed phrase with za + instrumental. On its own, razem means “together.”",
+      "patterns": ["instrumental"]
+    },
+    "zeby2": {
+      "form": "żeby", "lemma": "żeby", "gloss": "that, so that",
+      "tags": "conjunction",
+      "parts": [["żeby", "that (with a new subject)"]],
+      "why": "When the subject changes, żeby takes a bare past form instead of an infinitive: lubił, żeby wszyscy słuchali, “he liked everyone to listen.”",
+      "patterns": ["zeby"]
+    },
+    "wszyscy": {
+      "form": "wszyscy", "lemma": "wszyscy", "gloss": "everyone, all",
+      "tags": "pronoun · virile nominative plural",
+      "parts": [["wszyscy", "everyone (virile)"]],
+      "why": "Wszyscy is used for “everyone” when the group includes men. For a group of women, or of things, it’s wszystkie.",
+      "patterns": ["virile"]
+    },
+    "sluchali": {
+      "form": "słuchali", "lemma": "słuchać", "gloss": "to listen to",
+      "tags": "verb · imperfective · past form · 3rd person plural · virile",
+      "parts": [["słucha", "verb stem"], ["l", "past suffix -ł-, written l before -i"], ["i", "virile plural ending"]],
+      "why": "After żeby, a bare past form agreeing with wszyscy. Słuchać takes the genitive: słuchać kogoś, hence go.",
+      "patterns": ["virile", "zeby"]
+    },
+    "telefonami": {
+      "form": "telefonami", "lemma": "telefon", "gloss": "phone",
+      "tags": "noun · masculine inanimate · instrumental plural",
+      "parts": [["telefon", "stem"], ["ami", "instr. pl."]],
+      "why": "Z + instrumental, “with.”",
+      "patterns": ["instrumental"]
+    },
+    "zasade": {
+      "form": "zasadę", "lemma": "zasada", "gloss": "rule, principle",
+      "tags": "noun · feminine · accusative singular",
+      "parts": [["zasad", "stem"], ["ę", "acc. sg."]],
+      "why": "Direct object of proponuję.",
+      "patterns": ["accusative"]
+    },
+    "wezmie": {
+      "form": "weźmie", "lemma": "wziąć", "gloss": "to take, pick up",
+      "tags": "verb · perfective · future · 3rd person singular",
+      "parts": [["weźmi", "future stem of wziąć (weźm-)"], ["e", "3rd sg. ending"]],
+      "why": "Wziąć is irregular: future wezmę, weźmiesz, weźmie; past wziął, wzięła. Wziąć do ręki, “to pick up.”",
+      "patterns": ["future"]
+    },
+    "reki": {
+      "form": "ręki", "lemma": "ręka", "gloss": "hand",
+      "tags": "noun · feminine · genitive singular",
+      "parts": [["ręk", "stem"], ["i", "gen. sg. (-y spelled -i after k)"]],
+      "why": "Do + genitive. Ręka is irregular in the plural (ręce) and has an old locative, w ręku, alongside w ręce.",
+      "patterns": ["genitive"]
+    },
+    "zmywa": {
+      "form": "zmywa", "lemma": "zmywać", "gloss": "to wash up",
+      "tags": "verb · imperfective · present · 3rd person singular",
+      "parts": [["zmywa", "verb stem; 3rd sg. has no ending"]],
+      "why": "Kto…, ten… means “whoever…, (they)…”. The present tense states a general rule. Zmywać naczynia is “to do the washing-up.”",
+      "patterns": []
+    },
+    "przegrala": {
+      "form": "przegrała", "lemma": "przegrać", "gloss": "to lose (a game)",
+      "tags": "verb · perfective · past · 3rd person singular · feminine",
+      "parts": [["prze", "prefix"], ["gra", "verb stem (cf. grać, “to play”)"], ["ł", "past suffix -ł- (l-participle)"], ["a", "feminine ending"]],
+      "why": "Grać is “to play”; przegrać is “to lose” and wygrać “to win.” Feminine, for Kasia.",
+      "patterns": []
+    },
+    "sprawdzalam": {
+      "form": "sprawdzałam", "lemma": "sprawdzać", "gloss": "to check",
+      "tags": "verb · imperfective · past · 1st person singular · feminine",
+      "parts": [["sprawdza", "verb stem"], ["ł", "past suffix -ł- (l-participle)"], ["a", "feminine ending"], ["m", "1st sg. person marker"]],
+      "why": "Imperfective: Kasia presents what she was doing as an activity in progress, which sounds more innocent than the perfective sprawdziłam.",
+      "you": { "m": "You would say: sprawdzałem.", "f": "You would say: sprawdzałam." },
+      "patterns": ["imperfective", "speaker"]
+    },
+    "przepis": {
+      "form": "przepis", "lemma": "przepis", "gloss": "recipe; regulation",
+      "tags": "noun · masculine inanimate · accusative singular (same as nominative)",
+      "parts": [["prze", "prefix"], ["pis", "root (cf. pisać, “to write”)"]],
+      "why": "Przepis means both “recipe” and “regulation”, something written down. A recipe for something is przepis na + accusative.",
+      "patterns": ["accusative"]
+    }
+  },
+  "exercises": [
+    {
+      "id": "e1", "model": "wygladaly",
+      "prompt": "“The cakes looked delicious” (ciasta, wyglądać): Ciasta ___ pysznie.",
+      "answer": ["wygląda", "ł", "y"],
+      "tiles": ["wygląda", "ł", "l", "i", "y", "o"],
+      "explain": "Ciasta aren’t people, so non-virile: wygląda + ł + y.",
+      "hint": "Compare obiady wyglądały."
+    },
+    {
+      "id": "e2", "model": "jedlismy",
+      "prompt": "“They (men) ate”: Oni ___.",
+      "answer": ["jed", "l", "i"],
+      "tiles": ["jad", "jed", "ł", "l", "i", "y"],
+      "explain": "Before l the stem is jed-: jed + l + i.",
+      "hint": "Jadł but jedliśmy: which stem goes before l?"
+    },
+    {
+      "id": "e3", "model": "piatej",
+      "prompt": "“At seven” (siódmy): o ___",
+      "answer": ["siódm", "ej"],
+      "tiles": ["siódm", "siedem", "a", "ej", "ą"],
+      "explain": "O + the locative of the feminine ordinal: o siódmej.",
+      "hint": "Compare o piątej."
+    },
+    {
+      "id": "e4", "model": "zeby2",
+      "prompt": "“I want you (a man) to stay” (zostać): Chcę, żebyś ___.",
+      "answer": ["zosta", "ł"],
+      "tiles": ["zosta", "ł", "a", "l", "i", "ć"],
+      "explain": "The person marker is already on żebyś, so the verb is a bare past form: zosta + ł.",
+      "hint": "Compare lubił, żeby wszyscy słuchali."
+    },
+    {
+      "id": "e5", "model": "sprawdzalam",
+      "prompt": "Say about yourself: “I was only reading” (czytać): Ja tylko ___.",
+      "answer": { "m": ["czyta", "ł", "e", "m"], "f": ["czyta", "ł", "a", "m"] },
+      "tiles": ["czyta", "prze", "ł", "a", "e", "m"],
+      "explain": { "m": "Imperfective, with the masculine inserted e: czyta + ł + e + m.", "f": "Imperfective: czyta + ł + a + m." },
+      "hint": "Compare sprawdzałam, and check the learner setting at the top."
+    }
+  ]
+}

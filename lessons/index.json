@@ -59,6 +59,28 @@
       ]
     },
     {
+      "title": "At the table",
+      "titlePl": "Przy stole",
+      "lessons": [
+        {
+          "id": "table-2-siadajcie",
+          "level": 2,
+          "cefr": "B1",
+          "title": "Siadajcie, zupa na stole!",
+          "titleEn": "Sit down, the soup’s on the table!",
+          "focus": "family meals: offers and requests, imperatives, the “some” genitive, family vocatives"
+        },
+        {
+          "id": "table-3-kiedy-bylas-mloda",
+          "level": 3,
+          "cefr": "B1–B2",
+          "title": "Kiedy byłaś młoda…",
+          "titleEn": "When you were young…",
+          "focus": "family stories: past habits, virile and non-virile plurals, żeby"
+        }
+      ]
+    },
+    {
       "title": "Making plans",
       "titlePl": "Plany",
       "lessons": [

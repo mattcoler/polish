@@ -19,7 +19,8 @@
       "match": {
         "tags": "\\bconditional\\b",
         "patterns": [
-          "conditional"
+          "conditional",
+          "zeby"
         ]
       }
     },

@@ -1,0 +1,360 @@
+{
+  "id": "table-2-siadajcie",
+  "unit": "At the table",
+  "level": 2,
+  "cefr": "B1",
+  "title": "Siadajcie, zupa na stole!",
+  "titleEn": "Sit down, the soup’s on the table!",
+  "focus": "family meals: offers and requests, imperatives, the “some” genitive, family vocatives",
+  "defaultWord": "nalozyc",
+  "patterns": {
+    "imperative": "Imperative",
+    "vocative": "Vocative: addressing family",
+    "dative": "Dative: to or for someone",
+    "genitive": "Genitive case",
+    "accusative": "Accusative case",
+    "locative": "Locative case",
+    "future": "Perfective present form = future",
+    "addressee": "Gender follows the listener",
+    "determinate": "Determinate motion: now, in one direction"
+  },
+  "lines": [
+    { "speaker": "Babcia", "gender": "f", "pl": "Siadajcie|siadajcie, siadajcie! Zupa już na stole|stole. Smacznego|smacznego!", "en": "Sit down, sit down! The soup’s on the table. Enjoy your meal!" },
+    { "speaker": "Wujek Jurek", "gender": "m", "pl": "Mamo|mamo, rosół|rosol pachnie|pachnie jak zawsze. Tomek, podaj|podaj mi|mi sól|sol, proszę.", "en": "Mum, the broth smells just like it always does. Tomek, pass me the salt, please." },
+    { "speaker": "Babcia", "gender": "f", "pl": "Tomku|tomku, nałożyć|nalozyc ci|ci jeszcze zupy|zupy? Jesteś taki chudy|chudy!", "en": "Tomek, shall I give you some more soup? You’re so thin!" },
+    { "speaker": "Tomek", "gender": "m", "pl": "Dziękuję, pani Zosiu|zosiu, ale zostawię|zostawie miejsce na drugie|drugie danie|danie.", "en": "Thank you, Mrs. Zosia, but I’ll save room for the main course." },
+    { "speaker": "Ciocia Basia", "gender": "f", "pl": "Na drugie są gołąbki|golabki i kotlety. Ania, przynieś|przynies ziemniaki z kuchni|kuchni, dobrze?", "en": "For the main course there are cabbage rolls and pork cutlets. Ania, bring the potatoes from the kitchen, will you?" },
+    { "speaker": "Ania", "gender": "f", "pl": "Już niosę|niose. Ciociu|ciociu, a dla Kasi|kasi zrobiłaś|zrobilas coś bez mięsa|miesa?", "en": "On my way. Auntie, did you make something without meat for Kasia?" },
+    { "speaker": "Ciocia Basia", "gender": "f", "pl": "Oczywiście! Pierogi ruskie|ruskie. Tylko zostawcie|zostawcie jej|jej trochę|troche, chłopcy|chlopcy!", "en": "Of course! Pierogi ruskie. Just leave her some, boys!" },
+    { "speaker": "Babcia", "gender": "f", "pl": "A na deser|deser sernik|sernik. Kto nie zje|zje, ten nie dostanie|dostanie kompotu|kompotu!", "en": "And for dessert, cheesecake. Anyone who doesn’t finish their plate gets no kompot!" },
+    { "speaker": "Wujek Jurek", "gender": "m", "pl": "Mamo, nikt|nikt tu nie umrze|umrze z głodu|glodu, obiecuję|obiecuje.", "en": "Mum, nobody here is going to starve, I promise." }
+  ],
+  "words": {
+    "siadajcie": {
+      "form": "Siadajcie", "lemma": "siadać", "gloss": "to sit down",
+      "tags": "verb · imperfective · imperative · 2nd person plural",
+      "parts": [["Siada", "verb stem"], ["j", "imperative -j"], ["cie", "2nd pl. ending"]],
+      "why": "Invitations and encouragement normally use the imperfective imperative: siadajcie, jedzcie, częstujcie się. The perfective usiądźcie sounds more like an instruction.",
+      "patterns": ["imperative"]
+    },
+    "stole": {
+      "form": "stole", "lemma": "stół", "gloss": "table",
+      "tags": "noun · masculine inanimate · locative singular",
+      "parts": [["stol", "stem (ó → o, ł → l)"], ["e", "loc. sg."]],
+      "why": "Na + locative: na stole, “on the table.” Zupa już na stole leaves out jest, which is common in quick spoken announcements.",
+      "patterns": ["locative"]
+    },
+    "smacznego": {
+      "form": "Smacznego", "lemma": "smaczny", "gloss": "tasty",
+      "tags": "adjective used as a wish · genitive singular",
+      "parts": [["Smaczn", "stem"], ["ego", "gen. sg."]],
+      "why": "Smacznego!, “enjoy your meal”, is a wish, so it’s genitive, short for życzę smacznego. Polish families say it at the start of every meal.",
+      "patterns": ["genitive"]
+    },
+    "mamo": {
+      "form": "Mamo", "lemma": "mama", "gloss": "mum",
+      "tags": "noun · feminine · vocative singular",
+      "parts": [["Mam", "stem"], ["o", "vocative"]],
+      "why": "Jurek is talking to his own mother. Feminine nouns in -a take -o in the vocative: mama → mamo. Diminutives in -ia take -u instead: babcia → babciu, ciocia → ciociu.",
+      "patterns": ["vocative"]
+    },
+    "rosol": {
+      "form": "rosół", "lemma": "rosół", "gloss": "clear broth",
+      "tags": "noun · masculine inanimate · nominative singular",
+      "parts": [["rosół", "nominative: no ending"]],
+      "why": "Rosół, a clear chicken or beef broth with noodles, is the classic first course of a Polish Sunday dinner.",
+      "history": "Originally “brine”; related to sól, “salt.”",
+      "patterns": []
+    },
+    "pachnie": {
+      "form": "pachnie", "lemma": "pachnieć", "gloss": "to smell (nice)",
+      "tags": "verb · imperfective · present · 3rd person singular",
+      "parts": [["pachni", "verb stem"], ["e", "3rd sg. ending"]],
+      "why": "Pachnieć is for pleasant smells. An unpleasant smell is śmierdzieć.",
+      "patterns": []
+    },
+    "podaj": {
+      "form": "podaj", "lemma": "podać", "gloss": "to pass, hand",
+      "tags": "verb · perfective · imperative · 2nd person singular",
+      "parts": [["poda", "verb stem (cf. dać, “to give”)"], ["j", "imperative -j"]],
+      "why": "Podać is the verb for passing things at the table. The perfective imperative makes a concrete request; proszę at the end softens it.",
+      "compare": "To several people: podajcie.",
+      "patterns": ["imperative"]
+    },
+    "mi": {
+      "form": "mi", "lemma": "ja", "gloss": "I, me",
+      "tags": "pronoun · dative · short form",
+      "parts": [["mi", "to me"]],
+      "why": "The person something is passed to is in the dative: podaj mi sól, podaj babci chleb.",
+      "patterns": ["dative"]
+    },
+    "sol": {
+      "form": "sól", "lemma": "sól", "gloss": "salt",
+      "tags": "noun · feminine · accusative singular (same as nominative)",
+      "parts": [["sól", "acc. = nom."]],
+      "why": "Sól is feminine but ends in a consonant, so its accusative looks like its nominative. Other forms open the ó to o: soli, solą.",
+      "patterns": ["accusative"]
+    },
+    "tomku": {
+      "form": "Tomku", "lemma": "Tomek", "gloss": "everyday form of Tomasz",
+      "tags": "proper noun · masculine · vocative singular",
+      "parts": [["Tom", "stem"], ["k", "diminutive suffix -ek (fleeting e dropped)"], ["u", "vocative"]],
+      "why": "Babcia calls Tomek by his first name, in the vocative, as older people often do with younger guests.",
+      "patterns": ["vocative"]
+    },
+    "nalozyc": {
+      "form": "nałożyć", "lemma": "nałożyć", "gloss": "to serve (food), put on a plate",
+      "tags": "verb · perfective · infinitive",
+      "parts": [["na", "prefix: onto"], ["łoży", "verb stem"], ["ć", "infinitive ending"]],
+      "why": "An infinitive question is an offer: nałożyć ci…?, “shall I give you…?” Nałożyć is for food on a plate; for drinks it’s nalać: nalać ci herbaty?",
+      "patterns": []
+    },
+    "ci": {
+      "form": "ci", "lemma": "ty", "gloss": "you",
+      "tags": "pronoun · dative · short form",
+      "parts": [["ci", "to you, for you"]],
+      "why": "The short dative of ty: nałożyć komuś, “to serve someone.”",
+      "patterns": ["dative"]
+    },
+    "zupy": {
+      "form": "zupy", "lemma": "zupa", "gloss": "soup",
+      "tags": "noun · feminine · genitive singular",
+      "parts": [["zup", "stem"], ["y", "gen. sg."]],
+      "why": "Here the genitive means “some”: nałożyć zupy, “to serve some soup.” With the accusative, nałożyć zupę, you’d be serving the soup as a whole.",
+      "patterns": ["genitive"]
+    },
+    "chudy": {
+      "form": "chudy", "lemma": "chudy", "gloss": "thin",
+      "tags": "adjective · masculine · nominative singular",
+      "parts": [["chud", "stem"], ["y", "masc. sg. ending"]],
+      "why": "Masculine because Babcia is talking to Tomek. An adjective after być stays nominative.",
+      "you": { "m": "Said to you: Jesteś taki chudy!", "f": "Said to you: Jesteś taka chuda!" },
+      "patterns": ["addressee"]
+    },
+    "zosiu": {
+      "form": "Zosiu", "lemma": "Zosia", "gloss": "everyday form of Zofia",
+      "tags": "proper noun · feminine · vocative singular",
+      "parts": [["Zosi", "stem"], ["u", "vocative"]],
+      "why": "Diminutives in -ia take -u in the vocative. Pani with a diminutive first name is a warm but still polite way to address an older woman you know.",
+      "patterns": ["vocative"]
+    },
+    "zostawie": {
+      "form": "zostawię", "lemma": "zostawić", "gloss": "to leave",
+      "tags": "verb · perfective · future · 1st person singular",
+      "parts": [["zostawi", "verb stem"], ["ę", "1st sg. ending"]],
+      "why": "Perfective, so the present form is future: “I’ll leave.” Zostawić miejsce na…, “to save room for…”",
+      "patterns": ["future"]
+    },
+    "drugie": {
+      "form": "drugie", "lemma": "drugi", "gloss": "second",
+      "tags": "ordinal numeral · neuter · accusative singular",
+      "parts": [["drug", "stem"], ["ie", "neuter -e (the i marks g softened)"]],
+      "why": "Drugie danie, “the second course”, is the main course; the first is the soup. Na drugie on its own means “for the main course.”",
+      "patterns": ["accusative"]
+    },
+    "danie": {
+      "form": "danie", "lemma": "danie", "gloss": "dish, course",
+      "tags": "noun · neuter · accusative singular (same as nominative)",
+      "parts": [["da", "root (cf. dać, “to give”)"], ["ni", "verbal noun suffix"], ["e", "neuter sg. ending"]],
+      "why": "Danie is formed from dać, “to give”: what is served. Na + accusative expresses purpose: na drugie danie, na deser.",
+      "patterns": ["accusative"]
+    },
+    "golabki": {
+      "form": "gołąbki", "lemma": "gołąbek", "gloss": "stuffed cabbage roll",
+      "tags": "noun · masculine inanimate · nominative plural",
+      "parts": [["gołąb", "root (gołąb, “pigeon”)"], ["k", "diminutive suffix (fleeting e dropped)"], ["i", "nom. pl."]],
+      "why": "Gołąbki are cabbage leaves wrapped around minced meat and rice, baked in tomato sauce. The name means “little pigeons.”",
+      "patterns": []
+    },
+    "przynies": {
+      "form": "przynieś", "lemma": "przynieść", "gloss": "to bring",
+      "tags": "verb · perfective · imperative · 2nd person singular",
+      "parts": [["przy", "prefix: to here"], ["nieś", "root: carry; no ending in the imperative"]],
+      "why": "The imperative of przynieść. Adding dobrze? at the end turns the instruction into a friendly request.",
+      "patterns": ["imperative"]
+    },
+    "kuchni": {
+      "form": "kuchni", "lemma": "kuchnia", "gloss": "kitchen; cuisine",
+      "tags": "noun · feminine · genitive singular",
+      "parts": [["kuchn", "stem"], ["i", "gen. sg."]],
+      "why": "Z + genitive, “from”: z kuchni. Nouns in -nia end in -ni in the genitive, dative and locative.",
+      "patterns": ["genitive"]
+    },
+    "niose": {
+      "form": "niosę", "lemma": "nieść", "gloss": "to carry (in one direction, now)",
+      "tags": "verb · imperfective · determinate · present · 1st person singular",
+      "parts": [["nios", "stem (e → o)"], ["ę", "1st sg. ending"]],
+      "why": "Nieść is the determinate “carry”, like iść for walking. Już niosę, “I’m bringing them right now.” Its indeterminate partner is nosić.",
+      "patterns": ["determinate"]
+    },
+    "ciociu": {
+      "form": "Ciociu", "lemma": "ciocia", "gloss": "auntie",
+      "tags": "noun · feminine · vocative singular",
+      "parts": [["Cioci", "stem"], ["u", "vocative"]],
+      "why": "Ciocia is itself a diminutive (of ciotka), and like other nouns in -ia it takes -u in the vocative. Children call any close family friend ciocia too.",
+      "patterns": ["vocative"]
+    },
+    "kasi": {
+      "form": "Kasi", "lemma": "Kasia", "gloss": "everyday form of Katarzyna",
+      "tags": "proper noun · feminine · genitive singular",
+      "parts": [["Kas", "stem"], ["i", "gen. sg."]],
+      "why": "Dla + genitive. Names in -ia have -i in the genitive: Kasia → Kasi, Ania → Ani.",
+      "patterns": ["genitive"]
+    },
+    "zrobilas": {
+      "form": "zrobiłaś", "lemma": "zrobić", "gloss": "to make, do",
+      "tags": "verb · perfective · past · 2nd person singular · feminine",
+      "parts": [["z", "perfective prefix"], ["robi", "verb stem"], ["ł", "past suffix -ł- (l-participle)"], ["a", "feminine ending"], ["ś", "2nd sg. person marker"]],
+      "why": "Feminine because Ania is talking to her aunt. Within the family, aunts and uncles are addressed with ty.",
+      "you": { "m": "Asked of you: Zrobiłeś coś…?", "f": "Asked of you: Zrobiłaś coś…?" },
+      "patterns": ["addressee"]
+    },
+    "miesa": {
+      "form": "mięsa", "lemma": "mięso", "gloss": "meat",
+      "tags": "noun · neuter · genitive singular",
+      "parts": [["mięs", "stem"], ["a", "gen. sg."]],
+      "why": "Bez + genitive, “without”: bez mięsa, bez cukru.",
+      "patterns": ["genitive"]
+    },
+    "ruskie": {
+      "form": "ruskie", "lemma": "ruski", "gloss": "Ruthenian",
+      "tags": "adjective · non-virile plural",
+      "parts": [["rusk", "stem"], ["ie", "non-virile pl. -e (the i marks k softened)"]],
+      "why": "Pierogi ruskie are filled with potato, curd cheese and onion. Ruskie refers to historical Ruthenia (Ruś), not to Russia.",
+      "patterns": []
+    },
+    "zostawcie": {
+      "form": "zostawcie", "lemma": "zostawić", "gloss": "to leave",
+      "tags": "verb · perfective · imperative · 2nd person plural",
+      "parts": [["zostaw", "imperative stem"], ["cie", "2nd pl. ending"]],
+      "why": "Plural imperative, aimed at the men at the table.",
+      "patterns": ["imperative"]
+    },
+    "jej": {
+      "form": "jej", "lemma": "ona", "gloss": "she, her",
+      "tags": "pronoun · dative",
+      "parts": [["jej", "to her, for her"]],
+      "why": "Zostawić komuś coś, “to leave something for someone”: the person is in the dative.",
+      "patterns": ["dative"]
+    },
+    "troche": {
+      "form": "trochę", "lemma": "trochę", "gloss": "a little, some",
+      "tags": "adverb of quantity",
+      "parts": [["trochę", "a little"]],
+      "why": "Like other words of quantity, trochę takes the genitive: trochę zupy, trochę czasu. Here the noun (pierogów) is understood.",
+      "patterns": []
+    },
+    "chlopcy": {
+      "form": "chłopcy", "lemma": "chłopiec", "gloss": "boy",
+      "tags": "noun · masculine personal · vocative plural",
+      "parts": [["chłop", "stem"], ["c", "suffix -iec (fleeting ie dropped)"], ["y", "virile nom./voc. pl."]],
+      "why": "In the plural, the vocative is always the same as the nominative. Said to grown men, chłopcy is affectionate and teasing.",
+      "patterns": ["vocative"]
+    },
+    "deser": {
+      "form": "deser", "lemma": "deser", "gloss": "dessert",
+      "tags": "noun · masculine inanimate · accusative singular (same as nominative)",
+      "parts": [["deser", "acc. = nom."]],
+      "why": "Na + accusative for purpose: na deser, “for dessert”; na obiad, “for lunch.”",
+      "patterns": ["accusative"]
+    },
+    "sernik": {
+      "form": "sernik", "lemma": "sernik", "gloss": "cheesecake",
+      "tags": "noun · masculine inanimate · nominative singular",
+      "parts": [["ser", "root: cheese"], ["nik", "noun suffix"]],
+      "why": "Polish cheesecake is made with twaróg, a fresh curd cheese. The suffix -nik makes a noun from ser.",
+      "patterns": []
+    },
+    "zje": {
+      "form": "zje", "lemma": "zjeść", "gloss": "to eat (up)",
+      "tags": "verb · perfective · future · 3rd person singular",
+      "parts": [["z", "perfective prefix"], ["je", "present stem of jeść; 3rd sg. has no further ending"]],
+      "why": "Kto…, ten… means “whoever…, (they)…”. Perfective, because it’s about finishing the food.",
+      "patterns": ["future"]
+    },
+    "dostanie": {
+      "form": "dostanie", "lemma": "dostać", "gloss": "to get, receive",
+      "tags": "verb · perfective · future · 3rd person singular",
+      "parts": [["do", "prefix"], ["stani", "future stem dostan- (n softened before e)"], ["e", "3rd sg. ending"]],
+      "why": "Dostać has the future stem dostan-: dostanę, dostaniesz, dostanie.",
+      "patterns": ["future"]
+    },
+    "kompotu": {
+      "form": "kompotu", "lemma": "kompot", "gloss": "kompot (fruit drink)",
+      "tags": "noun · masculine inanimate · genitive singular",
+      "parts": [["kompot", "stem"], ["u", "gen. sg."]],
+      "why": "Negation turns the object genitive: dostanie kompot → nie dostanie kompotu. Kompot, fruit simmered in water and served as a drink, is a fixture of Polish home dinners.",
+      "patterns": ["genitive"]
+    },
+    "nikt": {
+      "form": "nikt", "lemma": "nikt", "gloss": "nobody",
+      "tags": "negative pronoun · nominative",
+      "parts": [["nikt", "nobody"]],
+      "why": "Polish uses double negation: nikt nie umrze, literally “nobody won’t die.”",
+      "patterns": []
+    },
+    "umrze": {
+      "form": "umrze", "lemma": "umrzeć", "gloss": "to die",
+      "tags": "verb · perfective · future · 3rd person singular",
+      "parts": [["u", "perfective prefix"], ["mrz", "stem"], ["e", "3rd sg. ending"]],
+      "why": "Umrzeć is irregular: umrę, umrzesz, umrze; past umarł, umarła.",
+      "patterns": ["future"]
+    },
+    "glodu": {
+      "form": "głodu", "lemma": "głód", "gloss": "hunger",
+      "tags": "noun · masculine inanimate · genitive singular",
+      "parts": [["głod", "stem (ó → o)"], ["u", "gen. sg."]],
+      "why": "Z + genitive can give a cause: umrzeć z głodu, “to die of hunger”; płakać ze śmiechu, “to cry with laughter.”",
+      "patterns": ["genitive"]
+    },
+    "obiecuje": {
+      "form": "obiecuję", "lemma": "obiecywać", "gloss": "to promise",
+      "tags": "verb · imperfective · present · 1st person singular",
+      "parts": [["obiec", "root"], ["uj", "-ywa- becomes -uj- in the present"], ["ę", "1st sg. ending"]],
+      "why": "Verbs in -ywać form their present with -uj-: obiecywać → obiecuję.",
+      "patterns": []
+    }
+  },
+  "exercises": [
+    {
+      "id": "e1", "model": "podaj",
+      "prompt": "Ask someone to pass the bread: ___ mi chleb, proszę.",
+      "answer": ["Poda", "j"],
+      "tiles": ["Poda", "Da", "j", "cie", "ć"],
+      "explain": "The imperative of podać: Poda + j.",
+      "hint": "Compare podaj mi sól."
+    },
+    {
+      "id": "e2", "model": "zupy",
+      "prompt": "Offer some more tea (herbata): Nalać ci jeszcze ___?",
+      "answer": ["herbat", "y"],
+      "tiles": ["herbat", "a", "ę", "y", "ą"],
+      "explain": "“Some” of a food or drink is genitive: herbaty.",
+      "hint": "Compare nałożyć ci jeszcze zupy."
+    },
+    {
+      "id": "e3", "model": "ciociu",
+      "prompt": "Call your grandmother (babcia) to the table: ___, chodź do stołu!",
+      "answer": ["Babci", "u"],
+      "tiles": ["Babci", "Babc", "u", "o", "a"],
+      "explain": "Nouns in -ia take -u in the vocative: babcia → babciu.",
+      "hint": "Compare Ciociu and pani Zosiu."
+    },
+    {
+      "id": "e4", "model": "zostawcie",
+      "prompt": "Tell your cousins to eat (imperative stem jedz-): ___!",
+      "answer": ["Jedz", "cie"],
+      "tiles": ["Jedz", "Je", "cie", "my", "sz"],
+      "explain": "The plural imperative adds -cie: jedzcie.",
+      "hint": "Compare zostawcie and siadajcie."
+    },
+    {
+      "id": "e5", "model": "kompotu",
+      "prompt": "“I don’t drink coffee” (kawa): Nie piję ___.",
+      "answer": ["kaw", "y"],
+      "tiles": ["kaw", "a", "ę", "y"],
+      "explain": "Negation turns the object genitive: kawy.",
+      "hint": "Compare nie dostanie kompotu."
+    }
+  ]
+}
