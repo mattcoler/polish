@@ -1,0 +1,296 @@
+{
+  "id": "holidays-3-szczesliwego-nowego-roku",
+  "unit": "Holidays and celebrations",
+  "level": 3,
+  "cefr": "B1–B2",
+  "title": "Szczęśliwego Nowego Roku!",
+  "titleEn": "Happy New Year!",
+  "focus": "New Year’s Eve: telling the time, resolutions, aspect and the conditional",
+  "defaultWord": "dwunasta",
+  "patterns": {
+    "time": "Telling the time",
+    "wishes": "Wishes take the genitive",
+    "aspect": "Aspect: imperfective vs. perfective",
+    "conditional": "Conditional",
+    "imperative": "Imperative",
+    "future": "Future",
+    "speaker": "Gender follows the speaker",
+    "addressee": "Gender follows the listener",
+    "genitive": "Genitive case",
+    "accusative": "Accusative case",
+    "locative": "Locative case",
+    "numbers": "Numbers and the case of the noun"
+  },
+  "lines": [
+    { "speaker": "Marek", "gender": "m", "pl": "Za|za pięć dwunasta|dwunasta! Gdzie są kieliszki|kieliszki?", "en": "Five to midnight! Where are the glasses?" },
+    { "speaker": "Ania", "gender": "f", "pl": "Na stole|stole, obok szampana|szampana. Tomek, otworzysz|otworzysz butelkę|butelke?", "en": "On the table, next to the champagne. Tomek, will you open the bottle?" },
+    { "speaker": "Tomek", "gender": "m", "pl": "Już się robi. Ale najpierw powiedzcie|powiedzcie: jakie macie postanowienia|postanowienia noworoczne|noworoczne?", "en": "Coming right up. But first, tell me: what are your New Year’s resolutions?" },
+    { "speaker": "Marek", "gender": "m", "pl": "Od jutra|jutra będę biegał|biegal trzy razy|razy w tygodniu.", "en": "From tomorrow I’m going to run three times a week." },
+    { "speaker": "Ania", "gender": "f", "pl": "Mówiłeś|mowiles to samo w zeszłym roku. Wytrzymałeś|wytrzymales dwa tygodnie|tygodnie.", "en": "You said the same thing last year. You lasted two weeks." },
+    { "speaker": "Marek", "gender": "m", "pl": "Dlatego w tym roku kupiłem|kupilem sobie|sobie nowe buty. A ty, Aniu|aniu?", "en": "That’s why this year I’ve bought myself new shoes. And you, Ania?" },
+    { "speaker": "Ania", "gender": "f", "pl": "Chciałabym|chcialabym wreszcie nauczyć|nauczyc się prowadzić samochód. Gdybym|gdybym zdała|zdala egzamin, pojechalibyśmy|pojechalibysmy w lecie|lecie nad morze|morze.", "en": "I’d like to finally learn to drive. If I passed the test, we could drive to the seaside in the summer." },
+    { "speaker": "Wszyscy", "gender": "m", "pl": "Dziesięć, dziewięć, osiem… trzy, dwa, jeden! Szczęśliwego|szczesliwego Nowego|nowego Roku|roku!", "en": "Ten, nine, eight… three, two, one! Happy New Year!" },
+    { "speaker": "Tomek", "gender": "m", "pl": "Do siego|siego roku!", "en": "All the best for the year ahead!" }
+  ],
+  "words": {
+    "za": {
+      "form": "Za", "lemma": "za", "gloss": "in (time); behind; for",
+      "tags": "preposition",
+      "parts": [["Za", "before the hour"]],
+      "why": "Telling the time before the hour: za + minutes + the hour as a feminine ordinal in the nominative: za pięć dwunasta, “five to twelve.” After the hour it’s po + locative: pięć po dwunastej.",
+      "patterns": ["time"]
+    },
+    "dwunasta": {
+      "form": "dwunasta", "lemma": "dwunasty", "gloss": "twelfth",
+      "tags": "ordinal numeral · feminine · nominative singular",
+      "parts": [["dwunast", "stem of dwunasty, “twelfth”"], ["a", "fem. sg., agreeing with an understood godzina"]],
+      "why": "Clock times are ordinal numbers agreeing with an understood godzina, which is feminine: (godzina) dwunasta, “twelve o’clock.”",
+      "patterns": ["time"]
+    },
+    "kieliszki": {
+      "form": "kieliszki", "lemma": "kieliszek", "gloss": "(wine or champagne) glass",
+      "tags": "noun · masculine inanimate · nominative plural",
+      "parts": [["kielisz", "stem"], ["k", "stem-final k (fleeting e dropped)"], ["i", "nom. pl. (-y spelled -i after k)"]],
+      "why": "A kieliszek is a stemmed glass; a szklanka is a tumbler. The e is fleeting: kieliszek, kieliszki.",
+      "patterns": []
+    },
+    "stole": {
+      "form": "stole", "lemma": "stół", "gloss": "table",
+      "tags": "noun · masculine inanimate · locative singular",
+      "parts": [["stol", "stem (ó → o, ł → l)"], ["e", "loc. sg."]],
+      "why": "Na + locative. Two changes: ó becomes o when the syllable opens, and ł becomes l before -e: stół → na stole.",
+      "patterns": ["locative"]
+    },
+    "szampana": {
+      "form": "szampana", "lemma": "szampan", "gloss": "champagne",
+      "tags": "noun · masculine inanimate · genitive singular",
+      "parts": [["szampan", "stem"], ["a", "gen. sg."]],
+      "why": "Obok + genitive: obok szampana, “next to the champagne.”",
+      "patterns": ["genitive"]
+    },
+    "otworzysz": {
+      "form": "otworzysz", "lemma": "otworzyć", "gloss": "to open",
+      "tags": "verb · perfective · future · 2nd person singular",
+      "parts": [["o", "prefix"], ["tworzy", "verb stem"], ["sz", "2nd sg. ending"]],
+      "why": "A question in the perfective future works as a friendly request: otworzysz?, “will you open it?”",
+      "patterns": ["future"]
+    },
+    "butelke": {
+      "form": "butelkę", "lemma": "butelka", "gloss": "bottle",
+      "tags": "noun · feminine · accusative singular",
+      "parts": [["butel", "stem"], ["k", "suffix"], ["ę", "acc. sg."]],
+      "why": "The direct object, so accusative.",
+      "patterns": ["accusative"]
+    },
+    "powiedzcie": {
+      "form": "powiedzcie", "lemma": "powiedzieć", "gloss": "to say, tell",
+      "tags": "verb · perfective · imperative · 2nd person plural",
+      "parts": [["powiedz", "imperative stem of powiedzieć"], ["cie", "2nd pl. imperative ending"]],
+      "why": "Powiedzieć has an irregular imperative: powiedz to one person, powiedzcie to several. Tomek is asking everyone.",
+      "patterns": ["imperative"]
+    },
+    "postanowienia": {
+      "form": "postanowienia", "lemma": "postanowienie", "gloss": "decision, resolution",
+      "tags": "noun · neuter · accusative plural",
+      "parts": [["po", "prefix"], ["stanowi", "stem (cf. stanowić, “to determine”)"], ["eni", "verbal noun suffix"], ["a", "acc. pl."]],
+      "why": "Postanowienie, “resolution”, is the verbal noun of postanowić, “to decide.”",
+      "patterns": []
+    },
+    "noworoczne": {
+      "form": "noworoczne", "lemma": "noworoczny", "gloss": "New Year’s (adj.)",
+      "tags": "adjective · non-virile plural",
+      "parts": [["now", "new"], ["o", "linking vowel"], ["rocz", "root of rok (k → cz)"], ["n", "adjective suffix"], ["e", "non-virile pl. ending"]],
+      "why": "A compound adjective built from nowy rok. The k of rok changes to cz before the suffix -n-, as in roczny, “annual.”",
+      "patterns": []
+    },
+    "jutra": {
+      "form": "jutra", "lemma": "jutro", "gloss": "tomorrow",
+      "tags": "noun · neuter · genitive singular",
+      "parts": [["jutr", "stem"], ["a", "gen. sg."]],
+      "why": "Od + genitive, “from, starting”: od jutra, “from tomorrow.” Jutro is used as a noun here.",
+      "patterns": ["genitive"]
+    },
+    "biegal": {
+      "form": "biegał", "lemma": "biegać", "gloss": "to run (regularly, around)",
+      "tags": "verb · imperfective · l-participle · masculine (future with będę)",
+      "parts": [["biega", "verb stem"], ["ł", "past suffix -ł- (l-participle)"]],
+      "why": "Będę biegał is the imperfective future with the l-participle. Biegać is the indeterminate “run” (regularly, for exercise); biec is running in one direction.",
+      "you": { "m": "You would say: będę biegał.", "f": "You would say: będę biegała." },
+      "patterns": ["future", "speaker"]
+    },
+    "razy": {
+      "form": "razy", "lemma": "raz", "gloss": "time, occasion",
+      "tags": "noun · masculine inanimate · plural",
+      "parts": [["raz", "stem"], ["y", "pl. ending"]],
+      "why": "Raz has an unusual genitive plural, razy, the same as its nominative plural: dwa razy, pięć razy. Trzy razy w tygodniu means “three times a week.”",
+      "patterns": ["numbers"]
+    },
+    "mowiles": {
+      "form": "Mówiłeś", "lemma": "mówić", "gloss": "to say, speak",
+      "tags": "verb · imperfective · past · 2nd person singular · masculine",
+      "parts": [["mówi", "verb stem"], ["ł", "past suffix -ł- (l-participle)"], ["e", "inserted vowel"], ["ś", "2nd sg. person marker"]],
+      "why": "Imperfective: Ania isn’t reporting one statement but what he kept saying. Masculine because she’s talking to Marek.",
+      "you": { "m": "Said to you: Mówiłeś…", "f": "Said to you: Mówiłaś…" },
+      "patterns": ["aspect", "addressee"]
+    },
+    "wytrzymales": {
+      "form": "Wytrzymałeś", "lemma": "wytrzymać", "gloss": "to hold out, last",
+      "tags": "verb · perfective · past · 2nd person singular · masculine",
+      "parts": [["wy", "prefix: through to the end"], ["trzyma", "stem (cf. trzymać, “to hold”)"], ["ł", "past suffix -ł- (l-participle)"], ["e", "inserted vowel"], ["ś", "2nd sg. person marker"]],
+      "why": "Perfective: he held out for two weeks, and that was the end of it. Wy- here means “all the way through.”",
+      "you": { "m": "Said to you: Wytrzymałeś…", "f": "Said to you: Wytrzymałaś…" },
+      "patterns": ["aspect", "addressee"]
+    },
+    "tygodnie": {
+      "form": "tygodnie", "lemma": "tydzień", "gloss": "week",
+      "tags": "noun · masculine inanimate · accusative plural",
+      "parts": [["tygodni", "stem tygodń- (ń spelled ni before a vowel)"], ["e", "acc. pl."]],
+      "why": "Duration in the accusative with no preposition: dwa tygodnie, “(for) two weeks.” With 2–4, the ordinary plural.",
+      "patterns": ["numbers", "accusative"]
+    },
+    "kupilem": {
+      "form": "kupiłem", "lemma": "kupić", "gloss": "to buy",
+      "tags": "verb · perfective · past · 1st person singular · masculine",
+      "parts": [["kupi", "verb stem"], ["ł", "past suffix -ł- (l-participle)"], ["e", "inserted vowel"], ["m", "1st sg. person marker"]],
+      "why": "Perfective: the shoes are bought. Masculine because Marek is speaking.",
+      "you": { "m": "You would say: kupiłem.", "f": "You would say: kupiłam." },
+      "patterns": ["speaker"]
+    },
+    "sobie": {
+      "form": "sobie", "lemma": "się", "gloss": "oneself",
+      "tags": "reflexive pronoun · dative",
+      "parts": [["sobie", "for myself"]],
+      "why": "Sobie is the dative of the reflexive pronoun. Kupiłem sobie means “I bought (for) myself.” With a plural subject it can also mean “each other”: składamy sobie życzenia.",
+      "patterns": []
+    },
+    "aniu": {
+      "form": "Aniu", "lemma": "Ania", "gloss": "everyday form of Anna",
+      "tags": "proper noun · feminine · vocative",
+      "parts": [["Ani", "stem"], ["u", "vocative"]],
+      "why": "Diminutive names in -ia take -u in the vocative: Ania → Aniu, Kasia → Kasiu. Compare Krystyna → Krystyno.",
+      "patterns": []
+    },
+    "chcialabym": {
+      "form": "Chciałabym", "lemma": "chcieć", "gloss": "to want",
+      "tags": "verb · imperfective · conditional · 1st person singular · feminine",
+      "parts": [["Chcia", "stem (e → a)"], ["ł", "past suffix -ł- (l-participle)"], ["a", "feminine ending"], ["by", "conditional particle"], ["m", "1st sg. person marker"]],
+      "why": "The conditional for a wish: chciałabym, “I’d like.” Feminine because Ania is speaking.",
+      "you": { "m": "You would say: chciałbym.", "f": "You would say: chciałabym." },
+      "patterns": ["conditional", "speaker"]
+    },
+    "nauczyc": {
+      "form": "nauczyć", "lemma": "nauczyć się", "gloss": "to learn (successfully)",
+      "tags": "verb · perfective · infinitive",
+      "parts": [["na", "perfective prefix"], ["uczy", "stem (cf. uczyć, “to teach”)"], ["ć", "infinitive ending"]],
+      "why": "Uczyć się is “to study”; the perfective nauczyć się is “to learn”, with success. It takes an infinitive or the genitive: nauczyć się prowadzić, nauczyć się polskiego.",
+      "patterns": ["aspect"]
+    },
+    "gdybym": {
+      "form": "Gdybym", "lemma": "gdyby", "gloss": "if (hypothetical)",
+      "tags": "conjunction + person marker",
+      "parts": [["gdy", "when, if"], ["by", "conditional particle"], ["m", "1st sg. person marker"]],
+      "why": "The person marker attaches to gdyby, and the verb stays a bare past form: gdybym zdała, “if I passed.”",
+      "patterns": ["conditional"]
+    },
+    "zdala": {
+      "form": "zdała", "lemma": "zdać", "gloss": "to pass (an exam)",
+      "tags": "verb · perfective · past form · feminine",
+      "parts": [["zda", "verb stem"], ["ł", "past suffix -ł- (l-participle)"], ["a", "feminine ending"]],
+      "why": "Zdać egzamin means “to pass an exam.” The imperfective zdawać egzamin means only “to take an exam.” This is a classic aspect trap for learners.",
+      "you": { "m": "You would say: gdybym zdał.", "f": "You would say: gdybym zdała." },
+      "patterns": ["aspect", "speaker"]
+    },
+    "pojechalibysmy": {
+      "form": "pojechalibyśmy", "lemma": "pojechać", "gloss": "to go (by vehicle), set off",
+      "tags": "verb · perfective · conditional · 1st person plural · virile",
+      "parts": [["po", "prefix: setting off"], ["jecha", "verb stem"], ["l", "past suffix -ł-, written l before -i"], ["i", "virile plural ending"], ["by", "conditional particle"], ["śmy", "1st pl. person marker"]],
+      "why": "Virile because the group includes men. The structure is the same as poszlibyśmy in Plany na sobotę, with jechać for travel by vehicle.",
+      "you": { "m": "Any group you’re in: pojechalibyśmy.", "f": "With a mixed group: pojechalibyśmy. Only women: pojechałybyśmy." },
+      "patterns": ["conditional"]
+    },
+    "lecie": {
+      "form": "lecie", "lemma": "lato", "gloss": "summer",
+      "tags": "noun · neuter · locative singular",
+      "parts": [["le", "stem (a → e)"], ["cie", "t → ć before loc. -e, spelled ci"]],
+      "why": "W lecie, “in summer”: lato in the locative, with a → e and t → ć. Latem means the same.",
+      "patterns": ["locative"]
+    },
+    "morze": {
+      "form": "morze", "lemma": "morze", "gloss": "sea",
+      "tags": "noun · neuter · accusative singular (same as nominative)",
+      "parts": [["morz", "stem"], ["e", "neuter sg. ending"]],
+      "why": "Nad + accusative for going to the seaside or a lake: jechać nad morze. Being there takes the instrumental: nad morzem.",
+      "patterns": ["accusative"]
+    },
+    "szczesliwego": {
+      "form": "Szczęśliwego", "lemma": "szczęśliwy", "gloss": "happy",
+      "tags": "adjective · masculine · genitive singular",
+      "parts": [["Szczęśliw", "stem"], ["ego", "gen. sg."]],
+      "why": "Szczęśliwego Nowego Roku!, “Happy New Year!”: genitive after an understood życzę, like Wesołych Świąt.",
+      "patterns": ["wishes"]
+    },
+    "nowego": {
+      "form": "Nowego", "lemma": "nowy", "gloss": "new",
+      "tags": "adjective · masculine · genitive singular",
+      "parts": [["Now", "stem"], ["ego", "gen. sg."]],
+      "why": "Agrees with Roku. In the name of the holiday both words are capitalised: Nowy Rok.",
+      "patterns": ["wishes"]
+    },
+    "roku": {
+      "form": "Roku", "lemma": "rok", "gloss": "year",
+      "tags": "noun · masculine inanimate · genitive singular",
+      "parts": [["Rok", "stem"], ["u", "gen. sg."]],
+      "why": "Genitive singular of rok, the head of the wish.",
+      "patterns": ["wishes"]
+    },
+    "siego": {
+      "form": "siego", "lemma": "(old pronoun)", "gloss": "this",
+      "tags": "archaic demonstrative · genitive singular",
+      "parts": [["siego", "old pronoun “this”, genitive"]],
+      "why": "Do siego roku is a fixed New Year wish, roughly “(may you live) to this coming year.” Siego is the genitive of an Old Polish pronoun meaning “this” that survives only in this phrase.",
+      "patterns": ["wishes"]
+    }
+  },
+  "exercises": [
+    {
+      "id": "e1", "model": "dwunasta",
+      "prompt": "“Ten to eight” (ósmy): Za dziesięć ___.",
+      "answer": ["ósm", "a"],
+      "tiles": ["ósm", "osiem", "a", "y", "ej"],
+      "explain": "Za + minutes + the hour as a feminine ordinal: za dziesięć ósma.",
+      "hint": "Compare za pięć dwunasta."
+    },
+    {
+      "id": "e2", "model": "zdala",
+      "prompt": "“I passed my driving test!” (zdać): ___ egzamin na prawo jazdy!",
+      "answer": { "m": ["Zda", "ł", "e", "m"], "f": ["Zda", "ł", "a", "m"] },
+      "tiles": ["Zda", "Zdawa", "ł", "a", "e", "m"],
+      "explain": { "m": "Perfective zdać, so you passed: Zda + ł + e + m. Zdawałem would only mean you took it.", "f": "Perfective zdać, so you passed: Zda + ł + a + m. Zdawałam would only mean you took it." },
+      "hint": "Zdawać means “to take an exam.” Which verb means you passed? Then check the learner setting."
+    },
+    {
+      "id": "e3", "model": "pojechalibysmy",
+      "prompt": "Two women: “We would go to the mountains”: ___ w góry.",
+      "answer": ["po", "jecha", "ł", "y", "by", "śmy"],
+      "tiles": ["po", "jecha", "ł", "l", "i", "y", "by", "śmy"],
+      "explain": "No men in the group, so the non-virile ending -y, and ł stays ł: pojechałybyśmy.",
+      "hint": "Compare pojechalibyśmy. What changes when there are no men?"
+    },
+    {
+      "id": "e4", "model": "stole",
+      "prompt": "“Downstairs” (dół, “bottom, lower part”): na ___",
+      "answer": ["dol", "e"],
+      "tiles": ["dół", "dol", "doł", "e", "u"],
+      "explain": "Like stół → na stole: ó → o and ł → l before -e: na dole.",
+      "hint": "Compare na stole."
+    },
+    {
+      "id": "e5", "model": "szczesliwego",
+      "prompt": "Wish someone good health (dobre zdrowie): Dużo ___ zdrowia!",
+      "answer": ["dobr", "ego"],
+      "tiles": ["dobr", "e", "ego", "ych", "y"],
+      "explain": "Wishes take the genitive: dobrego zdrowia.",
+      "hint": "Compare Szczęśliwego Nowego Roku."
+    }
+  ]
+}

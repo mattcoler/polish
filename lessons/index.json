@@ -45,9 +45,31 @@
       ]
     },
     {
+      "title": "Shopping and numbers",
+      "titlePl": "Na zakupy",
+      "lessons": [
+        {
+          "id": "shopping-2-poprosze-dwa-kilo",
+          "level": 2,
+          "cefr": "B1",
+          "title": "Poproszę dwa kilo ziemniaków",
+          "titleEn": "Two kilos of potatoes, please",
+          "focus": "numbers and the case of the noun; comparatives"
+        }
+      ]
+    },
+    {
       "title": "Making plans",
       "titlePl": "Plany",
       "lessons": [
+        {
+          "id": "plans-2-co-bedziesz-robic",
+          "level": 2,
+          "cefr": "A2–B1",
+          "title": "Co będziesz robić w weekend?",
+          "titleEn": "What are you doing at the weekend?",
+          "focus": "the future: będę robić, będę robił, and the perfective future"
+        },
         {
           "id": "plans-3-plany-na-sobote",
           "level": 3,
@@ -55,6 +77,42 @@
           "title": "Plany na sobotę",
           "titleEn": "Plans for Saturday",
           "focus": "the conditional"
+        }
+      ]
+    },
+    {
+      "title": "Telling what happened",
+      "titlePl": "Opowieści",
+      "lessons": [
+        {
+          "id": "story-3-co-sie-stalo",
+          "level": 3,
+          "cefr": "B1",
+          "title": "Co się stało?",
+          "titleEn": "What happened?",
+          "focus": "aspect in storytelling: background and process vs. events and results"
+        }
+      ]
+    },
+    {
+      "title": "Holidays and celebrations",
+      "titlePl": "Święta i uroczystości",
+      "lessons": [
+        {
+          "id": "holidays-2-przyjdz-na-wigilie",
+          "level": 2,
+          "cefr": "B1",
+          "title": "Przyjdź do nas na Wigilię",
+          "titleEn": "Come to us for Christmas Eve",
+          "focus": "Christmas Eve customs; wishes in the genitive; imperatives"
+        },
+        {
+          "id": "holidays-3-szczesliwego-nowego-roku",
+          "level": 3,
+          "cefr": "B1–B2",
+          "title": "Szczęśliwego Nowego Roku!",
+          "titleEn": "Happy New Year!",
+          "focus": "New Year’s Eve: telling the time, resolutions, aspect and the conditional"
         }
       ]
     }

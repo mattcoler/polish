@@ -1,0 +1,243 @@
+{
+  "id": "plans-2-co-bedziesz-robic",
+  "unit": "Making plans",
+  "level": 2,
+  "cefr": "A2–B1",
+  "title": "Co będziesz robić w weekend?",
+  "titleEn": "What are you doing at the weekend?",
+  "focus": "the future: będę robić, będę robił, and the perfective future",
+  "defaultWord": "bedziesz",
+  "patterns": {
+    "impf_future": "Imperfective future: będę + infinitive or -ł form",
+    "pf_future": "Perfective future: one complete action",
+    "speaker": "Gender follows the speaker",
+    "addressee": "Gender follows the listener",
+    "genitive": "Genitive case",
+    "accusative": "Accusative case",
+    "instrumental": "Instrumental case"
+  },
+  "lines": [
+    { "speaker": "Tomek", "gender": "m", "pl": "Co będziesz|bedziesz robić|robic w weekend?", "en": "What are you doing at the weekend?" },
+    { "speaker": "Ania", "gender": "f", "pl": "W sobotę będę|bede sprzątać|sprzatac mieszkanie|mieszkanie, a w niedzielę pojadę|pojade do rodziców|rodzicow.", "en": "On Saturday I’ll be cleaning the flat, and on Sunday I’m going to my parents’." },
+    { "speaker": "Tomek", "gender": "m", "pl": "Całą|cala sobotę? Zrobisz|zrobisz to w dwie godziny|godziny!", "en": "All Saturday? You’ll get it done in two hours!" },
+    { "speaker": "Ania", "gender": "f", "pl": "Nie znasz mojego mieszkania|mieszkania. A ty? Będziesz pracował|pracowal?", "en": "You don’t know my flat. And you? Will you be working?" },
+    { "speaker": "Tomek", "gender": "m", "pl": "Niestety tak. Będę pisał|pisal raport do poniedziałku|poniedzialku. Ale wieczorem|wieczorem pójdziemy|pojdziemy z kolegami|kolegami na koncert|koncert.", "en": "Unfortunately, yes. I’ll be writing a report until Monday. But in the evening I’m going to a concert with friends." },
+    { "speaker": "Ania", "gender": "f", "pl": "Zazdroszczę|zazdroszcze! Napiszesz|napiszesz mi, jak było|bylo?", "en": "I’m jealous! Will you text me how it was?" },
+    { "speaker": "Tomek", "gender": "m", "pl": "Jasne. Zadzwonię|zadzwonie w niedzielę, jak wrócisz|wrocisz od rodziców|rodzicow2.", "en": "Sure. I’ll call you on Sunday when you’re back from your parents’." }
+  ],
+  "words": {
+    "bedziesz": {
+      "form": "będziesz", "lemma": "być", "gloss": "to be (future)",
+      "tags": "verb · future · 2nd person singular (auxiliary)",
+      "parts": [["będzi", "future stem of być (będ-, d → dź, spelled dzi)"], ["esz", "2nd sg. ending"]],
+      "why": "The imperfective future is built with the future of być plus an infinitive: będziesz robić, “you’ll be doing.” It presents an activity, with no focus on a finished result.",
+      "patterns": ["impf_future"]
+    },
+    "robic": {
+      "form": "robić", "lemma": "robić", "gloss": "to do, make",
+      "tags": "verb · imperfective · infinitive",
+      "parts": [["robi", "verb stem"], ["ć", "infinitive ending"]],
+      "why": "Only imperfective verbs can follow będę, będziesz… Perfective verbs form the future on their own: zrobię, never *będę zrobić.",
+      "patterns": ["impf_future"]
+    },
+    "bede": {
+      "form": "będę", "lemma": "być", "gloss": "to be (future)",
+      "tags": "verb · future · 1st person singular (auxiliary)",
+      "parts": [["będ", "future stem of być"], ["ę", "1st sg. ending"]],
+      "why": "The auxiliary of the imperfective future: będę sprzątać, “I’ll be cleaning.”",
+      "patterns": ["impf_future"]
+    },
+    "sprzatac": {
+      "form": "sprzątać", "lemma": "sprzątać", "gloss": "to clean, tidy",
+      "tags": "verb · imperfective · infinitive",
+      "parts": [["sprząta", "verb stem"], ["ć", "infinitive ending"]],
+      "why": "Imperfective: the cleaning is presented as an activity that will fill her Saturday. The perfective posprzątam would focus on getting it done.",
+      "patterns": ["impf_future"]
+    },
+    "mieszkanie": {
+      "form": "mieszkanie", "lemma": "mieszkanie", "gloss": "flat, apartment",
+      "tags": "noun · neuter · accusative singular (same as nominative)",
+      "parts": [["mieszka", "stem (cf. mieszkać, “to live”)"], ["ni", "verbal noun suffix"], ["e", "neuter sg. ending"]],
+      "why": "Mieszkanie is formed from mieszkać, “to live”. Neuter nouns look the same in the accusative and the nominative.",
+      "patterns": ["accusative"]
+    },
+    "pojade": {
+      "form": "pojadę", "lemma": "pojechać", "gloss": "to go (by vehicle), set off",
+      "tags": "verb · perfective · future · 1st person singular",
+      "parts": [["po", "prefix: setting off"], ["jad", "root of jechać (jech-/jad-)"], ["ę", "1st sg. ending"]],
+      "why": "Perfective: one trip, seen as a whole, so the simple future pojadę. Compare będę sprzątać in the same sentence, an activity in progress.",
+      "patterns": ["pf_future"]
+    },
+    "rodzicow": {
+      "form": "rodziców", "lemma": "rodzice", "gloss": "parents",
+      "tags": "noun · plural · genitive",
+      "parts": [["rodzic", "stem"], ["ów", "gen. pl."]],
+      "why": "Do + genitive with people means “to their place”: jechać do rodziców, “to go to my parents’.” Polish doesn’t need a word for “house” here.",
+      "patterns": ["genitive"]
+    },
+    "cala": {
+      "form": "Całą", "lemma": "cały", "gloss": "whole, all",
+      "tags": "adjective · feminine · accusative singular",
+      "parts": [["Cał", "stem"], ["ą", "fem. acc. sg."]],
+      "why": "How long something lasts goes in the accusative, with no preposition: całą sobotę, “all Saturday”; cały dzień, “all day.”",
+      "patterns": ["accusative"]
+    },
+    "zrobisz": {
+      "form": "Zrobisz", "lemma": "zrobić", "gloss": "to do, get done",
+      "tags": "verb · perfective · future · 2nd person singular",
+      "parts": [["z", "perfective prefix"], ["robi", "verb stem"], ["sz", "2nd sg. ending"]],
+      "why": "Perfective future: Tomek is talking about the result, getting it done, not the activity.",
+      "patterns": ["pf_future"]
+    },
+    "godziny": {
+      "form": "godziny", "lemma": "godzina", "gloss": "hour",
+      "tags": "noun · feminine · accusative plural",
+      "parts": [["godzin", "stem"], ["y", "acc. pl."]],
+      "why": "W + accusative gives the time needed to complete something: w dwie godziny, “in two hours.” Dwie because godzina is feminine.",
+      "patterns": ["accusative"]
+    },
+    "mieszkania": {
+      "form": "mieszkania", "lemma": "mieszkanie", "gloss": "flat, apartment",
+      "tags": "noun · neuter · genitive singular",
+      "parts": [["mieszka", "stem"], ["ni", "verbal noun suffix"], ["a", "gen. sg."]],
+      "why": "Negation turns the direct object genitive: znasz moje mieszkanie → nie znasz mojego mieszkania.",
+      "patterns": ["genitive"]
+    },
+    "pracowal": {
+      "form": "pracował", "lemma": "pracować", "gloss": "to work",
+      "tags": "verb · imperfective · l-participle · masculine (in the future with będziesz)",
+      "parts": [["pracowa", "verb stem"], ["ł", "past suffix -ł- (l-participle)"]],
+      "why": "The other way to form the imperfective future is będę plus the l-participle, which shows gender: będziesz pracował to a man, będziesz pracowała to a woman. It means the same as będziesz pracować.",
+      "you": { "m": "Asked of you: Będziesz pracował?", "f": "Asked of you: Będziesz pracowała?" },
+      "patterns": ["impf_future", "addressee"]
+    },
+    "pisal": {
+      "form": "pisał", "lemma": "pisać", "gloss": "to write",
+      "tags": "verb · imperfective · l-participle · masculine (in the future with będę)",
+      "parts": [["pisa", "verb stem"], ["ł", "past suffix -ł- (l-participle)"]],
+      "why": "Będę pisał: Tomek is talking about himself, so the masculine l-participle. Będę pisać means the same.",
+      "you": { "m": "You would say: będę pisał (or będę pisać).", "f": "You would say: będę pisała (or będę pisać)." },
+      "patterns": ["impf_future", "speaker"]
+    },
+    "poniedzialku": {
+      "form": "poniedziałku", "lemma": "poniedziałek", "gloss": "Monday",
+      "tags": "noun · masculine inanimate · genitive singular",
+      "parts": [["poniedział", "stem"], ["k", "stem-final k (fleeting e dropped)"], ["u", "gen. sg."]],
+      "why": "Do + genitive means “until” or “by”: do poniedziałku. The e of poniedziałek is fleeting.",
+      "history": "Literally “after Sunday”: po + niedziela. Niedziela itself comes from nie + działać, “not working.”",
+      "patterns": ["genitive"]
+    },
+    "wieczorem": {
+      "form": "wieczorem", "lemma": "wieczór", "gloss": "evening",
+      "tags": "noun · masculine inanimate · instrumental singular",
+      "parts": [["wieczor", "stem (ó → o)"], ["em", "instr. sg."]],
+      "why": "Some time expressions are plain instrumentals: wieczorem, “in the evening”; latem, “in summer”; zimą, “in winter.”",
+      "patterns": ["instrumental"]
+    },
+    "pojdziemy": {
+      "form": "pójdziemy", "lemma": "pójść", "gloss": "to go (on foot), set off",
+      "tags": "verb · perfective · future · 1st person plural",
+      "parts": [["pó", "prefix po-, spelled pó in this verb"], ["jdzi", "root of iść (d → dź, spelled dzi)"], ["emy", "1st pl. ending"]],
+      "why": "Perfective future: one outing, as a whole.",
+      "patterns": ["pf_future"]
+    },
+    "kolegami": {
+      "form": "kolegami", "lemma": "kolega", "gloss": "friend, colleague (male)",
+      "tags": "noun · masculine personal · instrumental plural",
+      "parts": [["koleg", "stem"], ["ami", "instr. pl."]],
+      "why": "Z + instrumental. Note the plural verb: pójdziemy z kolegami, literally “we’ll go with friends”, means “I’ll go with my friends.” Polish counts the speaker into the group.",
+      "patterns": ["instrumental"]
+    },
+    "koncert": {
+      "form": "koncert", "lemma": "koncert", "gloss": "concert",
+      "tags": "noun · masculine inanimate · accusative singular (same as nominative)",
+      "parts": [["koncert", "stem; acc. = nom."]],
+      "why": "Na + accusative for going to an event: na koncert, na mecz, na wesele. Being there takes the locative: na koncercie.",
+      "patterns": ["accusative"]
+    },
+    "zazdroszcze": {
+      "form": "Zazdroszczę", "lemma": "zazdrościć", "gloss": "to envy",
+      "tags": "verb · imperfective · present · 1st person singular",
+      "parts": [["zazdro", "stem"], ["szcz", "ść → szcz before -ę"], ["ę", "1st sg. ending"]],
+      "why": "The cluster ść alternates with szcz: zazdrościć → zazdroszczę. The person you envy goes in the dative: zazdroszczę ci.",
+      "patterns": []
+    },
+    "napiszesz": {
+      "form": "Napiszesz", "lemma": "napisać", "gloss": "to write (and send)",
+      "tags": "verb · perfective · future · 2nd person singular",
+      "parts": [["na", "perfective prefix"], ["pisz", "stem (s → sz in the present)"], ["esz", "2nd sg. ending"]],
+      "why": "A question in the perfective future works as a friendly request: napiszesz mi?, “will you text me?” The s of pisać alternates with sz: piszę, napiszesz.",
+      "patterns": ["pf_future"]
+    },
+    "bylo": {
+      "form": "było", "lemma": "być", "gloss": "to be",
+      "tags": "verb · past · 3rd person singular · neuter",
+      "parts": [["by", "stem of być"], ["ł", "past suffix -ł- (l-participle)"], ["o", "neuter ending"]],
+      "why": "Jak było?, “how was it?”, has no subject, so the verb is neuter singular.",
+      "patterns": []
+    },
+    "zadzwonie": {
+      "form": "Zadzwonię", "lemma": "zadzwonić", "gloss": "to call, phone",
+      "tags": "verb · perfective · future · 1st person singular",
+      "parts": [["za", "perfective prefix"], ["dzwoni", "verb stem"], ["ę", "1st sg. ending"]],
+      "why": "Perfective future: a single call.",
+      "patterns": ["pf_future"]
+    },
+    "wrocisz": {
+      "form": "wrócisz", "lemma": "wrócić", "gloss": "to return, come back",
+      "tags": "verb · perfective · future · 2nd person singular",
+      "parts": [["wróci", "verb stem"], ["sz", "2nd sg. ending"]],
+      "why": "After jak or kiedy meaning “when”, Polish uses the future where English uses the present: jak wrócisz, “when you get back.”",
+      "patterns": ["pf_future"]
+    },
+    "rodzicow2": {
+      "form": "rodziców", "lemma": "rodzice", "gloss": "parents",
+      "tags": "noun · plural · genitive",
+      "parts": [["rodzic", "stem"], ["ów", "gen. pl."]],
+      "why": "Od + genitive with people means “from their place”: wrócić od rodziców.",
+      "patterns": ["genitive"]
+    }
+  },
+  "exercises": [
+    {
+      "id": "e1", "model": "pisal",
+      "prompt": "Say about yourself, with the -ł form: “I’ll be reading all evening” (czytać). Będę ___ cały wieczór.",
+      "answer": { "m": ["czyta", "ł"], "f": ["czyta", "ł", "a"] },
+      "tiles": ["czyta", "ł", "a", "ć", "l", "i", "m"],
+      "explain": { "m": "Będę + l-participle: czyta + ł. Będę czytać is also correct.", "f": "Będę + l-participle: czyta + ł + a. Będę czytać is also correct." },
+      "hint": "Compare będę pisał, and check the learner setting at the top."
+    },
+    {
+      "id": "e2", "model": "zrobisz",
+      "prompt": "“I’ll do it tomorrow” (one task, finished): Jutro to ___.",
+      "answer": ["z", "robi", "ę"],
+      "tiles": ["z", "robi", "ę", "sz", "będę", "ć"],
+      "explain": "A single result, so the perfective future: z + robi + ę. *Będę zrobić is impossible.",
+      "hint": "Perfective verbs form the future without będę."
+    },
+    {
+      "id": "e3", "model": "wrocisz",
+      "prompt": "“Call me when you finish” (skończyć): Zadzwoń, jak ___.",
+      "answer": ["skończy", "sz"],
+      "tiles": ["skończy", "kończy", "sz", "ę", "ł"],
+      "explain": "After jak meaning “when”, the perfective future: skończy + sz.",
+      "hint": "Compare jak wrócisz."
+    },
+    {
+      "id": "e4", "model": "wieczorem",
+      "prompt": "“In winter we go to the mountains” (zima): ___ jeździmy w góry.",
+      "answer": ["Zim", "ą"],
+      "tiles": ["Zim", "a", "ą", "ie", "ę"],
+      "explain": "Seasons and times of day can be plain instrumentals: zimą, latem, wieczorem.",
+      "hint": "Compare wieczorem."
+    },
+    {
+      "id": "e5", "model": "rodzicow",
+      "prompt": "“I’m going to my grandmother’s” (babcia): Jadę do ___.",
+      "answer": ["babc", "i"],
+      "tiles": ["babc", "i", "ia", "ią", "ię"],
+      "explain": "Do + genitive with a person: babcia → babci.",
+      "hint": "Compare do rodziców."
+    }
+  ]
+}

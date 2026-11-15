@@ -1,0 +1,255 @@
+{
+  "id": "shopping-2-poprosze-dwa-kilo",
+  "unit": "Shopping and numbers",
+  "level": 2,
+  "cefr": "B1",
+  "title": "Poproszę dwa kilo ziemniaków",
+  "titleEn": "Two kilos of potatoes, please",
+  "focus": "numbers and the case of the noun; comparatives",
+  "defaultWord": "jablek",
+  "patterns": {
+    "numbers": "Numbers and the case of the noun",
+    "shop": "In the shop",
+    "genitive": "Genitive case",
+    "comparative": "Comparatives: -sz- and -ejsz-",
+    "formal": "Formal you: pan / pani + 3rd person verb",
+    "future": "Perfective present form = future",
+    "instrumental": "Instrumental case"
+  },
+  "lines": [
+    { "speaker": "Sprzedawca", "gender": "m", "pl": "Dzień dobry, co podać|podac?", "en": "Good morning, what can I get you?" },
+    { "speaker": "Ania", "gender": "f", "pl": "Poproszę|poprosze dwa kilo|kilo ziemniaków|ziemniakow i pięć jabłek|jablek.", "en": "Two kilos of potatoes and five apples, please." },
+    { "speaker": "Sprzedawca", "gender": "m", "pl": "Mam dziś dwa rodzaje|rodzaje jabłek|jablek2: czerwone są słodsze|slodsze, a zielone kwaśniejsze|kwasniejsze.", "en": "I’ve got two kinds of apples today: the red ones are sweeter, the green ones more sour." },
+    { "speaker": "Ania", "gender": "f", "pl": "To poproszę trzy|trzy czerwone i dwa zielone. I jeszcze dwie|dwie cytryny|cytryny.", "en": "Then I’ll have three red and two green. And two lemons as well." },
+    { "speaker": "Sprzedawca", "gender": "m", "pl": "Dużo pani dziś kupuje|kupuje. Goście|goscie?", "en": "You’re buying a lot today. Guests?" },
+    { "speaker": "Ania", "gender": "f", "pl": "Tak, przychodzi|przychodzi dwoje|dwoje znajomych|znajomych z dziećmi|dziecmi i dwóch|dwoch kolegów|kolegow z pracy.", "en": "Yes, a couple I know are coming with their kids, and two colleagues from work." },
+    { "speaker": "Sprzedawca", "gender": "m", "pl": "To może jeszcze jajka? Dziesięć|dziesiec sztuk|sztuk za dwanaście złotych|zlotych.", "en": "Then how about some eggs? Ten for twelve złoty." },
+    { "speaker": "Ania", "gender": "f", "pl": "Dobrze, poproszę. Ile płacę|place?", "en": "All right, I’ll take them. How much is that?" },
+    { "speaker": "Sprzedawca", "gender": "m", "pl": "Razem dwadzieścia trzy złote|zlote pięćdziesiąt.", "en": "That’s twenty-three złoty fifty altogether." }
+  ],
+  "words": {
+    "podac": {
+      "form": "podać", "lemma": "podać", "gloss": "to hand, serve",
+      "tags": "verb · perfective · infinitive",
+      "parts": [["po", "prefix"], ["da", "root (cf. dać, “to give”)"], ["ć", "infinitive ending"]],
+      "why": "Co podać? is what a stallholder or shop assistant says: “What can I get you?”, literally “what to hand (you)?” An infinitive question like this is a polite, impersonal offer.",
+      "patterns": ["shop"]
+    },
+    "poprosze": {
+      "form": "Poproszę", "lemma": "poprosić", "gloss": "to ask for",
+      "tags": "verb · perfective · non-past (future meaning) · 1st person singular",
+      "parts": [["po", "perfective prefix"], ["prosz", "stem (ś → sz)"], ["ę", "1st sg. ending"]],
+      "why": "Poproszę, “I’ll ask for”, is the standard way to order in a shop or café: poproszę kawę. It’s the perfective of prosić, so the present-tense form points to the future.",
+      "patterns": ["shop", "future"]
+    },
+    "kilo": {
+      "form": "kilo", "lemma": "kilo", "gloss": "kilo",
+      "tags": "noun · neuter · indeclinable",
+      "parts": [["kilo", "no endings: indeclinable"]],
+      "why": "Kilo doesn’t decline: jedno kilo, dwa kilo, pięć kilo. Like other words for quantities, it takes the genitive: kilo ziemniaków.",
+      "patterns": ["numbers"]
+    },
+    "ziemniakow": {
+      "form": "ziemniaków", "lemma": "ziemniak", "gloss": "potato",
+      "tags": "noun · masculine inanimate · genitive plural",
+      "parts": [["ziemniak", "stem"], ["ów", "gen. pl."]],
+      "why": "Measures and quantities take the genitive: kilo ziemniaków, litr mleka, butelka wina.",
+      "history": "From ziemia, “earth.” Regional synonyms are kartofle and, in Poznań, pyry.",
+      "patterns": ["genitive", "numbers"]
+    },
+    "jablek": {
+      "form": "jabłek", "lemma": "jabłko", "gloss": "apple",
+      "tags": "noun · neuter · genitive plural",
+      "parts": [["jabł", "stem"], ["e", "inserted vowel"], ["k", "stem-final k; gen. pl. has no ending"]],
+      "why": "Numbers from 5 up take the genitive plural: pięć jabłek. Jabłko has no ending in the genitive plural, so an e appears to break up the consonant cluster: jabłko → jabłek.",
+      "compare": "With 2–4: dwa jabłka.",
+      "patterns": ["numbers", "genitive"]
+    },
+    "rodzaje": {
+      "form": "rodzaje", "lemma": "rodzaj", "gloss": "kind, type",
+      "tags": "noun · masculine inanimate · accusative plural",
+      "parts": [["rodzaj", "stem"], ["e", "nom./acc. pl."]],
+      "why": "With 2, 3 and 4 the noun is in the ordinary plural, not the genitive: dwa rodzaje, but pięć rodzajów.",
+      "patterns": ["numbers"]
+    },
+    "jablek2": {
+      "form": "jabłek", "lemma": "jabłko", "gloss": "apple",
+      "tags": "noun · neuter · genitive plural",
+      "parts": [["jabł", "stem"], ["e", "inserted vowel"], ["k", "stem-final k; gen. pl. has no ending"]],
+      "why": "Here the genitive plural means “of”: dwa rodzaje jabłek, “two kinds of apples.”",
+      "patterns": ["genitive"]
+    },
+    "slodsze": {
+      "form": "słodsze", "lemma": "słodki", "gloss": "sweet",
+      "tags": "adjective · comparative · non-virile plural",
+      "parts": [["słod", "stem (the k of słodki drops)"], ["sz", "comparative suffix -sz-"], ["e", "non-virile pl. ending"]],
+      "why": "Adjectives in -ki usually drop the k before the comparative suffix: słodki → słodszy, krótki → krótszy. The ending -e agrees with jabłka.",
+      "patterns": ["comparative"]
+    },
+    "kwasniejsze": {
+      "form": "kwaśniejsze", "lemma": "kwaśny", "gloss": "sour",
+      "tags": "adjective · comparative · non-virile plural",
+      "parts": [["kwaśn", "stem"], ["iejsz", "comparative suffix -ejsz- (the i marks n softened)"], ["e", "non-virile pl. ending"]],
+      "why": "Stems ending in a consonant cluster take -ejsz- instead of -sz-: kwaśny → kwaśniejszy, piękny → piękniejszy.",
+      "patterns": ["comparative"]
+    },
+    "trzy": {
+      "form": "trzy", "lemma": "trzy", "gloss": "three",
+      "tags": "numeral · non-virile · nominative/accusative",
+      "parts": [["trzy", "three"]],
+      "why": "Trzy is used with everything except groups that include men: trzy jabłka, trzy kobiety. With men it’s trzej (with the nominative) or trzech (with the genitive).",
+      "patterns": ["numbers"]
+    },
+    "dwie": {
+      "form": "dwie", "lemma": "dwa", "gloss": "two",
+      "tags": "numeral · feminine · nominative/accusative",
+      "parts": [["dwie", "two (feminine form)"]],
+      "why": "Two has a separate feminine form: dwie cytryny, dwie kobiety. Neuter and masculine non-personal nouns take dwa: dwa jabłka, dwa rodzaje.",
+      "patterns": ["numbers"]
+    },
+    "cytryny": {
+      "form": "cytryny", "lemma": "cytryna", "gloss": "lemon",
+      "tags": "noun · feminine · accusative plural",
+      "parts": [["cytryn", "stem"], ["y", "acc. pl."]],
+      "why": "After dwie, trzy and cztery the noun is in the ordinary plural.",
+      "history": "From German Zitrone, ultimately from Latin citrus.",
+      "patterns": ["numbers"]
+    },
+    "kupuje": {
+      "form": "kupuje", "lemma": "kupować", "gloss": "to buy",
+      "tags": "verb · imperfective · present · 3rd person singular",
+      "parts": [["kup", "root"], ["uj", "-ow- becomes -uj- in the present"], ["e", "3rd sg. ending"]],
+      "why": "Imperfective kupować: what she’s buying right now. Third person to agree with pani.",
+      "patterns": ["formal"]
+    },
+    "goscie": {
+      "form": "Goście", "lemma": "gość", "gloss": "guest",
+      "tags": "noun · masculine personal · nominative plural",
+      "parts": [["gości", "stem gość- (ć spelled ci before a vowel)"], ["e", "nom. pl."]],
+      "why": "Gość is grammatically masculine but is used for guests of either sex. Its nominative plural is goście.",
+      "patterns": []
+    },
+    "przychodzi": {
+      "form": "przychodzi", "lemma": "przychodzić", "gloss": "to come, arrive (on foot)",
+      "tags": "verb · imperfective · present · 3rd person singular",
+      "parts": [["przy", "prefix: arriving"], ["chodzi", "stem; 3rd sg. has no ending"]],
+      "why": "The verb is singular because its subject is a counted group: dwoje znajomych przychodzi, dwóch kolegów przychodzi. In the past such subjects take a neuter verb: przyszło dwoje znajomych.",
+      "patterns": ["numbers"]
+    },
+    "dwoje": {
+      "form": "dwoje", "lemma": "dwoje", "gloss": "two (collective)",
+      "tags": "collective numeral · nominative",
+      "parts": [["dwoj", "stem"], ["e", "collective numeral ending"]],
+      "why": "Collective numerals (dwoje, troje, czworo) count mixed-sex groups, children and some plural-only nouns. Dwoje znajomych means a man and a woman. They take the genitive plural.",
+      "compare": "Two men: dwóch znajomych. Two women: dwie znajome.",
+      "patterns": ["numbers"]
+    },
+    "znajomych": {
+      "form": "znajomych", "lemma": "znajomy", "gloss": "acquaintance, friend",
+      "tags": "adjectival noun · genitive plural",
+      "parts": [["znajom", "stem"], ["ych", "gen. pl."]],
+      "why": "Znajomy is an adjective used as a noun, so it keeps adjective endings. Genitive plural after dwoje.",
+      "patterns": ["numbers", "genitive"]
+    },
+    "dziecmi": {
+      "form": "dziećmi", "lemma": "dziecko", "gloss": "child",
+      "tags": "noun · instrumental plural (irregular)",
+      "parts": [["dzieć", "plural stem (dzieci-)"], ["mi", "instr. pl. ending -mi"]],
+      "why": "Z meaning “with” takes the instrumental. Dziecko has an irregular plural, dzieci, and its instrumental ends in -mi, like ludźmi.",
+      "patterns": ["instrumental"]
+    },
+    "dwoch": {
+      "form": "dwóch", "lemma": "dwa", "gloss": "two",
+      "tags": "numeral · masculine personal · genitive form",
+      "parts": [["dwóch", "two (with men)"]],
+      "why": "For groups of men, two is either dwaj with the nominative (dwaj koledzy) or dwóch with the genitive (dwóch kolegów). The second is the more common pattern in speech, and its verb is singular.",
+      "patterns": ["numbers"]
+    },
+    "kolegow": {
+      "form": "kolegów", "lemma": "kolega", "gloss": "colleague, friend (male)",
+      "tags": "noun · masculine personal · genitive plural",
+      "parts": [["koleg", "stem"], ["ów", "gen. pl."]],
+      "why": "Genitive plural after dwóch.",
+      "compare": "Same meaning with dwaj: dwaj koledzy.",
+      "patterns": ["numbers", "genitive"]
+    },
+    "dziesiec": {
+      "form": "Dziesięć", "lemma": "dziesięć", "gloss": "ten",
+      "tags": "numeral · nominative/accusative",
+      "parts": [["dziesięć", "ten"]],
+      "why": "From 5 upwards, numerals take the genitive plural of the noun: dziesięć sztuk, dwanaście złotych.",
+      "patterns": ["numbers"]
+    },
+    "sztuk": {
+      "form": "sztuk", "lemma": "sztuka", "gloss": "piece, item; art",
+      "tags": "noun · feminine · genitive plural",
+      "parts": [["sztuk", "stem; gen. pl. has no ending"]],
+      "why": "Sellers count items with sztuka, “piece”: dziesięć sztuk, “ten (of them).” Genitive plural after dziesięć, with no ending.",
+      "history": "From German Stück.",
+      "patterns": ["numbers", "genitive", "shop"]
+    },
+    "zlotych": {
+      "form": "złotych", "lemma": "złoty", "gloss": "złoty (currency)",
+      "tags": "adjectival noun · genitive plural",
+      "parts": [["złot", "stem"], ["ych", "gen. pl. (adjective ending)"]],
+      "why": "Złoty, “golden”, is an adjective used as a noun, so it has adjective endings: jeden złoty, dwa złote, pięć złotych.",
+      "patterns": ["numbers", "genitive"]
+    },
+    "place": {
+      "form": "płacę", "lemma": "płacić", "gloss": "to pay",
+      "tags": "verb · imperfective · present · 1st person singular",
+      "parts": [["płac", "stem (ć → c)"], ["ę", "1st sg. ending"]],
+      "why": "Ile płacę? is the usual way to ask what you owe at a stall or in a shop. The ć of płacić alternates with c before -ę.",
+      "patterns": ["shop"]
+    },
+    "zlote": {
+      "form": "złote", "lemma": "złoty", "gloss": "złoty (currency)",
+      "tags": "adjectival noun · nominative plural",
+      "parts": [["złot", "stem"], ["e", "non-virile nom. pl."]],
+      "why": "When a number ends in 2, 3 or 4 (but not 12–14), the noun is in the ordinary plural: dwadzieścia trzy złote, but trzynaście złotych.",
+      "patterns": ["numbers"]
+    }
+  },
+  "exercises": [
+    {
+      "id": "e1", "model": "jablek",
+      "prompt": "Ask for six eggs (jajko): Poproszę sześć ___.",
+      "answer": ["jaj", "e", "k"],
+      "tiles": ["jaj", "e", "k", "a", "o"],
+      "explain": "From five up, the genitive plural. Jajko has no ending there, so an e is inserted: jajek, like jabłek.",
+      "hint": "Compare pięć jabłek."
+    },
+    {
+      "id": "e2", "model": "dwie",
+      "prompt": "Ask for two bottles (butelka): Poproszę ___ butelki.",
+      "answer": ["dwie"],
+      "tiles": ["dwa", "dwie", "dwoje", "dwóch"],
+      "explain": "Butelka is feminine, so dwie.",
+      "hint": "Dwa or dwie? Check the gender of butelka."
+    },
+    {
+      "id": "e3", "model": "zlote",
+      "prompt": "“It costs four złoty”: To kosztuje cztery ___.",
+      "answer": ["złot", "e"],
+      "tiles": ["złot", "e", "ych", "y", "a"],
+      "explain": "With 2, 3 and 4, the ordinary plural: cztery złote.",
+      "hint": "Compare dwadzieścia trzy złote with dwanaście złotych."
+    },
+    {
+      "id": "e4", "model": "slodsze",
+      "prompt": "“This road is shorter” (krótki): Ta droga jest ___.",
+      "answer": ["krót", "sz", "a"],
+      "tiles": ["krót", "krótk", "sz", "iejsz", "a", "e"],
+      "explain": "Like słodki → słodszy, the k drops before -sz-. The feminine ending -a agrees with droga.",
+      "hint": "Compare słodsze."
+    },
+    {
+      "id": "e5", "model": "dwoje",
+      "prompt": "“Two children are coming”: Przychodzi ___ dzieci.",
+      "answer": ["dwoj", "e"],
+      "tiles": ["dw", "a", "ie", "dwoj", "e", "óch"],
+      "explain": "Dzieci are counted with collective numerals: dwoje dzieci.",
+      "hint": "Look at dwoje znajomych."
+    }
+  ]
+}

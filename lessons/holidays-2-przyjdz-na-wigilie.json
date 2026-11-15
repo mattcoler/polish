@@ -1,0 +1,339 @@
+{
+  "id": "holidays-2-przyjdz-na-wigilie",
+  "unit": "Holidays and celebrations",
+  "level": 2,
+  "cefr": "B1",
+  "title": "Przyjdź do nas na Wigilię",
+  "titleEn": "Come to us for Christmas Eve",
+  "focus": "Christmas Eve customs; wishes in the genitive; imperatives",
+  "defaultWord": "wigilie",
+  "patterns": {
+    "wishes": "Wishes take the genitive",
+    "imperative": "Imperative",
+    "przy": "Przy-: arriving, towards here",
+    "genitive": "Genitive case",
+    "accusative": "Accusative case",
+    "instrumental": "Instrumental case",
+    "locative": "Locative case",
+    "numbers": "Numbers and the case of the noun",
+    "speaker": "Gender follows the speaker"
+  },
+  "lines": [
+    { "speaker": "Ania", "gender": "f", "pl": "Gdzie spędzasz|spedzasz święta|swieta?", "en": "Where are you spending Christmas?" },
+    { "speaker": "Tomek", "gender": "m", "pl": "W tym roku chyba sam|sam. Rodzice wyjechali|wyjechali do siostry|siostry do Kanady|kanady.", "en": "This year probably on my own. My parents have gone to my sister’s in Canada." },
+    { "speaker": "Ania", "gender": "f", "pl": "Nie ma mowy|mowy! Przyjdź|przyjdz do nas na Wigilię|wigilie. Mama zawsze nakrywa|nakrywa jedno miejsce więcej dla niespodziewanego|niespodziewanego gościa|goscia.", "en": "No way! Come to us for Christmas Eve. My mum always lays an extra place for an unexpected guest." },
+    { "speaker": "Tomek", "gender": "m", "pl": "Naprawdę? Dziękuję! Co mam|mam przynieść|przyniesc?", "en": "Really? Thank you! What should I bring?" },
+    { "speaker": "Ania", "gender": "f", "pl": "Nic|nic nie musisz. Tylko pamiętaj|pamietaj: zaczynamy, kiedy na niebie|niebie pojawi|pojawi się pierwsza gwiazdka|gwiazdka.", "en": "You don’t need to bring anything. Just remember: we start when the first star appears in the sky." },
+    { "speaker": "Tomek", "gender": "m", "pl": "A potem dwanaście potraw|potraw, prawda? Ja chyba nie zjem|zjem nawet sześciu|szesciu.", "en": "And then twelve dishes, right? I don’t think I can manage even six." },
+    { "speaker": "Ania", "gender": "f", "pl": "Każdej|kazdej trzeba|trzeba spróbować|sprobowac, bo to przynosi|przynosi szczęście. Ale najpierw dzielimy się opłatkiem|oplatkiem i składamy|skladamy sobie życzenia|zyczenia.", "en": "You have to try every one, because it brings luck. But first we share the wafer and give each other our wishes." },
+    { "speaker": "Tomek", "gender": "m", "pl": "Muszę się nauczyć jakichś|jakichs życzeń|zyczen. Wesołych|wesolych Świąt|swiat?", "en": "I’d better learn some wishes. “Merry Christmas”?" },
+    { "speaker": "Ania", "gender": "f", "pl": "Na początek wystarczy. A potem: zdrowia|zdrowia, szczęścia|szczescia, spełnienia|spelnienia marzeń|marzen!", "en": "That’ll do to start with. And then: health, happiness, and may your dreams come true!" }
+  ],
+  "words": {
+    "spedzasz": {
+      "form": "spędzasz", "lemma": "spędzać", "gloss": "to spend (time)",
+      "tags": "verb · imperfective · present · 2nd person singular",
+      "parts": [["spędza", "verb stem"], ["sz", "2nd sg. ending"]],
+      "why": "Spędzać is for time: spędzać święta, wakacje, weekend. For money Polish uses wydawać.",
+      "patterns": []
+    },
+    "swieta": {
+      "form": "święta", "lemma": "święto", "gloss": "holiday, feast; (pl.) Christmas",
+      "tags": "noun · neuter · accusative plural",
+      "parts": [["święt", "stem"], ["a", "nom./acc. pl."]],
+      "why": "Święto is a holiday or feast day. The plural święta on its own usually means Christmas (or Easter, in spring). Accusative plural, the same as the nominative.",
+      "history": "From święty, “holy.”",
+      "patterns": ["accusative"]
+    },
+    "sam": {
+      "form": "sam", "lemma": "sam", "gloss": "alone; on one’s own",
+      "tags": "adjective · masculine · nominative singular",
+      "parts": [["sam", "alone (masc.)"]],
+      "why": "Sam agrees with the person it describes: Tomek says sam, Ania would say sama.",
+      "you": { "m": "You would say: sam.", "f": "You would say: sama." },
+      "patterns": ["speaker"]
+    },
+    "wyjechali": {
+      "form": "wyjechali", "lemma": "wyjechać", "gloss": "to go away, leave (by vehicle)",
+      "tags": "verb · perfective · past · 3rd person plural · virile",
+      "parts": [["wy", "prefix: out, away"], ["jecha", "verb stem"], ["l", "past suffix -ł-, written l before -i"], ["i", "virile plural ending"]],
+      "why": "Wy- means leaving: wyjechać, “to go away.” Rodzice is a mixed couple, so the virile ending -i.",
+      "patterns": []
+    },
+    "siostry": {
+      "form": "siostry", "lemma": "siostra", "gloss": "sister",
+      "tags": "noun · feminine · genitive singular",
+      "parts": [["siostr", "stem"], ["y", "gen. sg."]],
+      "why": "Do + genitive with a person: “to my sister’s (place).”",
+      "patterns": ["genitive"]
+    },
+    "kanady": {
+      "form": "Kanady", "lemma": "Kanada", "gloss": "Canada",
+      "tags": "proper noun · feminine · genitive singular",
+      "parts": [["Kanad", "stem"], ["y", "gen. sg."]],
+      "why": "Do + genitive for countries and towns: do Kanady, do Polski, do Krakowa.",
+      "patterns": ["genitive"]
+    },
+    "mowy": {
+      "form": "mowy", "lemma": "mowa", "gloss": "speech, talk",
+      "tags": "noun · feminine · genitive singular",
+      "parts": [["mow", "stem"], ["y", "gen. sg."]],
+      "why": "Nie ma mowy!, “No way!”, is literally “there’s no talk (of it).” Nie ma takes the genitive.",
+      "patterns": ["genitive"]
+    },
+    "przyjdz": {
+      "form": "Przyjdź", "lemma": "przyjść", "gloss": "to come",
+      "tags": "verb · perfective · imperative · 2nd person singular",
+      "parts": [["przy", "prefix: arriving"], ["jdź", "root of iść (d → dź); the imperative has no ending"]],
+      "why": "The imperative of przyjść: przyjdź to one person, przyjdźcie to several. Przy- means arriving, coming towards the speaker.",
+      "patterns": ["imperative", "przy"]
+    },
+    "wigilie": {
+      "form": "Wigilię", "lemma": "Wigilia", "gloss": "Christmas Eve",
+      "tags": "noun · feminine · accusative singular",
+      "parts": [["Wigili", "stem"], ["ę", "acc. sg."]],
+      "why": "Na + accusative for going to an occasion: na Wigilię, na wesele, na urodziny. Wigilia, on 24 December, is the main Polish Christmas celebration, with a meatless supper.",
+      "history": "From Latin vigilia, “night watch, eve.”",
+      "patterns": ["accusative"]
+    },
+    "nakrywa": {
+      "form": "nakrywa", "lemma": "nakrywać", "gloss": "to cover; to lay (the table)",
+      "tags": "verb · imperfective · present · 3rd person singular",
+      "parts": [["na", "prefix: on"], ["kryw", "root (cf. kryć, “to cover”)"], ["a", "verb stem suffix"]],
+      "why": "Nakrywać do stołu is “to lay the table.” Imperfective because it’s a habit, something she does every year.",
+      "patterns": []
+    },
+    "niespodziewanego": {
+      "form": "niespodziewanego", "lemma": "niespodziewany", "gloss": "unexpected",
+      "tags": "adjective · masculine personal · genitive singular",
+      "parts": [["nie", "not"], ["spodziewan", "stem (cf. spodziewać się, “to expect”)"], ["ego", "gen. sg."]],
+      "why": "Dla + genitive. Laying a place for an unexpected guest, a wanderer or a lost loved one, is a long-standing Wigilia custom.",
+      "patterns": ["genitive"]
+    },
+    "goscia": {
+      "form": "gościa", "lemma": "gość", "gloss": "guest",
+      "tags": "noun · masculine personal · genitive singular",
+      "parts": [["gości", "stem gość- (ć spelled ci before a vowel)"], ["a", "gen. sg."]],
+      "why": "Genitive after dla.",
+      "patterns": ["genitive"]
+    },
+    "mam": {
+      "form": "mam", "lemma": "mieć", "gloss": "to have",
+      "tags": "verb · imperfective · present · 1st person singular",
+      "parts": [["ma", "verb stem"], ["m", "1st sg. ending"]],
+      "why": "Mieć + infinitive can mean “to be supposed to”: co mam przynieść?, “what should I bring?”",
+      "patterns": []
+    },
+    "przyniesc": {
+      "form": "przynieść", "lemma": "przynieść", "gloss": "to bring",
+      "tags": "verb · perfective · infinitive",
+      "parts": [["przy", "prefix: to here"], ["nieś", "root: carry"], ["ć", "infinitive ending"]],
+      "why": "Przy- adds “to here”: przynieść, “to bring”; przyjść, “to come.”",
+      "patterns": ["przy"]
+    },
+    "nic": {
+      "form": "Nic", "lemma": "nic", "gloss": "nothing",
+      "tags": "pronoun · negative",
+      "parts": [["Nic", "nothing"]],
+      "why": "Polish uses double negation: nic nie musisz, literally “nothing you don’t have to.” Nikt nie… and nigdy nie… work the same way.",
+      "patterns": []
+    },
+    "pamietaj": {
+      "form": "pamiętaj", "lemma": "pamiętać", "gloss": "to remember",
+      "tags": "verb · imperfective · imperative · 2nd person singular",
+      "parts": [["pamięta", "verb stem"], ["j", "imperative -j"]],
+      "why": "Verbs in -ać often form the imperative with -j: pamiętaj, czytaj, słuchaj.",
+      "patterns": ["imperative"]
+    },
+    "niebie": {
+      "form": "niebie", "lemma": "niebo", "gloss": "sky; heaven",
+      "tags": "noun · neuter · locative singular",
+      "parts": [["nieb", "stem"], ["ie", "loc. sg. -e (the i marks b softened)"]],
+      "why": "Na + locative: na niebie, “in the sky.” Polish sees the sky as a surface, so na, not w.",
+      "patterns": ["locative"]
+    },
+    "pojawi": {
+      "form": "pojawi", "lemma": "pojawić się", "gloss": "to appear",
+      "tags": "verb · perfective · future · 3rd person singular",
+      "parts": [["po", "prefix"], ["jawi", "stem (cf. jawny, “open, visible”)"]],
+      "why": "After kiedy, “when”, referring to the future, Polish uses the future: kiedy pojawi się gwiazdka, “when the star appears.”",
+      "patterns": []
+    },
+    "gwiazdka": {
+      "form": "gwiazdka", "lemma": "gwiazdka", "gloss": "little star; (colloq.) Christmas",
+      "tags": "noun · feminine · nominative singular",
+      "parts": [["gwiazd", "stem"], ["k", "diminutive suffix"], ["a", "fem. sg."]],
+      "why": "A diminutive of gwiazda, “star.” By tradition, Wigilia supper begins when the first star appears. Gwiazdka is also a colloquial name for Christmas and its presents.",
+      "patterns": []
+    },
+    "potraw": {
+      "form": "potraw", "lemma": "potrawa", "gloss": "dish",
+      "tags": "noun · feminine · genitive plural",
+      "parts": [["potraw", "stem; gen. pl. has no ending"]],
+      "why": "Dwanaście + genitive plural. Twelve dishes is the traditional number at Wigilia.",
+      "patterns": ["numbers", "genitive"]
+    },
+    "zjem": {
+      "form": "zjem", "lemma": "zjeść", "gloss": "to eat (up)",
+      "tags": "verb · perfective · future · 1st person singular",
+      "parts": [["z", "perfective prefix"], ["je", "stem of jeść"], ["m", "1st sg. ending"]],
+      "why": "Perfective future: eating the whole lot. Jeść is irregular in the present: jem, jesz, je.",
+      "patterns": []
+    },
+    "szesciu": {
+      "form": "sześciu", "lemma": "sześć", "gloss": "six",
+      "tags": "numeral · genitive",
+      "parts": [["sześci", "stem (ć spelled ci before a vowel)"], ["u", "gen. ending"]],
+      "why": "Negation turns the object genitive, numerals included: zjem sześć potraw → nie zjem nawet sześciu (potraw).",
+      "patterns": ["numbers", "genitive"]
+    },
+    "kazdej": {
+      "form": "Każdej", "lemma": "każdy", "gloss": "each, every",
+      "tags": "pronoun-adjective · feminine · genitive singular",
+      "parts": [["Każd", "stem"], ["ej", "fem. gen. sg."]],
+      "why": "Spróbować takes the genitive when it means tasting food: spróbować każdej (potrawy), “to try every one.” Feminine because potrawa is feminine.",
+      "patterns": ["genitive"]
+    },
+    "trzeba": {
+      "form": "trzeba", "lemma": "trzeba", "gloss": "one must, it’s necessary",
+      "tags": "impersonal predicative · invariable",
+      "parts": [["trzeba", "it’s necessary"]],
+      "why": "Trzeba + infinitive has no subject and never changes: trzeba spróbować, “you have to try.” The past is trzeba było.",
+      "patterns": []
+    },
+    "sprobowac": {
+      "form": "spróbować", "lemma": "spróbować", "gloss": "to try, taste",
+      "tags": "verb · perfective · infinitive",
+      "parts": [["s", "perfective prefix"], ["prób", "root (cf. próba, “test, try”)"], ["owa", "verb stem suffix"], ["ć", "infinitive ending"]],
+      "why": "Spróbować + genitive for tasting: spróbować zupy, spróbować każdej potrawy.",
+      "patterns": ["genitive"]
+    },
+    "przynosi": {
+      "form": "przynosi", "lemma": "przynosić", "gloss": "to bring",
+      "tags": "verb · imperfective · present · 3rd person singular",
+      "parts": [["przy", "prefix: to here"], ["nosi", "stem (cf. nosić, “to carry”)"]],
+      "why": "Przynosić szczęście, “to bring luck.” Imperfective because it’s a general truth. Its perfective partner is przynieść, from line 4.",
+      "patterns": ["przy"]
+    },
+    "oplatkiem": {
+      "form": "opłatkiem", "lemma": "opłatek", "gloss": "Christmas wafer",
+      "tags": "noun · masculine inanimate · instrumental singular",
+      "parts": [["opłat", "stem"], ["k", "stem-final k (fleeting e dropped)"], ["iem", "instr. -em (the i marks k softened)"]],
+      "why": "Dzielić się + instrumental: to share something. The opłatek is a thin wafer that family members break and share with each other, exchanging wishes, before the Wigilia supper.",
+      "history": "From Latin oblata, “offering.”",
+      "patterns": ["instrumental"]
+    },
+    "skladamy": {
+      "form": "składamy", "lemma": "składać", "gloss": "to put together; to offer (wishes)",
+      "tags": "verb · imperfective · present · 1st person plural",
+      "parts": [["s", "prefix"], ["kład", "root: lay, put"], ["a", "verb stem suffix"], ["my", "1st pl. ending"]],
+      "why": "Składać życzenia, literally “to put together wishes”, is the set phrase for offering good wishes. Sobie here means “to each other.”",
+      "patterns": []
+    },
+    "zyczenia": {
+      "form": "życzenia", "lemma": "życzenie", "gloss": "wish",
+      "tags": "noun · neuter · accusative plural",
+      "parts": [["życz", "root (cf. życzyć, “to wish”)"], ["eni", "verbal noun suffix"], ["a", "acc. pl."]],
+      "why": "Życzenia, “wishes”, is a verbal noun from życzyć and is usually plural.",
+      "patterns": ["accusative"]
+    },
+    "jakichs": {
+      "form": "jakichś", "lemma": "jakiś", "gloss": "some, some kind of",
+      "tags": "pronoun-adjective · genitive plural",
+      "parts": [["jakich", "gen. pl. of jaki"], ["ś", "indefinite particle"]],
+      "why": "The particle -ś turns a question word into an indefinite: jaki, “what kind”; jakiś, “some kind.” Genitive plural because nauczyć się takes the genitive.",
+      "patterns": ["genitive"]
+    },
+    "zyczen": {
+      "form": "życzeń", "lemma": "życzenie", "gloss": "wish",
+      "tags": "noun · neuter · genitive plural",
+      "parts": [["życz", "root"], ["eń", "verbal noun suffix; gen. pl. has no ending"]],
+      "why": "Genitive after nauczyć się. With no ending, the soft ń of the suffix is written ń, not ni.",
+      "patterns": ["genitive"]
+    },
+    "wesolych": {
+      "form": "Wesołych", "lemma": "wesoły", "gloss": "merry, cheerful",
+      "tags": "adjective · genitive plural",
+      "parts": [["Wesoł", "stem"], ["ych", "gen. pl."]],
+      "why": "Wishes are in the genitive because an unspoken życzę, “I wish”, takes the genitive: (życzę) Wesołych Świąt. Compare Miłego dnia.",
+      "patterns": ["wishes"]
+    },
+    "swiat": {
+      "form": "Świąt", "lemma": "święta", "gloss": "holidays; Christmas",
+      "tags": "noun · genitive plural",
+      "parts": [["Świąt", "gen. pl.: no ending, ę → ą"]],
+      "why": "The genitive plural of święta. When the ending disappears and the syllable closes, ę alternates with ą: święta → świąt.",
+      "patterns": ["wishes"]
+    },
+    "zdrowia": {
+      "form": "zdrowia", "lemma": "zdrowie", "gloss": "health",
+      "tags": "noun · neuter · genitive singular",
+      "parts": [["zdrowi", "stem"], ["a", "gen. sg."]],
+      "why": "The most common Polish wish, in the genitive after an understood życzę.",
+      "patterns": ["wishes"]
+    },
+    "szczescia": {
+      "form": "szczęścia", "lemma": "szczęście", "gloss": "happiness; luck",
+      "tags": "noun · neuter · genitive singular",
+      "parts": [["szczęści", "stem (ść spelled ści before a vowel)"], ["a", "gen. sg."]],
+      "why": "Genitive, like every item in a list of wishes.",
+      "patterns": ["wishes"]
+    },
+    "spelnienia": {
+      "form": "spełnienia", "lemma": "spełnienie", "gloss": "fulfilment",
+      "tags": "noun · neuter · genitive singular",
+      "parts": [["s", "prefix"], ["pełni", "stem (cf. pełny, “full”)"], ["eni", "verbal noun suffix"], ["a", "gen. sg."]],
+      "why": "Spełnienia marzeń, “(may) your dreams come true”, literally “fulfilment of dreams”, is one of the standard wishes.",
+      "patterns": ["wishes"]
+    },
+    "marzen": {
+      "form": "marzeń", "lemma": "marzenie", "gloss": "dream",
+      "tags": "noun · neuter · genitive plural",
+      "parts": [["marz", "root (cf. marzyć, “to dream”)"], ["eń", "verbal noun suffix; gen. pl. has no ending"]],
+      "why": "Genitive plural: spełnienie marzeń, “the fulfilment of dreams.”",
+      "patterns": ["genitive"]
+    }
+  },
+  "exercises": [
+    {
+      "id": "e1", "model": "wesolych",
+      "prompt": "Wish someone a happy New Year (szczęśliwy): ___ Nowego Roku!",
+      "answer": ["Szczęśliw", "ego"],
+      "tiles": ["Szczęśliw", "y", "ego", "ych", "emu"],
+      "explain": "Wishes take the genitive: Szczęśliwego Nowego Roku.",
+      "hint": "Compare Wesołych Świąt."
+    },
+    {
+      "id": "e2", "model": "przyjdz",
+      "prompt": "Invite two friends: “Come to us!” ___ do nas!",
+      "answer": ["Przy", "jdź", "cie"],
+      "tiles": ["Przy", "jdź", "idź", "cie", "my", "sz"],
+      "explain": "The plural imperative adds -cie: Przy + jdź + cie.",
+      "hint": "Przyjdź is for one person. Which ending makes it plural? Compare mówcie."
+    },
+    {
+      "id": "e3", "model": "przyniesc",
+      "prompt": "Ask one person to bring wine: ___ wino!",
+      "answer": ["Przy", "nieś"],
+      "tiles": ["Przy", "Wy", "nieś", "nieść", "ć"],
+      "explain": "The imperative of przynieść: Przy + nieś, with no ending.",
+      "hint": "Przy- for “to here.” The imperative has no infinitive -ć."
+    },
+    {
+      "id": "e4", "model": "oplatkiem",
+      "prompt": "“We share bread” (chleb): Dzielimy się ___.",
+      "answer": ["chleb", "em"],
+      "tiles": ["chleb", "a", "em", "u", "ie"],
+      "explain": "Dzielić się takes the instrumental: chlebem.",
+      "hint": "Compare dzielimy się opłatkiem."
+    },
+    {
+      "id": "e5", "model": "sprobowac",
+      "prompt": "“Try the soup!” (zupa): Spróbuj ___!",
+      "answer": ["zup", "y"],
+      "tiles": ["zup", "a", "ę", "y", "ą"],
+      "explain": "Spróbować takes the genitive when you taste food: spróbuj zupy.",
+      "hint": "Compare spróbować każdej potrawy."
+    }
+  ]
+}

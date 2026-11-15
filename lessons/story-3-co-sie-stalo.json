@@ -1,0 +1,267 @@
+{
+  "id": "story-3-co-sie-stalo",
+  "unit": "Telling what happened",
+  "level": 3,
+  "cefr": "B1",
+  "title": "Co się stało?",
+  "titleEn": "What happened?",
+  "focus": "aspect in storytelling: background and process vs. events and results",
+  "defaultWord": "zasnalem",
+  "patterns": {
+    "imperfective": "Imperfective: background, process, effort",
+    "perfective": "Perfective: event, result",
+    "speaker": "Gender follows the speaker",
+    "addressee": "Gender follows the listener",
+    "genitive": "Genitive case",
+    "accusative": "Accusative case",
+    "locative": "Locative case"
+  },
+  "lines": [
+    { "speaker": "Ania", "gender": "f", "pl": "Co się stało|stalo? Wyglądasz|wygladasz okropnie.", "en": "What happened? You look awful." },
+    { "speaker": "Tomek", "gender": "m", "pl": "Wczoraj, kiedy wracałem|wracalem z Gdańska|gdanska, zgubiłem|zgubilem plecak.", "en": "Yesterday, on my way back from Gdańsk, I lost my backpack." },
+    { "speaker": "Tomek", "gender": "m", "pl": "Siedziałem|siedzialem w pociągu|pociagu, czytałem|czytalem książkę i nagle zasnąłem|zasnalem.", "en": "I was sitting on the train, reading a book, and suddenly I fell asleep." },
+    { "speaker": "Tomek", "gender": "m", "pl": "Kiedy się obudziłem|obudzilem, plecaka|plecaka już nie było|bylo.", "en": "When I woke up, the backpack was gone." },
+    { "speaker": "Ania", "gender": "f", "pl": "O nie! Szukałeś|szukales go|go? Pytałeś|pytales konduktora|konduktora?", "en": "Oh no! Did you look for it? Did you ask the conductor?" },
+    { "speaker": "Tomek", "gender": "m", "pl": "Szukałem|szukalem przez godzinę|godzine, ale nie znalazłem|znalazlem. Na szczęście ktoś go oddał|oddal na dworcu|dworcu w Warszawie|warszawie.", "en": "I looked for an hour, but I didn’t find it. Luckily someone handed it in at the station in Warsaw." },
+    { "speaker": "Ania", "gender": "f", "pl": "No to masz szczęście|szczescie! Wszystko było w środku|srodku?", "en": "Well, you’re lucky! Was everything inside?" },
+    { "speaker": "Tomek", "gender": "m", "pl": "Prawie. Ktoś zjadł|zjadl moje kanapki|kanapki.", "en": "Almost. Someone ate my sandwiches." }
+  ],
+  "words": {
+    "stalo": {
+      "form": "stało", "lemma": "stać się", "gloss": "to happen",
+      "tags": "verb · perfective · past · 3rd person singular · neuter",
+      "parts": [["sta", "verb stem"], ["ł", "past suffix -ł- (l-participle)"], ["o", "neuter ending"]],
+      "why": "Co się stało?, “what happened?”: co is treated as neuter, so the verb is neuter. Stać się is perfective: something happened, once.",
+      "patterns": ["perfective"]
+    },
+    "wygladasz": {
+      "form": "Wyglądasz", "lemma": "wyglądać", "gloss": "to look, appear",
+      "tags": "verb · imperfective · present · 2nd person singular",
+      "parts": [["wygląda", "verb stem"], ["sz", "2nd sg. ending"]],
+      "why": "Wyglądać takes an adverb where English uses an adjective: wyglądasz okropnie, “you look awful”; dobrze wyglądasz, “you look good.”",
+      "patterns": []
+    },
+    "wracalem": {
+      "form": "wracałem", "lemma": "wracać", "gloss": "to return, be on the way back",
+      "tags": "verb · imperfective · past · 1st person singular · masculine",
+      "parts": [["wraca", "verb stem"], ["ł", "past suffix -ł- (l-participle)"], ["e", "inserted vowel"], ["m", "1st sg. person marker"]],
+      "why": "Imperfective: the journey home is the background, in progress when something else happened. The perfective wróciłem would mean he had already arrived.",
+      "you": { "m": "You would say: wracałem.", "f": "You would say: wracałam." },
+      "patterns": ["imperfective", "speaker"]
+    },
+    "gdanska": {
+      "form": "Gdańska", "lemma": "Gdańsk", "gloss": "Gdańsk",
+      "tags": "proper noun · masculine inanimate · genitive singular",
+      "parts": [["Gdańsk", "stem"], ["a", "gen. sg."]],
+      "why": "Z meaning “from” takes the genitive: z Gdańska, z Krakowa.",
+      "patterns": ["genitive"]
+    },
+    "zgubilem": {
+      "form": "zgubiłem", "lemma": "zgubić", "gloss": "to lose",
+      "tags": "verb · perfective · past · 1st person singular · masculine",
+      "parts": [["z", "perfective prefix"], ["gubi", "verb stem"], ["ł", "past suffix -ł- (l-participle)"], ["e", "inserted vowel"], ["m", "1st sg. person marker"]],
+      "why": "Perfective: a single event that interrupts the background. Masculine forms insert an e before the person marker.",
+      "you": { "m": "You would say: zgubiłem.", "f": "You would say: zgubiłam." },
+      "patterns": ["perfective", "speaker"]
+    },
+    "siedzialem": {
+      "form": "Siedziałem", "lemma": "siedzieć", "gloss": "to sit, be sitting",
+      "tags": "verb · imperfective · past · 1st person singular · masculine",
+      "parts": [["siedzia", "stem (e → a)"], ["ł", "past suffix -ł- (l-participle)"], ["e", "inserted vowel"], ["m", "1st sg. person marker"]],
+      "why": "Imperfective: a state that lasted, the scene in which the events take place.",
+      "you": { "m": "You would say: siedziałem.", "f": "You would say: siedziałam." },
+      "patterns": ["imperfective", "speaker"]
+    },
+    "pociagu": {
+      "form": "pociągu", "lemma": "pociąg", "gloss": "train",
+      "tags": "noun · masculine inanimate · locative singular",
+      "parts": [["pociąg", "stem"], ["u", "loc. sg."]],
+      "why": "W + locative. Stems ending in k, g or ch take -u: w pociągu, w bloku.",
+      "patterns": ["locative"]
+    },
+    "czytalem": {
+      "form": "czytałem", "lemma": "czytać", "gloss": "to read",
+      "tags": "verb · imperfective · past · 1st person singular · masculine",
+      "parts": [["czyta", "verb stem"], ["ł", "past suffix -ł- (l-participle)"], ["e", "inserted vowel"], ["m", "1st sg. person marker"]],
+      "why": "Imperfective: an activity going on in the background. Nothing says he finished the book; przeczytałem would.",
+      "you": { "m": "You would say: czytałem.", "f": "You would say: czytałam." },
+      "patterns": ["imperfective", "speaker"]
+    },
+    "zasnalem": {
+      "form": "zasnąłem", "lemma": "zasnąć", "gloss": "to fall asleep",
+      "tags": "verb · perfective · past · 1st person singular · masculine",
+      "parts": [["za", "prefix: onset of a state"], ["sną", "stem with suffix -ną-"], ["ł", "past suffix -ł- (l-participle)"], ["e", "inserted vowel"], ["m", "1st sg. person marker"]],
+      "why": "Perfective: a sudden event against the background of siedziałem and czytałem. Verbs in -nąć keep ą in the masculine singular and have ę everywhere else: zasnąłem, but zasnęłam, zasnęli.",
+      "you": { "m": "You would say: zasnąłem.", "f": "You would say: zasnęłam." },
+      "patterns": ["perfective", "speaker"]
+    },
+    "obudzilem": {
+      "form": "obudziłem", "lemma": "obudzić się", "gloss": "to wake up",
+      "tags": "verb · perfective · past · 1st person singular · masculine",
+      "parts": [["o", "perfective prefix"], ["budzi", "verb stem"], ["ł", "past suffix -ł- (l-participle)"], ["e", "inserted vowel"], ["m", "1st sg. person marker"]],
+      "why": "Perfective: the moment of waking. Kiedy with a perfective verb means “once, at the moment when.”",
+      "you": { "m": "You would say: obudziłem się.", "f": "You would say: obudziłam się." },
+      "patterns": ["perfective", "speaker"]
+    },
+    "plecaka": {
+      "form": "plecaka", "lemma": "plecak", "gloss": "backpack",
+      "tags": "noun · masculine inanimate · genitive singular",
+      "parts": [["plecak", "stem"], ["a", "gen. sg."]],
+      "why": "Saying something isn’t there takes the genitive: plecaka nie było, “the backpack wasn’t there.” Compare plecak był, “the backpack was there.”",
+      "history": "From plecy, “back.”",
+      "patterns": ["genitive"]
+    },
+    "bylo": {
+      "form": "było", "lemma": "być", "gloss": "to be",
+      "tags": "verb · past · 3rd person singular · neuter",
+      "parts": [["by", "stem of być"], ["ł", "past suffix -ł- (l-participle)"], ["o", "neuter ending"]],
+      "why": "Nie było + genitive has no grammatical subject, so the verb is neuter singular whatever the noun: nie było plecaka, nie było ludzi.",
+      "patterns": []
+    },
+    "szukales": {
+      "form": "Szukałeś", "lemma": "szukać", "gloss": "to look for",
+      "tags": "verb · imperfective · past · 2nd person singular · masculine",
+      "parts": [["szuka", "verb stem"], ["ł", "past suffix -ł- (l-participle)"], ["e", "inserted vowel"], ["ś", "2nd sg. person marker"]],
+      "why": "Imperfective: Ania asks about the activity, not the result. Szukać takes the genitive: szukać plecaka, szukałeś go.",
+      "you": { "m": "Asked of you: Szukałeś?", "f": "Asked of you: Szukałaś?" },
+      "patterns": ["imperfective", "addressee"]
+    },
+    "go": {
+      "form": "go", "lemma": "on", "gloss": "he, him; it",
+      "tags": "pronoun · genitive · short form",
+      "parts": [["go", "him, it"]],
+      "why": "Go is the short form of both the genitive and the accusative of on. Here it’s genitive, because szukać takes the genitive. It refers to plecak, a masculine noun, so English “it.”",
+      "patterns": ["genitive"]
+    },
+    "pytales": {
+      "form": "Pytałeś", "lemma": "pytać", "gloss": "to ask",
+      "tags": "verb · imperfective · past · 2nd person singular · masculine",
+      "parts": [["pyta", "verb stem"], ["ł", "past suffix -ł- (l-participle)"], ["e", "inserted vowel"], ["ś", "2nd sg. person marker"]],
+      "why": "Imperfective: did any asking happen at all? Zapytałeś would focus on one completed question.",
+      "you": { "m": "Asked of you: Pytałeś?", "f": "Asked of you: Pytałaś?" },
+      "patterns": ["imperfective", "addressee"]
+    },
+    "konduktora": {
+      "form": "konduktora", "lemma": "konduktor", "gloss": "conductor (on a train)",
+      "tags": "noun · masculine personal · accusative singular",
+      "parts": [["konduktor", "stem"], ["a", "acc. sg. = gen. sg. (animate)"]],
+      "why": "Pytać takes a person in the accusative, and for masculine personal nouns that has the genitive form: pytać konduktora.",
+      "patterns": ["accusative"]
+    },
+    "szukalem": {
+      "form": "Szukałem", "lemma": "szukać", "gloss": "to look for",
+      "tags": "verb · imperfective · past · 1st person singular · masculine",
+      "parts": [["szuka", "verb stem"], ["ł", "past suffix -ł- (l-participle)"], ["e", "inserted vowel"], ["m", "1st sg. person marker"]],
+      "why": "Szukałem, ale nie znalazłem is the classic pair: imperfective szukać is the effort, perfective znaleźć the result. The effort can go on without success.",
+      "you": { "m": "You would say: szukałem.", "f": "You would say: szukałam." },
+      "patterns": ["imperfective", "speaker"]
+    },
+    "godzine": {
+      "form": "godzinę", "lemma": "godzina", "gloss": "hour",
+      "tags": "noun · feminine · accusative singular",
+      "parts": [["godzin", "stem"], ["ę", "acc. sg."]],
+      "why": "Przez + accusative says how long something lasted: przez godzinę, “for an hour.” It goes naturally with imperfective verbs.",
+      "patterns": ["accusative"]
+    },
+    "znalazlem": {
+      "form": "znalazłem", "lemma": "znaleźć", "gloss": "to find",
+      "tags": "verb · perfective · past · 1st person singular · masculine",
+      "parts": [["znalaz", "stem (ź → z before ł)"], ["ł", "past suffix -ł- (l-participle)"], ["e", "inserted vowel"], ["m", "1st sg. person marker"]],
+      "why": "Perfective: the result, which never came. Znaleźć is irregular: znalazłem, znalazła, but virile znaleźli.",
+      "you": { "m": "You would say: znalazłem.", "f": "You would say: znalazłam." },
+      "patterns": ["perfective", "speaker"]
+    },
+    "oddal": {
+      "form": "oddał", "lemma": "oddać", "gloss": "to give back, hand in",
+      "tags": "verb · perfective · past · 3rd person singular · masculine",
+      "parts": [["od", "prefix: back, away"], ["da", "root (cf. dać, “to give”)"], ["ł", "past suffix -ł- (l-participle)"]],
+      "why": "Ktoś, “someone”, takes a masculine verb even when nobody knows who it was.",
+      "patterns": ["perfective"]
+    },
+    "dworcu": {
+      "form": "dworcu", "lemma": "dworzec", "gloss": "station",
+      "tags": "noun · masculine inanimate · locative singular",
+      "parts": [["dwor", "stem (rz → r)"], ["c", "stem-final c (fleeting e dropped)"], ["u", "loc. sg."]],
+      "why": "Na + locative: na dworcu, “at the station.” Two changes at once: the fleeting e drops and rz becomes r: dworzec, dworca, na dworcu.",
+      "patterns": ["locative"]
+    },
+    "warszawie": {
+      "form": "Warszawie", "lemma": "Warszawa", "gloss": "Warsaw",
+      "tags": "proper noun · feminine · locative singular",
+      "parts": [["Warszaw", "stem"], ["ie", "loc. sg. -e (the i marks w softened)"]],
+      "why": "W + locative.",
+      "patterns": ["locative"]
+    },
+    "szczescie": {
+      "form": "szczęście", "lemma": "szczęście", "gloss": "luck; happiness",
+      "tags": "noun · neuter · accusative singular",
+      "parts": [["szczęści", "stem (ść spelled ści before a vowel)"], ["e", "neuter sg. ending"]],
+      "why": "Mieć szczęście means “to be lucky”; na szczęście means “luckily.” The same word also means “happiness.”",
+      "patterns": []
+    },
+    "srodku": {
+      "form": "środku", "lemma": "środek", "gloss": "middle, inside",
+      "tags": "noun · masculine inanimate · locative singular",
+      "parts": [["środ", "stem"], ["k", "stem-final k (fleeting e dropped)"], ["u", "loc. sg."]],
+      "why": "W środku, “inside”: w + locative, with the fleeting e of środek dropped.",
+      "patterns": ["locative"]
+    },
+    "zjadl": {
+      "form": "zjadł", "lemma": "zjeść", "gloss": "to eat (up)",
+      "tags": "verb · perfective · past · 3rd person singular · masculine",
+      "parts": [["z", "perfective prefix"], ["jad", "past stem of jeść"], ["ł", "past suffix -ł- (l-participle)"]],
+      "why": "Perfective: the sandwiches are gone. Jeść has the past stem jad-: jadł, zjadł; feminine zjadła, virile plural zjedli.",
+      "patterns": ["perfective"]
+    },
+    "kanapki": {
+      "form": "kanapki", "lemma": "kanapka", "gloss": "sandwich",
+      "tags": "noun · feminine · accusative plural",
+      "parts": [["kanap", "stem"], ["k", "diminutive suffix"], ["i", "acc. pl. (-y spelled -i after k)"]],
+      "why": "Direct object of zjadł, in the accusative plural.",
+      "history": "A diminutive of kanapa, “sofa”, echoing French canapé, which means both.",
+      "patterns": ["accusative"]
+    }
+  },
+  "exercises": [
+    {
+      "id": "e1", "model": "czytalem",
+      "prompt": "Background in progress: “I was writing an email when the phone rang.” ___ maila, kiedy zadzwonił telefon.",
+      "answer": { "m": ["Pisa", "ł", "e", "m"], "f": ["Pisa", "ł", "a", "m"] },
+      "tiles": ["Na", "Pisa", "pisa", "ł", "a", "e", "m"],
+      "explain": { "m": "Imperfective pisać, no prefix: an action in progress. Napisałem would mean the email was finished.", "f": "Imperfective pisać, no prefix: an action in progress. Napisałam would mean the email was finished." },
+      "hint": "Compare czytałem książkę. Would na- make sense for something unfinished?"
+    },
+    {
+      "id": "e2", "model": "znalazlem",
+      "prompt": "“I looked for my keys but didn’t find them”: Szukał(a)m kluczy, ale ich nie ___.",
+      "answer": { "m": ["znalaz", "ł", "e", "m"], "f": ["znalaz", "ł", "a", "m"] },
+      "tiles": ["znalaz", "znajdowa", "ł", "a", "e", "m"],
+      "explain": { "m": "The result that didn’t come: perfective znaleźć, znalaz + ł + e + m.", "f": "The result that didn’t come: perfective znaleźć, znalaz + ł + a + m." },
+      "hint": "Szukać is the effort. Which verb is the result?"
+    },
+    {
+      "id": "e3", "model": "plecaka",
+      "prompt": "“There was no bread” (chleb): Nie było ___.",
+      "answer": ["chleb", "a"],
+      "tiles": ["chleb", "a", "u", "em", "y"],
+      "explain": "Absence takes the genitive: nie było chleba.",
+      "hint": "Compare plecaka już nie było."
+    },
+    {
+      "id": "e4", "model": "zasnalem",
+      "prompt": "“She fell asleep” (zasnąć): Ona ___.",
+      "answer": ["za", "snę", "ł", "a"],
+      "tiles": ["za", "sną", "snę", "ł", "a", "e", "m"],
+      "explain": "Outside the masculine singular, -nąć verbs have ę: zasnęła.",
+      "hint": "Zasnąłem keeps ą because it’s masculine. What about a woman?"
+    },
+    {
+      "id": "e5", "model": "dworcu",
+      "prompt": "“I’m coming from the station” (dworzec): Idę z ___.",
+      "answer": ["dwor", "c", "a"],
+      "tiles": ["dworz", "dwor", "e", "c", "u", "a"],
+      "explain": "Z meaning “from” takes the genitive. As in the locative, the e drops and rz becomes r: z dworca.",
+      "hint": "Look at how dworzec changes in na dworcu."
+    }
+  ]
+}
