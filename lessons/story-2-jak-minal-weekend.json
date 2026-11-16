@@ -1,0 +1,228 @@
+{
+  "id": "story-2-jak-minal-weekend",
+  "unit": "Telling what happened",
+  "level": 2,
+  "cefr": "B1",
+  "title": "Jak minął weekend?",
+  "titleEn": "How was your weekend?",
+  "focus": "a simple story: perfective events in sequence, non-virile plurals, process vs. result",
+  "defaultWord": "weszlysmy",
+  "patterns": {
+    "perfective": "Perfective: events in sequence, results",
+    "imperfective": "Imperfective: activity, process",
+    "virile": "Plural gender: virile / non-virile",
+    "speaker": "Gender follows the speaker",
+    "addressee": "Gender follows the listener",
+    "genitive": "Genitive case",
+    "accusative": "Accusative case",
+    "locative": "Locative case",
+    "instrumental": "Instrumental case"
+  },
+  "lines": [
+    { "speaker": "Tomek", "gender": "m", "pl": "Cześć! Jak minął|minal weekend?", "en": "Hi! How was your weekend?" },
+    { "speaker": "Ania", "gender": "f", "pl": "Super! W sobotę pojechałam|pojechalam z siostrą|siostra do Zakopanego|zakopanego.", "en": "Great! On Saturday my sister and I went to Zakopane." },
+    { "speaker": "Tomek", "gender": "m", "pl": "Zazdroszczę! I co robiłyście|robilyscie?", "en": "I’m jealous! So what did you two do?" },
+    { "speaker": "Ania", "gender": "f", "pl": "Najpierw weszłyśmy|weszlysmy na Gubałówkę|gubalowke, potem zjadłyśmy|zjadlysmy oscypki|oscypki na Krupówkach|krupowkach.", "en": "First we walked up Gubałówka, then we had oscypek on Krupówki." },
+    { "speaker": "Tomek", "gender": "m", "pl": "A wieczorem|wieczorem?", "en": "And in the evening?" },
+    { "speaker": "Ania", "gender": "f", "pl": "Wieczorem byłyśmy|bylysmy tak zmęczone|zmeczone, że zasnęłyśmy|zasnelysmy o dziewiątej|dziewiatej.", "en": "In the evening we were so tired that we fell asleep at nine." },
+    { "speaker": "Ania", "gender": "f", "pl": "A ty? Co robiłeś|robiles?", "en": "And you? What did you do?" },
+    { "speaker": "Tomek", "gender": "m", "pl": "Nic ciekawego|ciekawego. Przez cały weekend malowałem|malowalem kuchnię|kuchnie i w końcu ją|ja pomalowałem|pomalowalem.", "en": "Nothing interesting. I spent the whole weekend painting the kitchen, and I finally got it done." },
+    { "speaker": "Ania", "gender": "f", "pl": "No to też sukces!", "en": "Well, that’s a success too!" }
+  ],
+  "words": {
+    "minal": {
+      "form": "minął", "lemma": "minąć", "gloss": "to pass, go by",
+      "tags": "verb · perfective · past · 3rd person singular · masculine",
+      "parts": [["mi", "root"], ["ną", "suffix -ną- (ą in the masculine)"], ["ł", "past suffix -ł- (l-participle)"]],
+      "why": "Jak minął weekend?, literally “how did the weekend pass?”, is the standard Monday question. Masculine because weekend is a masculine noun. As in zasnąć, -nąć verbs keep ą only in the masculine singular: minęła, minęło.",
+      "patterns": ["perfective"]
+    },
+    "pojechalam": {
+      "form": "pojechałam", "lemma": "pojechać", "gloss": "to go (by vehicle), set off",
+      "tags": "verb · perfective · past · 1st person singular · feminine",
+      "parts": [["po", "perfective prefix"], ["jecha", "verb stem"], ["ł", "past suffix -ł- (l-participle)"], ["a", "feminine ending"], ["m", "1st sg. person marker"]],
+      "why": "Perfective: a single trip, the first event of the story. Jechać, because they travelled by car or train.",
+      "you": { "m": "You would say: pojechałem.", "f": "You would say: pojechałam." },
+      "patterns": ["perfective", "speaker"]
+    },
+    "siostra": {
+      "form": "siostrą", "lemma": "siostra", "gloss": "sister",
+      "tags": "noun · feminine · instrumental singular",
+      "parts": [["siostr", "stem"], ["ą", "instr. sg."]],
+      "why": "Z + instrumental, “with.” Polish says “I went with my sister” where English prefers “my sister and I went.”",
+      "patterns": ["instrumental"]
+    },
+    "zakopanego": {
+      "form": "Zakopanego", "lemma": "Zakopane", "gloss": "Zakopane (town)",
+      "tags": "proper noun (adjectival) · neuter · genitive singular",
+      "parts": [["Zakopan", "stem"], ["ego", "gen. sg. (adjective ending)"]],
+      "why": "Zakopane is an adjective in form, so it declines like one: do Zakopanego. Its locative is the old form w Zakopanem. It’s the best-known town in the Tatra mountains.",
+      "patterns": ["genitive"]
+    },
+    "robilyscie": {
+      "form": "robiłyście", "lemma": "robić", "gloss": "to do, make",
+      "tags": "verb · imperfective · past · 2nd person plural · non-virile",
+      "parts": [["robi", "verb stem"], ["ł", "past suffix -ł- (l-participle)"], ["y", "non-virile plural ending"], ["ście", "2nd pl. person marker"]],
+      "why": "Tomek is asking two women, Ania and her sister, so the non-virile plural. To men or a mixed group: robiliście. Imperfective, because he’s asking about activities, not results.",
+      "patterns": ["imperfective", "virile"]
+    },
+    "weszlysmy": {
+      "form": "weszłyśmy", "lemma": "wejść", "gloss": "to go up, go in",
+      "tags": "verb · perfective · past · 1st person plural · non-virile",
+      "parts": [["we", "prefix w- (with e)"], ["sz", "root of iść, past-tense form"], ["ł", "past suffix -ł- (l-participle)"], ["y", "non-virile plural ending"], ["śmy", "1st pl. person marker"]],
+      "why": "Wejść is w- + iść, and its past is just as irregular: wszedł, weszła, weszli, weszłyśmy. Wejść na + accusative is used for climbing a hill or mountain. Non-virile, because it’s two women.",
+      "you": { "m": "Any group you’re in: weszliśmy.", "f": "Only women: weszłyśmy. With a man: weszliśmy." },
+      "patterns": ["perfective", "virile"]
+    },
+    "gubalowke": {
+      "form": "Gubałówkę", "lemma": "Gubałówka", "gloss": "Gubałówka (hill)",
+      "tags": "proper noun · feminine · accusative singular",
+      "parts": [["Gubałów", "stem"], ["k", "suffix"], ["ę", "acc. sg."]],
+      "why": "Na + accusative for the destination: wejść na Gubałówkę. Gubałówka is the hill above Zakopane with the classic view of the Tatras.",
+      "patterns": ["accusative"]
+    },
+    "zjadlysmy": {
+      "form": "zjadłyśmy", "lemma": "zjeść", "gloss": "to eat (up)",
+      "tags": "verb · perfective · past · 1st person plural · non-virile",
+      "parts": [["z", "perfective prefix"], ["jad", "past stem of jeść (jad- before ł)"], ["ł", "past suffix -ł- (l-participle)"], ["y", "non-virile plural ending"], ["śmy", "1st pl. person marker"]],
+      "why": "Perfective: they ate them all, the next event in the sequence. Before ł the stem is jad-; the virile form has jed-: zjedliśmy.",
+      "patterns": ["perfective", "virile"]
+    },
+    "oscypki": {
+      "form": "oscypki", "lemma": "oscypek", "gloss": "smoked sheep’s cheese",
+      "tags": "noun · masculine inanimate · accusative plural",
+      "parts": [["oscyp", "stem"], ["k", "stem-final k (fleeting e dropped)"], ["i", "acc. pl. (-y spelled -i after k)"]],
+      "why": "Oscypek is a smoked sheep’s-milk cheese from the Tatra highlands, pressed into carved wooden moulds. The e of oscypek is fleeting.",
+      "patterns": ["accusative"]
+    },
+    "krupowkach": {
+      "form": "Krupówkach", "lemma": "Krupówki", "gloss": "Krupówki (street)",
+      "tags": "proper noun · plural only · locative",
+      "parts": [["Krupów", "stem"], ["k", "suffix"], ["ach", "loc. pl."]],
+      "why": "Krupówki, Zakopane’s main street, is a plural-only name, so it takes the locative plural: na Krupówkach.",
+      "patterns": ["locative"]
+    },
+    "wieczorem": {
+      "form": "wieczorem", "lemma": "wieczór", "gloss": "evening",
+      "tags": "noun · masculine inanimate · instrumental singular",
+      "parts": [["wieczor", "stem (ó → o)"], ["em", "instr. sg."]],
+      "why": "A bare instrumental used as a time word: wieczorem, “in the evening.”",
+      "patterns": ["instrumental"]
+    },
+    "bylysmy": {
+      "form": "byłyśmy", "lemma": "być", "gloss": "to be",
+      "tags": "verb · past · 1st person plural · non-virile",
+      "parts": [["by", "stem of być"], ["ł", "past suffix -ł- (l-participle)"], ["y", "non-virile plural ending"], ["śmy", "1st pl. person marker"]],
+      "why": "Non-virile: Ania and her sister.",
+      "patterns": ["virile"]
+    },
+    "zmeczone": {
+      "form": "zmęczone", "lemma": "zmęczony", "gloss": "tired",
+      "tags": "adjective (passive participle) · non-virile plural",
+      "parts": [["zmęcz", "stem (cf. męczyć, “to tire”)"], ["on", "passive participle suffix"], ["e", "non-virile pl. ending"]],
+      "why": "Zmęczony is a passive participle used as an adjective. It agrees with the non-virile subject: byłyśmy zmęczone. Tak…, że… means “so… that…”.",
+      "patterns": ["virile"]
+    },
+    "zasnelysmy": {
+      "form": "zasnęłyśmy", "lemma": "zasnąć", "gloss": "to fall asleep",
+      "tags": "verb · perfective · past · 1st person plural · non-virile",
+      "parts": [["za", "prefix: onset of a state"], ["snę", "stem with -ną- (ę outside the masc. sg.)"], ["ł", "past suffix -ł- (l-participle)"], ["y", "non-virile plural ending"], ["śmy", "1st pl. person marker"]],
+      "why": "The -ną- of zasnąć appears as -nę- everywhere except the masculine singular, zasnął. Perfective: the moment they fell asleep.",
+      "patterns": ["perfective"]
+    },
+    "dziewiatej": {
+      "form": "dziewiątej", "lemma": "dziewiąty", "gloss": "ninth",
+      "tags": "ordinal numeral · feminine · locative singular",
+      "parts": [["dziewiąt", "stem (dziewiąty, “ninth”)"], ["ej", "fem. loc. sg."]],
+      "why": "O + the locative of a feminine ordinal: o dziewiątej, “at nine.”",
+      "patterns": ["locative"]
+    },
+    "robiles": {
+      "form": "robiłeś", "lemma": "robić", "gloss": "to do, make",
+      "tags": "verb · imperfective · past · 2nd person singular · masculine",
+      "parts": [["robi", "verb stem"], ["ł", "past suffix -ł- (l-participle)"], ["e", "inserted vowel"], ["ś", "2nd sg. person marker"]],
+      "why": "Masculine, to Tomek. Imperfective: Ania asks what he was doing, not what he finished.",
+      "you": { "m": "Asked of you: Co robiłeś?", "f": "Asked of you: Co robiłaś?" },
+      "patterns": ["imperfective", "addressee"]
+    },
+    "ciekawego": {
+      "form": "ciekawego", "lemma": "ciekawy", "gloss": "interesting",
+      "tags": "adjective · neuter · genitive singular",
+      "parts": [["ciekaw", "stem"], ["ego", "gen. sg."]],
+      "why": "Nic + adjective takes the genitive: nic ciekawego, “nothing interesting”; nic nowego, “nothing new.”",
+      "patterns": ["genitive"]
+    },
+    "malowalem": {
+      "form": "malowałem", "lemma": "malować", "gloss": "to paint",
+      "tags": "verb · imperfective · past · 1st person singular · masculine",
+      "parts": [["malowa", "verb stem"], ["ł", "past suffix -ł- (l-participle)"], ["e", "inserted vowel"], ["m", "1st sg. person marker"]],
+      "why": "Imperfective: the activity that filled the weekend. Przez cały weekend goes naturally with the imperfective.",
+      "you": { "m": "You would say: malowałem.", "f": "You would say: malowałam." },
+      "patterns": ["imperfective", "speaker"]
+    },
+    "kuchnie": {
+      "form": "kuchnię", "lemma": "kuchnia", "gloss": "kitchen",
+      "tags": "noun · feminine · accusative singular",
+      "parts": [["kuchni", "stem (the i marks n softened)"], ["ę", "acc. sg."]],
+      "why": "Direct object of malowałem.",
+      "patterns": ["accusative"]
+    },
+    "ja": {
+      "form": "ją", "lemma": "ona", "gloss": "she, her; it (fem.)",
+      "tags": "pronoun · accusative",
+      "parts": [["ją", "her, it"]],
+      "why": "Ją refers back to kuchnia, a feminine noun, so English needs “it.” Polish pronouns follow grammatical gender, not sex.",
+      "patterns": ["accusative"]
+    },
+    "pomalowalem": {
+      "form": "pomalowałem", "lemma": "pomalować", "gloss": "to paint (and finish)",
+      "tags": "verb · perfective · past · 1st person singular · masculine",
+      "parts": [["po", "perfective prefix"], ["malowa", "verb stem"], ["ł", "past suffix -ł- (l-participle)"], ["e", "inserted vowel"], ["m", "1st sg. person marker"]],
+      "why": "Perfective: the job is done. Malowałem… i w końcu pomalowałem shows both aspects of one verb side by side: the process, then the result.",
+      "you": { "m": "You would say: pomalowałem.", "f": "You would say: pomalowałam." },
+      "patterns": ["perfective", "speaker"]
+    }
+  },
+  "exercises": [
+    {
+      "id": "e1", "model": "weszlysmy",
+      "prompt": "Two women: “We went into the shop” (wejść): ___ do sklepu.",
+      "answer": ["We", "sz", "ł", "y", "śmy"],
+      "tiles": ["We", "W", "sz", "ł", "l", "i", "y", "śmy"],
+      "explain": "Wejść has the past stem wesz- (masculine wszedł): We + sz + ł + y + śmy.",
+      "hint": "Compare weszłyśmy na Gubałówkę."
+    },
+    {
+      "id": "e2", "model": "robilyscie",
+      "prompt": "Ask two men: “What did you do?” Co ___?",
+      "answer": ["robi", "l", "i", "ście"],
+      "tiles": ["robi", "ł", "l", "i", "y", "ście", "śmy"],
+      "explain": "Men take the virile ending -i, with ł written l: robi + l + i + ście.",
+      "hint": "Robiłyście is for women. What changes for men?"
+    },
+    {
+      "id": "e3", "model": "pomalowalem",
+      "prompt": "Say about yourself: “I finally finished writing the report” (napisać): W końcu ___ raport.",
+      "answer": { "m": ["na", "pisa", "ł", "e", "m"], "f": ["na", "pisa", "ł", "a", "m"] },
+      "tiles": ["na", "po", "pisa", "ł", "a", "e", "m"],
+      "explain": { "m": "The result, so perfective: na + pisa + ł + e + m.", "f": "The result, so perfective: na + pisa + ł + a + m." },
+      "hint": "Compare malowałem… i w końcu pomalowałem, and check the learner setting."
+    },
+    {
+      "id": "e4", "model": "ciekawego",
+      "prompt": "“Nothing new” (nowy): Nic ___.",
+      "answer": ["now", "ego"],
+      "tiles": ["now", "y", "ego", "ej", "ych"],
+      "explain": "Nic + adjective takes the genitive: nic nowego.",
+      "hint": "Compare nic ciekawego."
+    },
+    {
+      "id": "e5", "model": "siostra",
+      "prompt": "“With my brother” (brat): z ___",
+      "answer": ["brat", "em"],
+      "tiles": ["brat", "a", "em", "u", "ą"],
+      "explain": "Z + instrumental; masculine nouns take -em: z bratem.",
+      "hint": "Compare z siostrą."
+    }
+  ]
+}

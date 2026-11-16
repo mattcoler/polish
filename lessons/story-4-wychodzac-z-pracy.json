@@ -1,0 +1,252 @@
+{
+  "id": "story-4-wychodzac-z-pracy",
+  "unit": "Telling what happened",
+  "level": 4,
+  "cefr": "B2",
+  "title": "Wychodząc z pracy…",
+  "titleEn": "As I was leaving work…",
+  "focus": "reporting an incident: impersonal -no forms, the passive, -ąc participles, reported speech",
+  "defaultWord": "ukradziono",
+  "patterns": {
+    "impersonal": "Impersonal -no / -to forms",
+    "passive": "Passive: zostać + participle",
+    "participle": "Adverbial participle -ąc",
+    "reported": "Reported speech keeps the original tense",
+    "speaker": "Gender follows the speaker",
+    "addressee": "Gender follows the listener",
+    "dative": "Dative: the person affected",
+    "accusative": "Accusative case",
+    "genitive": "Genitive case",
+    "instrumental": "Instrumental case",
+    "determinate": "Jechać vs. jeździć"
+  },
+  "lines": [
+    { "speaker": "Ania", "gender": "f", "pl": "Marek, słyszałam|slyszalam, że ukradziono|ukradziono ci|ci rower|rower!", "en": "Marek, I heard your bike was stolen!" },
+    { "speaker": "Marek", "gender": "m", "pl": "Tak, w piątek. Wychodząc|wychodzac z pracy, zobaczyłem|zobaczylem, że stojak jest|jest pusty.", "en": "Yes, on Friday. As I was leaving work, I saw that the bike rack was empty." },
+    { "speaker": "Tomek", "gender": "m", "pl": "Zgłosiłeś|zglosiles to na policję|policje?", "en": "Did you report it to the police?" },
+    { "speaker": "Marek", "gender": "m", "pl": "Oczywiście. Policjant powiedział|powiedzial, że takich|takich kradzieży|kradziezy jest|jest2 teraz bardzo dużo.", "en": "Of course. The officer said there are a lot of thefts like that at the moment." },
+    { "speaker": "Marek", "gender": "m", "pl": "Ale wczoraj rano zadzwonił|zadzwonil do mnie sąsiad. Mój rower został|zostal znaleziony|znaleziony dwie ulice dalej!", "en": "But yesterday morning my neighbour called me. My bike had been found two streets away!" },
+    { "speaker": "Ania", "gender": "f", "pl": "Niemożliwe! Kto go tam zostawił|zostawil?", "en": "No way! Who left it there?" },
+    { "speaker": "Marek", "gender": "m", "pl": "Pewnie złodziej się przestraszył|przestraszyl. Albo uznał|uznal, że rower jest za stary|stary, żeby go sprzedać.", "en": "The thief probably got scared. Or decided the bike was too old to sell." },
+    { "speaker": "Tomek", "gender": "m", "pl": "Czyli w sumie dobrze, że jeździsz|jezdzisz takim|takim gratem|gratem.", "en": "So it’s a good thing you ride such an old wreck." },
+    { "speaker": "Marek", "gender": "m", "pl": "Dzięki. Tak to sobie będę tłumaczył|tlumaczyl.", "en": "Thanks. That’s what I’ll keep telling myself." }
+  ],
+  "words": {
+    "slyszalam": {
+      "form": "słyszałam", "lemma": "słyszeć", "gloss": "to hear",
+      "tags": "verb · imperfective · past · 1st person singular · feminine",
+      "parts": [["słysza", "stem (e → a)"], ["ł", "past suffix -ł- (l-participle)"], ["a", "feminine ending"], ["m", "1st sg. person marker"]],
+      "why": "Słyszałam, że…, “I heard that…”, the usual way to pass on news.",
+      "you": { "m": "You would say: słyszałem.", "f": "You would say: słyszałam." },
+      "patterns": ["speaker"]
+    },
+    "ukradziono": {
+      "form": "ukradziono", "lemma": "ukraść", "gloss": "to steal",
+      "tags": "verb · perfective · impersonal past (-no form)",
+      "parts": [["u", "perfective prefix"], ["kradzi", "stem of kraść (d → dź, spelled dzi)"], ["ono", "impersonal ending -no"]],
+      "why": "The -no/-to form is an impersonal past: ukradziono, “someone stole, it was stolen.” It has no subject and never changes. It’s common in news and reports when nobody knows who did it.",
+      "compare": "Other examples: znaleziono, “was found”; zbudowano, “was built”; zamknięto, “was closed.”",
+      "patterns": ["impersonal"]
+    },
+    "ci": {
+      "form": "ci", "lemma": "ty", "gloss": "you",
+      "tags": "pronoun · dative · short form",
+      "parts": [["ci", "to you, on you"]],
+      "why": "The person affected goes in the dative: ukradziono ci rower, literally “the bike was stolen on you.” Polish often uses this dative where English says “your.”",
+      "patterns": ["dative"]
+    },
+    "rower": {
+      "form": "rower", "lemma": "rower", "gloss": "bicycle",
+      "tags": "noun · masculine inanimate · accusative singular (same as nominative)",
+      "parts": [["rower", "acc. = nom."]],
+      "why": "The -no form keeps an accusative object, as an active verb would: ukradziono rower, ukradziono torbę.",
+      "history": "From the English bicycle brand Rover.",
+      "patterns": ["accusative"]
+    },
+    "wychodzac": {
+      "form": "Wychodząc", "lemma": "wychodzić", "gloss": "to go out, leave",
+      "tags": "adverbial participle (present) · invariable",
+      "parts": [["Wy", "prefix: out"], ["chodz", "stem (3rd pl. wychodzą)"], ["ąc", "adverbial participle suffix"]],
+      "why": "The -ąc participle means “while doing.” It’s formed from the 3rd person plural present (wychodzą → wychodząc) and must share its subject with the main verb: wychodząc…, zobaczyłem, “as I was leaving, I saw.”",
+      "patterns": ["participle"]
+    },
+    "zobaczylem": {
+      "form": "zobaczyłem", "lemma": "zobaczyć", "gloss": "to see, notice",
+      "tags": "verb · perfective · past · 1st person singular · masculine",
+      "parts": [["zobaczy", "verb stem"], ["ł", "past suffix -ł- (l-participle)"], ["e", "inserted vowel"], ["m", "1st sg. person marker"]],
+      "why": "Perfective: the moment of noticing. Its imperfective partner, widzieć, is the ongoing state of seeing.",
+      "you": { "m": "You would say: zobaczyłem.", "f": "You would say: zobaczyłam." },
+      "patterns": ["speaker"]
+    },
+    "jest": {
+      "form": "jest", "lemma": "być", "gloss": "to be",
+      "tags": "verb · present · 3rd person singular",
+      "parts": [["jest", "is"]],
+      "why": "Polish keeps the tense of the original perception or statement: zobaczyłem, że stojak jest pusty, literally “I saw that the rack is empty.” English shifts to “was.”",
+      "patterns": ["reported"]
+    },
+    "zglosiles": {
+      "form": "Zgłosiłeś", "lemma": "zgłosić", "gloss": "to report",
+      "tags": "verb · perfective · past · 2nd person singular · masculine",
+      "parts": [["z", "perfective prefix"], ["głosi", "stem (cf. głos, “voice”)"], ["ł", "past suffix -ł- (l-participle)"], ["e", "inserted vowel"], ["ś", "2nd sg. person marker"]],
+      "why": "Zgłosić coś na policję, “to report something to the police.” Masculine, addressed to Marek.",
+      "you": { "m": "Asked of you: Zgłosiłeś to?", "f": "Asked of you: Zgłosiłaś to?" },
+      "patterns": ["addressee"]
+    },
+    "policje": {
+      "form": "policję", "lemma": "policja", "gloss": "police",
+      "tags": "noun · feminine · accusative singular",
+      "parts": [["policj", "stem"], ["ę", "acc. sg."]],
+      "why": "Na + accusative for where you go to report something: na policję. Being there: na policji.",
+      "patterns": ["accusative"]
+    },
+    "powiedzial": {
+      "form": "powiedział", "lemma": "powiedzieć", "gloss": "to say, tell",
+      "tags": "verb · perfective · past · 3rd person singular · masculine",
+      "parts": [["powiedzia", "stem (e → a)"], ["ł", "past suffix -ł- (l-participle)"]],
+      "why": "Perfective: one statement. Like chcieć, it has a before ł and e before l: powiedział, but powiedzieli.",
+      "patterns": ["reported"]
+    },
+    "takich": {
+      "form": "takich", "lemma": "taki", "gloss": "such, like that",
+      "tags": "pronoun-adjective · genitive plural",
+      "parts": [["tak", "stem"], ["ich", "gen. pl."]],
+      "why": "Dużo takes the genitive plural, and the adjective agrees with its noun: takich kradzieży.",
+      "patterns": ["genitive"]
+    },
+    "kradziezy": {
+      "form": "kradzieży", "lemma": "kradzież", "gloss": "theft",
+      "tags": "noun · feminine · genitive plural",
+      "parts": [["kradzież", "stem"], ["y", "gen. pl."]],
+      "why": "Kradzież is a feminine noun ending in a consonant; its genitive plural is -y. It comes from kraść, “to steal.”",
+      "patterns": ["genitive"]
+    },
+    "jest2": {
+      "form": "jest", "lemma": "być", "gloss": "to be",
+      "tags": "verb · present · 3rd person singular",
+      "parts": [["jest", "is"]],
+      "why": "Two points. Reported speech keeps the original tense: the officer said “jest dużo kradzieży.” And with dużo as the subject, the verb is third person singular: jest dużo kradzieży, “there are a lot of thefts.”",
+      "patterns": ["reported"]
+    },
+    "zadzwonil": {
+      "form": "zadzwonił", "lemma": "zadzwonić", "gloss": "to call, phone",
+      "tags": "verb · perfective · past · 3rd person singular · masculine",
+      "parts": [["za", "perfective prefix"], ["dzwoni", "verb stem"], ["ł", "past suffix -ł- (l-participle)"]],
+      "why": "Zadzwonić do kogoś, “to call someone”: do + genitive, hence do mnie.",
+      "patterns": []
+    },
+    "zostal": {
+      "form": "został", "lemma": "zostać", "gloss": "to become; (passive auxiliary)",
+      "tags": "verb · perfective · past · 3rd person singular · masculine",
+      "parts": [["zosta", "verb stem"], ["ł", "past suffix -ł- (l-participle)"]],
+      "why": "Zostać + passive participle forms the passive of perfective verbs: został znaleziony, “was found.” With imperfective verbs the auxiliary is usually być: rower był poszukiwany przez policję.",
+      "patterns": ["passive"]
+    },
+    "znaleziony": {
+      "form": "znaleziony", "lemma": "znaleźć", "gloss": "to find",
+      "tags": "passive participle · masculine · nominative singular",
+      "parts": [["znalezi", "stem of znaleźć (ź spelled zi before a vowel)"], ["on", "passive participle suffix"], ["y", "masc. sg. ending"]],
+      "why": "A passive participle agrees with its subject like an adjective: rower został znaleziony, but torba została znaleziona.",
+      "patterns": ["passive"]
+    },
+    "zostawil": {
+      "form": "zostawił", "lemma": "zostawić", "gloss": "to leave",
+      "tags": "verb · perfective · past · 3rd person singular · masculine",
+      "parts": [["zostawi", "verb stem"], ["ł", "past suffix -ł- (l-participle)"]],
+      "why": "Kto, “who”, takes a masculine singular verb, even when nobody knows who it was.",
+      "patterns": []
+    },
+    "przestraszyl": {
+      "form": "przestraszył", "lemma": "przestraszyć się", "gloss": "to get scared",
+      "tags": "verb · perfective · past · 3rd person singular · masculine",
+      "parts": [["prze", "prefix"], ["straszy", "stem (cf. straszyć, “to frighten”)"], ["ł", "past suffix -ł- (l-participle)"]],
+      "why": "Perfective: a sudden change of state. Without się, przestraszyć means “to frighten someone.”",
+      "patterns": []
+    },
+    "uznal": {
+      "form": "uznał", "lemma": "uznać", "gloss": "to decide, conclude",
+      "tags": "verb · perfective · past · 3rd person singular · masculine",
+      "parts": [["u", "prefix"], ["zna", "stem (cf. znać, “to know”)"], ["ł", "past suffix -ł- (l-participle)"]],
+      "why": "Uznać, że…, “to decide that…”. The reported thought again keeps the present: uznał, że rower jest za stary.",
+      "patterns": ["reported"]
+    },
+    "stary": {
+      "form": "stary", "lemma": "stary", "gloss": "old",
+      "tags": "adjective · masculine · nominative singular",
+      "parts": [["star", "stem"], ["y", "masc. sg. ending"]],
+      "why": "Za + adjective means “too”: za stary, “too old”; za drogi, “too expensive.” It’s often followed by żeby + infinitive: za stary, żeby go sprzedać, “too old to sell.”",
+      "patterns": []
+    },
+    "jezdzisz": {
+      "form": "jeździsz", "lemma": "jeździć", "gloss": "to ride, drive (regularly)",
+      "tags": "verb · imperfective · indeterminate · present · 2nd person singular",
+      "parts": [["jeździ", "verb stem"], ["sz", "2nd sg. ending"]],
+      "why": "Jeździć is the indeterminate verb of travel by vehicle: habitual or repeated. Jechać is one trip, in one direction.",
+      "patterns": ["determinate"]
+    },
+    "takim": {
+      "form": "takim", "lemma": "taki", "gloss": "such, like that",
+      "tags": "pronoun-adjective · masculine · instrumental singular",
+      "parts": [["tak", "stem"], ["im", "instr. sg."]],
+      "why": "Agrees with gratem in the instrumental.",
+      "patterns": ["instrumental"]
+    },
+    "gratem": {
+      "form": "gratem", "lemma": "grat", "gloss": "old piece of junk (colloquial)",
+      "tags": "noun · masculine inanimate · instrumental singular",
+      "parts": [["grat", "stem"], ["em", "instr. sg."]],
+      "why": "Jeździć + instrumental for the vehicle: jeździć rowerem, jeździć takim gratem. Na rowerze is equally common for bikes.",
+      "patterns": ["instrumental"]
+    },
+    "tlumaczyl": {
+      "form": "tłumaczył", "lemma": "tłumaczyć", "gloss": "to explain; to translate",
+      "tags": "verb · imperfective · l-participle · masculine (future with będę)",
+      "parts": [["tłumaczy", "verb stem"], ["ł", "past suffix -ł- (l-participle)"]],
+      "why": "Będę + l-participle: the imperfective future. Tłumaczyć sobie, “to tell oneself”; tłumaczyć also means “to translate.”",
+      "you": { "m": "You would say: będę tłumaczył.", "f": "You would say: będę tłumaczyła." },
+      "patterns": ["speaker"]
+    }
+  },
+  "exercises": [
+    {
+      "id": "e1", "model": "ukradziono",
+      "prompt": "“My keys were found” (impersonal, from znaleźć): ___ moje klucze.",
+      "answer": ["Znalezi", "ono"],
+      "tiles": ["Znalezi", "Znalaz", "ono", "ł", "a", "li"],
+      "explain": "The impersonal -no form: Znalezi + ono, “someone found / were found.”",
+      "hint": "Compare ukradziono."
+    },
+    {
+      "id": "e2", "model": "znaleziony",
+      "prompt": "“My bag was found” (torba): Moja torba została ___.",
+      "answer": ["znalezi", "on", "a"],
+      "tiles": ["znalezi", "on", "y", "a", "e", "ł"],
+      "explain": "The participle agrees with torba, so feminine -a: znalezi + on + a.",
+      "hint": "Rower został znaleziony. What changes for a feminine noun?"
+    },
+    {
+      "id": "e3", "model": "wychodzac",
+      "prompt": "“While reading, I fell asleep” (czytać, 3rd pl. czytają): ___, zasnąłem.",
+      "answer": ["Czyta", "jąc"],
+      "tiles": ["Czyta", "Czyt", "jąc", "ąc", "ł"],
+      "explain": "The -ąc participle is built on the 3rd person plural present: czytają → Czyta + jąc.",
+      "hint": "Compare wychodzą → wychodząc."
+    },
+    {
+      "id": "e4", "model": "jest",
+      "prompt": "Her words were “Jestem zmęczona.” Report them: Powiedziała, że ___ zmęczona.",
+      "answer": ["jest"],
+      "tiles": ["jest", "była", "będzie", "są"],
+      "explain": "Polish keeps the tense of the original statement: powiedziała, że jest zmęczona.",
+      "hint": "What tense did she use?"
+    },
+    {
+      "id": "e5", "model": "gratem",
+      "prompt": "“I ride a bike” (rower): Jeżdżę ___.",
+      "answer": ["rower", "em"],
+      "tiles": ["rower", "a", "em", "u", "ze"],
+      "explain": "Jeździć + instrumental for the vehicle: rowerem. Jeżdżę na rowerze is equally common.",
+      "hint": "Compare jeździsz takim gratem."
+    }
+  ]
+}

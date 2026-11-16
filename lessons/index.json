@@ -107,12 +107,28 @@
       "titlePl": "Opowieści",
       "lessons": [
         {
+          "id": "story-2-jak-minal-weekend",
+          "level": 2,
+          "cefr": "B1",
+          "title": "Jak minął weekend?",
+          "titleEn": "How was your weekend?",
+          "focus": "a simple story: perfective events in sequence, non-virile plurals, process vs. result"
+        },
+        {
           "id": "story-3-co-sie-stalo",
           "level": 3,
           "cefr": "B1",
           "title": "Co się stało?",
           "titleEn": "What happened?",
           "focus": "aspect in storytelling: background and process vs. events and results"
+        },
+        {
+          "id": "story-4-wychodzac-z-pracy",
+          "level": 4,
+          "cefr": "B2",
+          "title": "Wychodząc z pracy…",
+          "titleEn": "As I was leaving work…",
+          "focus": "reporting an incident: impersonal -no forms, the passive, -ąc participles, reported speech"
         }
       ]
     },
